@@ -2,9 +2,9 @@
 
 Thank you for helping make the research, design and eventual software accurate, accessible and useful. This project is **research and product specification**, not a completed app, certified religious guidance, or evidence of proven effectiveness.
 
-**Important licensing status:** A repository license has not yet been selected. See [licensing decision](docs/governance/LICENSING_DECISION.md) before reusing material or offering substantial code/design contributions. Public GitHub access by itself does not grant an open-source license. Maintainers should resolve this before actively recruiting contributions.
+**Licensing:** The repository now has [scoped MPL-2.0 / AGPL-3.0-only / CC BY-SA 4.0 licenses](LICENSES/README.md) for different original materials, and separate [inbound=outbound terms](LICENSES/CONTRIBUTION_TERMS.md). The five raw AI research reports and externally owned translations/assets remain excluded. **Review your specific file's license and your right to submit it** before contributing.
 
-**Current intake boundary:** Please begin with evidence-linked issues, source corrections and proposed review notes. Broad new software modules and substantial imported writing are **not yet being actively solicited** until licensing, rights and maintainer safeguards are settled. A pull request does not by itself transfer rights to the maintainer or establish that its content is properly licensed. See [owner launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) and [licensing options](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md).
+**Current intake boundary:** Please begin with evidence-linked issues, source corrections and proposed review notes. Broad new software modules and substantial imported writing are **not yet being actively solicited** until imported-source rights and maintainer safeguards are settled. A pull request does not by itself transfer rights to the maintainer or establish that its content is properly licensed. See [owner launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) and [licensing options](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md).
 
 ## Before proposing changes
 
@@ -58,4 +58,4 @@ Proposed fixes are not accepted solely because they read convincingly. Research 
 
 ## Current stage
 
-There is no executable application yet. Contributions should first strengthen verifiable assumptions, internal consistency, risk handling, community governance, platform feasibility and usable prototype plans. Once a license and initial engineering standards are approved, this guide can expand to code, testing and release processes.
+There is no executable application yet. Contributions should first strengthen verifiable assumptions, internal consistency, risk handling, community governance, platform feasibility and usable prototype plans. Once initial engineering standards and rights checks are in place, this guide can expand to code, testing and release processes.
