@@ -2,6 +2,8 @@
 
 > **Read first:** [`LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`](LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md), adopted on 24 October 2026. This is the latest product decision layer: free for users; local-first; no required AI; a well-configured day may need **zero app opens**; proactive alerts are opt-in. Where older wording conflicts, this v1.1 policy prevails.
 
+**Future module: `MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md`** — staged verified mosque profiles, safe timetable updates, opt-in communications, separate admin/scholar roles and pilot verification gates; not a v1 launch dependency.
+
 **0. `LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`** — binding experience constraints, zero-open journeys, existing screen-ID adaptations, offline/OS boundaries, and acceptance tests.
 
 **1. `READ_BLUEPRINT.html`** — easiest to read: styled, accessible table of contents and complete blueprint; keep `blueprint.css` beside it.
