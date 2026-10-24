@@ -1,8 +1,8 @@
 # Licensing options, rights audit, and founder decision — v0.1
 
 **Prepared:** 24 October 2026  
-**Status:** Recommendation for owner review; **no license chosen or granted** by this document. This is not legal advice.  
-**Current repository:** Public, research-stage, no root LICENSE, no implemented application, and multiple preserved AI-assisted source reports with redistribution rights not fully audited.
+**Status:** Historical options analysis. **The owner has since adopted scoped MPL-2.0, AGPL-3.0-only and CC BY-SA 4.0 in [PR #6](https://github.com/Safeer1877/islamic-life-companion/pull/6).** Remaining original-source rights audit is still required. This is not legal advice.  
+**Current repository:** Public, research-stage, [scoped licenses adopted](../../LICENSES/README.md), no implemented application, and raw AI reports still excluded pending rights audits.
 
 ## 1. The decision is about reuse rights, not whether the app costs money
 
@@ -74,15 +74,15 @@ Do not delete or rewrite originals merely to improve optics; classify, audit and
 
 **Pragmatic initial recommendation:** Prefer ordinary inbound=outbound contribution terms, source disclosure and evidence requirements; consider DCO **after** publishing code/docs licensing boundaries and a fair privacy explanation. Avoid an unsupported claim that checking an issue template transfers ownership.
 
-## 6. Proposed owner decisions (not completed)
+## 6. Original decision checklist — adopted choices and unresolved rights work
 
-- [ ] **L-01 — Code license:** Apache-2.0 / MPL-2.0 / GPLv3 / AGPLv3 / another researched option.
-- [ ] **L-02 — Original reviewed documentation license:** CC BY 4.0 / CC BY-SA 4.0 / other.
-- [ ] **L-03 — Excluded material:** confirm \`research/original-reports/\` and specific externally authored translations, fonts, images, assets and data are **not automatically relicensed**.
-- [ ] **L-04 — Contribution rule:** inbound=outbound and PR attestation, with optional DCO only after conscious approval.
+- [x] **L-01 — Code license:** Apache-2.0 / MPL-2.0 / GPLv3 / AGPLv3 / another researched option.
+- [x] **L-02 — Original reviewed documentation license:** CC BY 4.0 / CC BY-SA 4.0 / other.
+- [x] **L-03 — Excluded material:** confirm \`research/original-reports/\` and specific externally authored translations, fonts, images, assets and data are **not automatically relicensed**.
+- [x] **L-04 — Contribution rule:** inbound=outbound and PR attestation, with optional DCO only after conscious approval.
 - [ ] **L-05 — Attribution owner:** identify copyright owner(s) for protectable original material; don't invent a legal person's name.
 - [ ] **L-06 — Source and dependency review:** confirm source rights and compatibility; file-level attribution process.
-- [ ] **L-07 — Publish actual license texts and \`LICENSES/README.md\` scope table, update repo banner and PR templates.**
+- [x] **L-07 — Published actual license texts and \`LICENSES/README.md\` scope table in PR #6.** Review-template notices remain to be reconciled.
 - [ ] **L-08 — Confirm external contributor communication is unambiguous** before requesting major patches.
 
 ## 7. Acceptance test
@@ -96,4 +96,4 @@ Ask an unfamiliar contributor to read the README and answer:
 
 If any answer is unclear, the project is **not** ready to advertise an open-source contribution drive.
 
-**No automatic deployment/merge:** publish licensing only after an owner choice and source-rights assessment. This decision aid changes no existing copyrights or licenses.
+**Post-adoption note:** The owner approved and merged scoped license texts, but this historical comparison does not extend grants to third-party material or substitute for a remaining provenance/rights assessment.
