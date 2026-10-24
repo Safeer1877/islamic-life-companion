@@ -18,7 +18,7 @@ This synthesis reconciles five supplied research texts: `Pasted text(3).txt` (ea
 
 It does not impose one Prophetic-style timetable, prescribe identical allocations of time, decide a person's spiritual status, or replace qualified Islamic scholarship. Time is not a container to fill. Balance is **appropriate fulfillment of rights and responsibilities under present circumstances**, not equal hours across work, worship, family and rest.
 
-Primary foundations independently checked:
+Selected primary-source passages were checked at the linked digital locators for relevant wording. This is a **limited textual citation check**, not critical-edition verification, translation reuse clearance, qualified fiqh interpretation or approval of app behavior:
 
 - Qur'an 4:103: prayer is prescribed at appointed times — https://quran.com/4/103
 - Qur'an 28:77: seek the Hereafter without forgetting one's worldly share — https://legacy.quran.com/28/77

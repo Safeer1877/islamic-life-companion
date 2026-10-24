@@ -29,7 +29,7 @@ The official project intends to distribute its core app **free to users**. This 
 - **For a modified network-accessed mosque service:** AGPLv3 has specific modified-program source-offer requirements for users interacting remotely over the network. This is **not** a blanket claim about unmodified servers or every cloud service run by someone else.
 - **For original documentation:** CC BY-SA 4.0 allows reuse and adaptations with attribution and share-alike requirements for licensed adaptations; it permits commercial use. It does **not** approve religious interpretations or certify scientific claims.
 - **For future combined app/server/shared-code arrangements:** Do not copy and combine code across MPL/AGPL boundaries without checking license compatibility, dependency terms and each license's actual conditions.
-- **For external sources or the original AI desk reports:** Do not assume they are licensed because this file is present. See [source manifest](../SOURCE_MANIFEST.md), [licensing and rights audit in draft PR #1](https://github.com/Safeer1877/islamic-life-companion/blob/docs/research-integrity-and-contributor-readiness/docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) (proposed in draft PR #1) and the original publisher terms.
+- **For external sources or the original AI desk reports:** Do not assume they are licensed because this file is present. See the [source manifest](../SOURCE_MANIFEST.md), [rights and licensing audit](../docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md), [raw-report source-rights triage](../docs/research/RAW_REPORT_SOURCE_RIGHTS_TRIAGE_2026-10-24.md) and original publisher terms. These audits remain incomplete for distribution rights.
 
 ## 3. Files outside a simple folder rule
 
