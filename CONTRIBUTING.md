@@ -4,6 +4,8 @@ Thank you for helping make the research, design and eventual software accurate, 
 
 **Important licensing status:** A repository license has not yet been selected. See [licensing decision](docs/governance/LICENSING_DECISION.md) before reusing material or offering substantial code/design contributions. Public GitHub access by itself does not grant an open-source license. Maintainers should resolve this before actively recruiting contributions.
 
+**Current intake boundary:** Please begin with evidence-linked issues, source corrections and proposed review notes. Broad new software modules and substantial imported writing are **not yet being actively solicited** until licensing, rights and maintainer safeguards are settled. A pull request does not by itself transfer rights to the maintainer or establish that its content is properly licensed. See [owner launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) and [licensing options](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md).
+
 ## Before proposing changes
 
 Read, in order:
