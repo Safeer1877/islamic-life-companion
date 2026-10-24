@@ -23,7 +23,7 @@ Only after an evidence-based decision to explore a tiny prototype should a desig
 
 ## Non-negotiable boundaries
 
-- Essential user flow works without account, required AI, paid AI subscription, continuous location, network or mandatory daily opens.
+- The essential candidate flow **must eventually be demonstrated** without an account, required AI, a paid model, continuous location, network or mandatory daily opens. This has not yet been implemented or tested.
 - Notifications default **OFF by category**; selecting an assistance style does not silently grant permission.
 - Distinguish prayer window, sourced Iqamah event, user-entered commitment and unverified estimate; no invented mosque data or jurisprudential outcomes.
 - **Already queued** mosque reminders may still fire after an offline correction; no unconditional cancellation promise.

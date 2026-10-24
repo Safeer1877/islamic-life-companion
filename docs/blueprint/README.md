@@ -18,7 +18,7 @@
 
 **6. `blueprint.css`** — styling for the HTML reading edition.
 
-Research basis: `Islamic_Life_Model_Consolidated_Foundation_v1.md` and the research files already shared by the founder. Religious content needing interpretation **still requires qualified scholarly review**; proposed interventions and visuals still require user testing.
+Research basis: the [consolidated foundation](../FOUNDATION_v1.md) and five preserved [original AI-assisted reports](../../research/original-reports/), whose source rights and claims are not fully verified. Religious content needing interpretation **still requires qualified scholarly review**; proposed interventions and visuals still require user testing.
 
 ## Research corrections from four external reviews (24 October 2026)
 

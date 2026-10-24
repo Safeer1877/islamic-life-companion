@@ -943,7 +943,7 @@ All times below are **hypothetical local civil times**, not calculated prayer ti
 
 ## 26. Historical conceptual build sequence — superseded for research investment
 
-**Do not execute the six checkpoints below in order as a funded build plan.** They are retained to explain the 2026 blueprint's intended experience groupings. **Before substantial interface or native implementation,** first conduct real-problem discovery and a comparative low-fidelity task test against a trusted prayer source plus ordinary calendar. If evidence does not justify the planner, narrow or stop it. Device-only feasibility experiments may run independently to reject a critical technical assumption; scholarly approval remains a separate gate. See [research work order](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md#8-go-no-go-gates-and-work-order).
+**Do not execute the six checkpoints below in order as a funded build plan.** They are retained to explain the 2026 blueprint's intended experience groupings. **Before substantial interface or native implementation,** first conduct real-problem discovery and a comparative low-fidelity task test against a trusted prayer source plus ordinary calendar. If evidence does not justify the planner, narrow or stop it. Device-only feasibility experiments may run independently to reject a critical technical assumption; scholarly approval remains a separate gate. See [research work order](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md).
 
 **Historical checkpoint 1: First understanding loop.** S01–S03, S08–S20, S25, S71–S74, S78–S81, relevant exception states. Deliverable: first useful draft, editable personal understanding and no forced permissions.
 
