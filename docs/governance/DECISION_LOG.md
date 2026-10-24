@@ -10,7 +10,8 @@ This file records **founder/product choices**, not objective proofs of effective
 | **D-004** — Zero-open ordinary days, useful opt-in notifications, no daily engagement optimization | 2026-10-24 | Founder direction | [Local-first policy](../blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md) | User benefit and interruption burden measures |
 | **D-005** — Mosque information network as optional, staged future module | 2026-10-24 | Roadmap proposal, **not pilot approval** | [Mosque proposal](../blueprint/MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) | Mosque consent, verification, data accuracy, operating costs |
 | **D-006** — Keep 106-entry screen/state register as a catalog, not an implementation commitment | 2026-10-24 blueprint | Proposed experience index | [Screen register](../blueprint/SCREEN_REGISTER_v1.csv) | Reduce to tested MVP flows; traceability |
-| **D-007** — Collaborative public repository with independent reviews and accountable contributions | 2026-10-24 | New governance direction | [Contribution guide](../../CONTRIBUTING.md); [review process](REVIEW_PROCESS.md) | License decision, reviewer recruitment and PR settings |
+| **D-007** — Collaborative public repository with independent reviews and accountable contributions | 2026-10-24 | New governance direction | [Contribution guide](../../CONTRIBUTING.md); [review process](REVIEW_PROCESS.md) | Imported-source rights audit, reviewer recruitment, confidential reporting and PR rules |
+| **D-008** — Scoped MPL-2.0 app, AGPLv3 future hosted backend, CC BY-SA 4.0 rights-controlled docs; excluded raw AI reports | 2026-10-24 | **Owner-approved and merged to main** | [License decision record](../../LICENSES/DECISION_RECORD.md); [PR #6](https://github.com/Safeer1877/islamic-life-companion/pull/6) | Audit third-party rights, dependency/license compatibility and contribution provenance |
 
 ## How to propose a new decision
 
