@@ -110,7 +110,7 @@ The product's default delivery surfaces are an **approved personal routine**, **
 - **No paid AI requirement:** guided questions, structured constraints, conflict alternatives and locally scheduled reminders must work without model inference or network access.
 - **No cloud-first registration:** the user may start privately and maintain the working core entirely on-device. Optional backup/sync needs a separate review.
 - **No surprise interruptions:** reminders are opt-in by category, with appropriate quiet hours, freshness/expiry checks and a manual alternative.
-- **No invented religious fact:** offline or stale Iqamah information must be labeled, not treated as guaranteed, and may suppress a departure cue.
+- **No invented religious fact:** Do not schedule a *new* confident departure cue using information already known to be stale or unverified. A cue **already queued** by the OS may still appear after a later mosque correction when the phone is offline or suspended; the app cannot guarantee cancellation of an update it has not received. Display dated source/freshness and avoid guaranteed departure language. See the [mobile reliability contract](../architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md).
 
 The detailed operational rules, acceptance scenarios **ZO-01–ZO-08**, scope limits, privacy guardrails and platform caveats live in [`LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`](LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). It is the controlling product decision document for v1, without renumbering the original 106 screen/state entries or 30 journeys.
 
@@ -120,7 +120,7 @@ The founder has proposed a community contribution model with mosque records and 
 
 The [Mosque & Community Network Proposal v0.1](MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) details verification, authority transfers, legitimate data sources, publication/versioning, subscriber privacy, Iqamah changes, communication categories, safeguarding, failure states and pilot acceptance gates. It is **proposed future scope**, not evidence that mosque adoption or community moderation is feasible.
 
-- Existing first-release `S61–S70` may show sourced or user-confirmed mosque information with a freshness label. Do not label a user entry "official" or create unverified departure promises.
+- Historical catalog entries `S61–S70` may eventually show sourced or user-confirmed mosque information with a freshness label; they are **not** part of the mandatory first research slice. Do not label a user entry "official" or create unverified departure promises.
 - A later verified organization profile can publish mosque-specific Iqamah and announcements. People choose sources and optional notification categories; their personal lives remain local and invisible to mosque administrators.
 - An Imam may be one authorized editor, but verification of mosque administration is **not** verification of qualifications to issue religious guidance.
 - Community groups, direct messaging and personalized fatwa services are excluded from v1 and the initial mosque pilot.
@@ -133,11 +133,13 @@ The historical **Core/Bounded/Scholar-gated/Later** labels in the 106-entry scre
 
 The [Mobile Reliability, Consent & Local-Data Contract](../architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md) governs any implementation assertion regarding notifications, source freshness, backup, denial and reporting. Its technical assertions are provisional until tested on actual supported devices.
 
-## 7. Functional scope by release
+## 7. Historical candidate release scope — **not an approved implementation backlog**
 
-| Priority | Included functionality | Deferral or constraint |
+The following table preserves the original *conceptual* release groupings for traceability. The active [research validation plan](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md) is much narrower: 19 candidate **contracts**, not 19 required pages. **Do not use “Core v1” here to order implementation or require a weekly review.** No release scope is approved until actual user need, comparative value and relevant safety/feasibility gates are demonstrated.
+
+| Historical priority | Proposed functionality in the larger concept | Deferral or constraint |
 |---|---|---|
-| **Core v1 experience** | Guided adaptive onboarding (no AI required); draft life model; Today; day/week planning; fixed/flexible commitments; user-selected assistance; optional intentions; prayer windows when configured; sleep/protected time; conflict explanation; corrections; weekly review; privacy controls; baseline offline display | Must work without account, continuous location or phone-usage access |
+| **Core v1 (historical catalog label)** | Guided adaptive onboarding (no AI required); draft life model; Today; day/week planning; fixed/flexible commitments; user-selected assistance; optional intentions; prayer windows when configured; sleep/protected time; conflict explanation; corrections; **optional, on-demand weekly review**; privacy controls; baseline offline display | Must work without account, continuous location or phone-usage access |
 | **Bounded specialized v1** | Mosque lookup and sourced Iqamah *where data truly exists*; preparation cues; Qur'an-position bookmark; optional digital-focus sessions; Friday/shift/travel/Ramadan profile prompts | No invented mosque times, fiqh rulings or coercive blocking |
 | **Later with evidence** | Calendar import/writeback; richer mosque verification; learned suggestions; statistical personalization; multi-device sync; deeper accessibility paths | Permissioned and independently tested |
 | **Future mosque network pilot (P1, independently gated)** | Verified mosque institution records; delegated timetable editors; sourced/dated Iqamah & Jumu'ah; opt-in selected alerts; dispute/correction process | Separate connected service; no personal data sharing; no required accounts for ordinary users; do not ship before verification/cost/live pilot gates |
@@ -939,19 +941,21 @@ All times below are **hypothetical local civil times**, not calculated prayer ti
 
 **Behavior and burden testing:** monitor *feasibility*, user-defined conflict burden, adequacy of rest, autonomy, decision cost and adverse effects. Compare the adaptive experience to reliable prayer information plus a manual planner. An attractive interface or high usage alone is not evidence of benefit.
 
-## 26. Release sequence — by coherent experience, not feature count
+## 26. Historical conceptual build sequence — superseded for research investment
 
-**Checkpoint 1: First understanding loop.** S01–S03, S08–S20, S25, S71–S74, S78–S81, relevant exception states. Deliverable: first useful draft, editable personal understanding and no forced permissions.
+**Do not execute the six checkpoints below in order as a funded build plan.** They are retained to explain the 2026 blueprint's intended experience groupings. **Before substantial interface or native implementation,** first conduct real-problem discovery and a comparative low-fidelity task test against a trusted prayer source plus ordinary calendar. If evidence does not justify the planner, narrow or stop it. Device-only feasibility experiments may run independently to reject a critical technical assumption; scholarly approval remains a separate gate. See [research work order](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md#8-go-no-go-gates-and-work-order).
 
-**Checkpoint 2: Plan–conflict–repair loop.** S34–S47, S29–S31, S83 and related sheets. Deliverable: actual fixed/flexible commitments, reversible proposal and graceful handling of no solution.
+**Historical checkpoint 1: First understanding loop.** S01–S03, S08–S20, S25, S71–S74, S78–S81, relevant exception states. Deliverable: first useful draft, editable personal understanding and no forced permissions.
 
-**Checkpoint 3: Opt-in intention loop.** S48–S56, S52, basic S57–S58 as feasible. Deliverable: self-defined flexible practice without backlog or scores.
+**Historical checkpoint 2: Plan–conflict–repair loop.** S34–S47, S29–S31, S83 and related sheets. Deliverable: actual fixed/flexible commitments, reversible proposal and graceful handling of no solution.
 
-**Checkpoint 4: Religiously reviewed prayer assistance.** S61, S66, S68, S75 plus mosque-related screens when a trustworthy local source exists. **Release only with applicable scholar approval.** Deliverable: accurate window vs congregation distinction and honest trust labels.
+**Historical checkpoint 3: Opt-in intention loop.** S48–S56, S52, basic S57–S58 as feasible. Deliverable: self-defined flexible practice without backlog or scores.
 
-**Checkpoint 5: Season, interruptions and accessibility.** S84–S85, X88–X97, responsive layouts/RTL and longitudinal review. Deliverable: a system that survives real-life change and maintains correct boundaries.
+**Historical checkpoint 4: Religiously reviewed prayer assistance.** S61, S66, S68, S75 plus mosque-related screens when a trustworthy local source exists. **Release only with applicable scholar approval.** Deliverable: accurate window vs congregation distinction and honest trust labels.
 
-**Checkpoint 6: Comparative proof.** Test whether added adaptation improves real lives beyond basic verified information and manual planning. Remove mechanisms that add distraction or lead to error.
+**Historical checkpoint 5: Season, interruptions and accessibility.** S84–S85, X88–X97, responsive layouts/RTL and longitudinal review. Deliverable: a system that survives real-life change and maintains correct boundaries.
+
+**Historical checkpoint 6: Comparative proof.** Test whether added adaptation improves real lives beyond basic verified information and manual planning. Remove mechanisms that add distraction or lead to error.
 
 ## 27. What is deliberately omitted from v1
 
@@ -1006,6 +1010,6 @@ Official interaction references consulted separately: Apple HIG on onboarding an
 
 ## 30. Final blueprint verdict
 
-**Product direction:** sufficiently coherent to draw all primary and secondary wireframes. **Behavioral specification:** concrete, internally testable, with known assumptions. **Religious validity:** gated to qualified review for content beyond established general principles. **Effectiveness:** not claimed until participant and comparative testing. **Design approval:** pending visual/usability validation, especially for people with care, shift, disability, travel and fiqh complexity.
+**Product direction:** coherent enough to derive *small, falsifiable* task sketches; **not** approval to design every primary and secondary screen or implement the historical release sequence. **Behavioral specification:** proposed and internally described, with untested assumptions. **Religious validity:** gated to qualified review for consequential source use and copy. **Effectiveness:** unproven until real participants and credible baseline comparison. **Design approval:** pending user and accessibility validation, including care, shift, disability, travel and fiqh complexity.
 
 **The app succeeds when somebody can fulfill their real responsibilities more calmly and appropriately, whether they open it many times, rarely, or not at all that day.**

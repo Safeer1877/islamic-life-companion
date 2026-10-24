@@ -29,12 +29,14 @@ A participant with a real or realistic schedule:
 
 - Interview people with meaningfully different lives (e.g., student, shift worker, caregiver, office worker, disabled person, different supported prayer-timing practices), with consent and no pressure to disclose sensitive religious information.
 - Ask for **real recent conflicts and current tools**, not whether they like a narrated product idea.
-- Compare established prayer-time source + calendar/reminder with proposed integrated planner; identify whether the app provides a benefit that the existing combination does not.
+- **After** eliciting recent real problems without pitching the proposed app, compare the person's trusted prayer source and existing calendar/reminder workflow with a small proposed intervention. Test whether it adds value after setup and maintenance effort.
 - Keep source, sample, interview method, recruitment bias and contradictory findings in a repository study record.
 - **Stopping rule:** If users do not report recurring solvable coordination problems, or existing tools solve them just as well with less burden, narrow or abandon the integrated approach rather than inflate features.
 - **No invented trial counts or effect sizes.** Plan sample/recruitment with a UX researcher; early interviews are exploratory and cannot establish population-wide effectiveness.
 
 ### Track B — Tiny native technical spike
+
+**Conditional engineering research, not permission to begin building the app.** Run only the minimum native experiment needed to rule out a high-consequence platform limitation. It may proceed independently of user interviews if it cheaply falsifies a critical technical premise; it must not become the default first development phase.
 
 Build an unbranded **device-local test harness**, not a commercial app and not headless "always-on" surveillance. It must demonstrate:
 - Typed persistent schedule entries, time-zone-aware dates and a few user-selected local notifications.
@@ -138,11 +140,12 @@ ScheduledCue { request_id, proposed_event, approved_source_revision, scheduled_t
 
 ## 8. Go/no-go gates and work order
 
-1. **Licensing and rights:** Founder selects usable code/documentation licenses and resolves imported material rights; before asking contributors to implement.
-2. **Evidence and qualified review:** Catalog normative claims, appoint actual scholarly reviewers for intended prayer copy, consult prospective users on the specific coordination problem.
-3. **Technical proof:** Deliver a minimal native device spike including failed/denied/unopened cases and backup policy verification.
-4. **UX experiment:** Compare baseline prayer information + normal calendar against the integrated vertical slice.
-5. **Iteration decision:** Extend only if results show useful differentiation without unacceptable religious, privacy or notification harm.
-6. **Separate mosque pilot later:** Actual consented organizations, ownership proof, support capacity, authorized data access and correction cycle.
+1. **Licensing already adopted; source rights still open:** The repository has scoped MPL/AGPL/CC BY-SA licenses. Resolve the rights of any specific sources, study materials, texts or future dependencies *before using or publishing them*. Do not imply a blanket clearance.
+2. **Research safety and problem discovery first:** Define the reachable population, consent and private-data safeguards; observe participants' real recent coordination problems and current workarounds **without pitching the product**. Predeclare a defensible qualitative stopping/continuation rule; a small sample cannot measure population prevalence, and an arbitrary count is not a universal product verdict.
+3. **First go/no-go decision:** Separate genuinely actionable coordination gaps from structural barriers that an app cannot solve. If no credible solvable gap is found, **stop or narrow the planner hypothesis** before implementation.
+4. **Low-fidelity baseline comparison:** Only if discovery supports a gap, compare the smallest reversible decision sketch against the participants' normal trusted prayer source plus calendar (or simpler alternative), measuring total setup/correction effort and harms as well as task value. Exact consequential religious wording needs qualified review *before exposure*; neutral synthetic scheduling tasks can avoid making rulings.
+5. **Bounded technical falsification:** If the proposed value needs device behavior, run only a scoped native test harness for the relevant failure paths (permission denial, finite queues, stale offline cues, backups, unopened periods). A cheap technical blocker test may run in parallel with research, but passing it cannot replace user evidence.
+6. **Record the decision:** Continue, narrow, redesign, postpone or stop, with negative and contradictory results. Expand only if comparative usefulness, autonomy, provenance, privacy and appropriate scholarly review support the proposed next mechanism.
+7. **Separate mosque pilot later:** Only with actual consented institutions, published authority and source rights, a funded correction process, and independent safety gates.
 
 **Decision required after research, not before:** Exact first release feature list, languages, launch region, architectural stack, supported jurisprudential sources, OS version range and economic sustainability. Do not present them as already solved.
