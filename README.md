@@ -20,6 +20,7 @@ Islamic Life Companion explores how to help Muslims organize daily commitments, 
 | Document | Purpose |
 |---|---|
 | [Initial repository audit](docs/research/AUDIT_REPORT_2026-10-24.md) | Verified gaps, audit limits and blockers |
+| [Original research provenance and rights triage](docs/research/RAW_REPORT_SOURCE_RIGHTS_TRIAGE_2026-10-24.md) | Five preserved reports, 173 source-link occurrences, and unresolved rights verification |
 | [Research standards](docs/research/RESEARCH_STANDARDS.md) | Distinguishes evidence, interpretation, decisions and hypotheses |
 | [Claim ledger](docs/research/CLAIM_LEDGER.md) | Selected claims, checked citations and unresolved verification gates |
 | [Functional foundation](docs/FOUNDATION_v1.md) | Core rights-aware product model and religious boundaries |
