@@ -18,7 +18,7 @@ See the dated [founder decision record](../../LICENSES/DECISION_RECORD.md), [con
 
 - Audit protectable original material and third-party quotations, translations, citations, imported models/terms and external assets.
 - Check dependency/license compatibility, file-specific notices, trademark and documentation attribution when future software is actually added.
-- Configure real GitHub branch rules, a monitored confidential reporting route and qualified review gates.
+- Maintain the [active and tested branch ruleset](MAINTAINER_LAUNCH_CHECKLIST.md); **confidential reporting receipt and a separate conduct-reporting route** still require verification, and qualified human scholarly review gates remain open.
 - Add SPDX notices to newly authored source files and avoid false blanket ownership claims.
 - Confirm that contributors understand the difference between rights to submit and technical/religious correctness.
 

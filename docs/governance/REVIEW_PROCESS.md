@@ -27,20 +27,20 @@ A role, reviewer panel or qualification not actually appointed **must not be cla
 
 Every merged normative change should cite the corresponding [claim ledger](../research/CLAIM_LEDGER.md) entry and its status, or create one.
 
-## 3. GitHub workflow (proposed; enforcement must be configured)
+## 3. GitHub workflow (required CI enforced; human gates still open)
 
-1. Keep `main` as the project baseline.
-2. Contributors branch → submit a focused PR → complete the template with references and tests.
-3. A maintainer checks changed links, screen IDs, provenance and conflicts across documents.
-4. Sensitive and religious claims remain pending until the proper reviewer gate passes.
-5. Document accepted product direction in a dated decision log and make rejected/deferred scope explicit.
-6. After merge, track revisions with issues and changelog/decision records rather than quietly changing historical research files.
+1. Keep `main` as the project baseline; use a focused PR, complete the template, record evidence and applicable tests.
+2. Confirm documentation/check integrity; review cited claims at their primary sources, noting source-rights limitations.
+3. Hold religiously consequential copy for qualified human scholarly review; require explicit privacy/security review for sensitive mechanisms.
+4. Record accepted/rejected/deferred decisions in the versioned ledger. Do not change archived raw AI research to imply previously nonexistent validation.
+5. After merging, track corrections and remaining review obligations in issues.
 
-**Maintainer setup not yet verified:** Require a PR before merging, code owner review and at least one approval using GitHub branch protection/rulesets. Do not claim protection is in force until settings are inspected. The CODEOWNERS file identifies a review contact but does **not** itself block direct pushes.
+**Verified 25 October 2026:** Active `main-branch-protection` ruleset (ID `25786531`) requires PRs, resolved conversations, and four checks: `docs-integrity`, `license-scope`, `original-provenance`, `research-slice`. It blocks branch deletion and force pushes; no bypass actors are listed. Required independent approving reviews are currently **0**, since no second reviewer has been established. CODEOWNERS does not constitute independent approval.
 
-### Concrete configuration and verification (maintainer-only)
+**Enforcement evidence:** A deliberate documentation failure in [test PR #12](https://github.com/Safeer1877/islamic-life-companion/pull/12) made the required [`docs-integrity` job fail](https://github.com/Safeer1877/islamic-life-companion/actions/runs/40113876824); GitHub reported `mergeable_state=blocked` and the PR was closed **unmerged**. A direct-push rejection was **not** tested. Historical initial API results showing zero rulesets are superseded by these later checks.
 
-The [Maintainer Launch Checklist](MAINTAINER_LAUNCH_CHECKLIST.md) documents the proposed `main` ruleset, real PR/CI enforcement tests, GitHub private vulnerability reporting, reviewer-dependency caveats and licensing gate. **Repository API check on 24 October 2026 showed no listed rulesets; a legacy branch-protection read was forbidden to the connected integration, so full protection status remains unverified.** GitHub settings and private reporting controls must be configured by an authorized human administrator; repository policy files do not enable them.
+The [maintainer launch checklist](MAINTAINER_LAUNCH_CHECKLIST.md) records exact status and remaining gates. The owner reports enabling private vulnerability reporting, but **actual receipt** and a separate confidential conduct channel are not verified. The connected integration cannot edit ruleset settings. None of these mechanics replace independent qualified reviews, source-rights clearance or real-device/usability testing.
+
 
 ## 4. Resolving disagreement
 

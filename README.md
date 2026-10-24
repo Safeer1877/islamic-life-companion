@@ -47,7 +47,7 @@ We welcome **concrete, evidence-backed criticism**, especially source errors, re
 
 ### Contribution readiness
 
-A transparent public repository still needs real rights and safety controls. The [maintainer launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) explains owner actions needed for branch rules, private reporting and independent review; the [license options and rights audit](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) explains the chosen licenses and remaining provenance work. For now, focused evidence and correction issues are welcome; **do not assume the project is accepting unrestricted code or imported content**.
+A transparent public repository still needs real rights and safety controls. **As of 25 October 2026**, a four-check branch ruleset is active and a deliberately failing PR [was blocked without merging](https://github.com/Safeer1877/islamic-life-companion/pull/12). This establishes required-check enforcement, **not** user, religious or device validation. The owner reports enabling private vulnerability reporting, but actual confidential receipt and a separate conduct-reporting route have not been tested. The [maintainer launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) tracks the remaining actions; the [rights audit](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) tracks outstanding source provenance. Focused corrections are welcome; **do not assume the project accepts unrestricted code or imported content**.
 
 ### Adopted licensing and exclusions
 
@@ -74,6 +74,8 @@ scripts/                               Documentation integrity checks
 2. **Usability and accessibility tests** for people with different schedules, disabilities, family responsibilities and languages.
 3. **Native prototypes** for local data storage, on-device notifications, time-zone changes and offline/no-permission paths.
 4. **Verification and authorization** for any mosque data sources, institutional editor roles and correction process.
-5. **Imported-source rights audit, monitored confidential reporting channel, and enforced review workflow** before promoting substantial public development.
+5. **Imported-source rights clearance, independently monitored confidential reporting, and qualified human review** before promoting substantial public development. GitHub's four required checks and negative PR-blocking test are configured and verified; they do not replace these human gates.
+
+**Next evidence gates, not a commitment to build all candidate screens:** First study recent, real coordination problems against existing calendar and trusted prayer-information practices ([Issue #11](https://github.com/Safeer1877/islamic-life-companion/issues/11)); only then consider a narrow comparison and bounded native feasibility testing ([Issue #10](https://github.com/Safeer1877/islamic-life-companion/issues/10)). A negative or inconclusive result can justify narrowing or stopping the proposed planner. No participants, physical-device tests or qualified religious review are claimed.
 
 The repository aims to show precisely **what is known, what was chosen, what remains uncertain, and what would demonstrate that a proposed feature actually works**.

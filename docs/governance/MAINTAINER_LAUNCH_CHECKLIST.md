@@ -1,31 +1,35 @@
 # Maintainer launch checklist — make contribution safeguards real
 
-**Status:** Operational checklist, **not confirmation that GitHub settings are configured**.  
+**Status (verified 25 October 2026):** The `main` ruleset and required-check negative test are verified. Confidential report receipt, separate conduct reporting, source rights and qualified human review remain open.  
 **Owner:** repository administrator (not yet delegated).  
 **Repository:** https://github.com/Safeer1877/islamic-life-companion  
 **Prepared:** 24 October 2026.
 
 This document complements [review process](REVIEW_PROCESS.md), [licensing decision](LICENSING_DECISION.md), [licensing rights audit](LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md), and [SECURITY.md](../../SECURITY.md).
 
-## 1. Current settings actually verified
+## 1. Historical snapshot and current verified state
 
-- The repository is public and the maintainer account has admin permission through the connected GitHub integration.
-- **Ruleset list returned an empty array (\`[]\`) on 24 October 2026.** That establishes no repository rulesets were listed at that instant. It does **not** prove no legacy branch protection is configured: the connected GitHub App returned HTTP 403 when accessing \`branches/main/protection\`.
-- GitHub draft PRs #1 and #2 are present; they represent different independent workstreams and are **not merged**.
-- GitHub Actions documentation checks completed successfully for the PR versions inspected; passing link/inventory checks do **not** validate source truth, mobile implementation, fiqh applicability or usability.
-- Private vulnerability reporting enablement status was **not established** from an authorized account settings read.
-- **Scoped code/docs licenses were approved and merged in PR #6.** The imported-material rights audit remains open; an independent scholarly panel and second human maintainer have not been verified.
+**Original snapshot from early 24 October (historical, now superseded):** The initial ruleset listing was empty and the connected GitHub App returned HTTP 403 on the legacy protection endpoint. At that time PRs #1 and #2 were drafts, not merged. This records what was known *then*, not the current configuration. The connection's ability to read a ruleset does not mean it can administer settings.
 
-**Never mark a checklist item complete merely because a policy document exists or the connected AI said “done.”**
+**Verified from the GitHub repository API after owner setup:**
 
-## 2. Restore a verified private vulnerability channel (owner action)
+- Active ruleset `main-branch-protection` (ID `25786531`) targets the default branch (`main`), lists no bypass actors, requires a PR and resolved review threads, and blocks deletion/non-fast-forward pushes.
+- Required GitHub Actions jobs: `docs-integrity`, `license-scope`, `original-provenance`, `research-slice`. Required approving reviews: **0**, while no second independent maintainer has been established. CODEOWNERS alone is not an approval gate.
+- In [test PR #12](https://github.com/Safeer1877/islamic-life-companion/pull/12), `docs-integrity` intentionally [failed on a nonexistent relative link](https://github.com/Safeer1877/islamic-life-companion/actions/runs/40113876824); the other three required jobs passed. GitHub returned `mergeable_state=blocked`. The PR was closed **unmerged** and the deliberately faulty file removed from the test branch. This verifies one required-check rejection case, **not** a direct-push test or all possible access paths.
+- PRs [#1](https://github.com/Safeer1877/islamic-life-companion/pull/1), [#2](https://github.com/Safeer1877/islamic-life-companion/pull/2) and licensing [#6](https://github.com/Safeer1877/islamic-life-companion/pull/6) are merged.
+- Owner reports enabling private vulnerability reporting; **non-admin access, delivery and actual inbox monitoring have not been independently tested**. A separate confidential conduct-reporting route does not yet exist.
+- No application, user study, scholarly approval, physical-device reliability result, complete imported-source rights audit or appointed second maintainer has been established.
+
+Recheck time-sensitive GitHub settings before a release. The four CI jobs verify document consistency, **not** religious, privacy, user or device safety.
+
+## 2. Verify the reported private vulnerability channel (owner action)
 
 GitHub's built-in private vulnerability reporting is supported for public repositories. Official guide:
 https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository
 
 1. Open the repository **Settings**.
 2. Under **Security and quality**, select **Advanced Security** (names may vary with account UI).
-3. Locate **Private vulnerability reporting** and enable it.
+3. Locate **Private vulnerability reporting**. The owner reports it is enabled; verify this rather than assuming operational receipt.
 4. Confirm that the repository's Security/Advisories area exposes **Report a vulnerability** to a non-admin reporter, without filing a real secret publicly.
 5. Ensure at least one responsible maintainer actually receives security notifications; confirm the expected notification settings.
 
@@ -33,29 +37,15 @@ Use \`SECURITY.md\` to explain safe use after the feature is confirmed. This fea
 
 **When to check complete:** A contributor can reach a genuinely private disclosure form and a designated maintainer confirms it is monitored.
 
-## 3. Protect \`main\` via a branch ruleset (owner action)
+## 3. Maintain tested protection on `main` — configured
 
-Official GitHub help:
-https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository
+The [official ruleset documentation](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository) explains owner settings; the connected integration can read but cannot edit the ruleset.
 
-GitHub currently makes branch rulesets available on public repositories under GitHub Free. Admins can configure them. This integration has **read-only** access to listed rulesets, so these steps are **not yet performed**.
+**Configured:** default branch PRs, resolved conversations, prevention of deletion/force pushes, four correctly named required CI jobs (`docs-integrity`, `license-scope`, `original-provenance`, `research-slice`) and no listed bypass actors.
 
-**Safe initial configuration proposal:**
+**Demonstrated enforcement:** The ordinary, non-draft [PR #12](https://github.com/Safeer1877/islamic-life-companion/pull/12) deliberately broke a local Markdown link. The [required check failed](https://github.com/Safeer1877/islamic-life-companion/actions/runs/40113876824); the other checks passed; GitHub blocked the otherwise textually mergeable PR. It was closed without merge.
 
-1. Open **Settings → Rules → Rulesets → New branch ruleset** (UI labels can vary).
-2. Name it \`main-reviewed-changes\`.
-3. Target **default branch/main** only.
-4. Set **Enforcement: Active** once settings are checked.
-5. Require a **pull request before merging**.
-6. Block branch deletion and force pushes on \`main\`.
-7. Require conversation resolution, and require successful documented CI checks that actually run on both head and merge where applicable.
-8. **Review approvals:** Before a second authorized reviewer exists, do not pretend one approval can be supplied independently. Either hold activation of a one-human approval requirement until a reviewer joins, or configure PR+CI protection first and publicly explain the interim manual-review process. Once a second maintainer is onboarded, require one independent approval and prevent stale/bypass approvals if appropriate.
-9. Keep admin bypass exceptions narrowly controlled and documented. Treat the owner's emergency access as a transparent exception, not an invisible routine merge shortcut.
-10. Verify on a **test PR** that an unreviewed change cannot be pushed directly to \`main\`, and that merging fails when checks/required reviews are missing.
-
-**Dependency detail:** Some proposed CI workflows live only on PR branches (#1 and #2). **Do not require nonexistent status-check names in the \`main\` ruleset before those workflows have been introduced.** If PR #1 is merged first, consider requiring its observed \`Documentation integrity / docs-integrity\` check. When PR #2 merges, consider additionally requiring \`Research slice integrity / research-slice\`, matching GitHub's actual reported check names. Prevent a deadlock caused by a check that never runs.
-
-Rulesets only enforce configured GitHub mechanics. They **cannot** check scholarly correctness, opinion quality, model hallucinations or user consent.
+**Remaining decisions:** No destructive direct-push test has been performed. When a genuine second qualified maintainer exists, consider independent approval requirements without self-review deadlock. Periodically check job names, settings and exceptions. Rulesets do not substantiate religious interpretations or real-device behavior.
 
 ## 4. Contributor licensing and remaining rights audit
 
@@ -66,10 +56,10 @@ Adopted steps and remaining checks:
 1. **Complete:** Exact, unmodified recognized license texts have been published in a coherent path arrangement.
 2. **Complete:** License boundaries are documented in README and `LICENSES/README.md`.
 3. **Complete:** Inbound=outbound in `LICENSES/CONTRIBUTION_TERMS.md`. No CLA or mandatory DCO was introduced.
-4. Update PR template, source manifest, reviewed content licensing and any license compatibility checks.
+4. **Completed for the current documents:** the PR template, source manifest, license map and license-scope integrity check were published. **Remaining:** future dependency compatibility, authorship and imported-source rights verification.
 5. Check that a third party can independently determine what is safe to fork, redistribute, modify or build upon.
 
-**Do not describe the repository as fully open-source licensed until these decisions exist.**
+**Scoped open licenses are published; they do not prove permission to relicense third-party passages, modern translations, archived AI reports or future imports.**
 
 ## 5. Ethical / scholarly review governance
 
@@ -84,7 +74,7 @@ Before releasing religiously consequential copy:
 ## 6. External-contribution readiness release gate
 
 - [x] Licenses and inbound=outbound terms approved, scope notice published. **Third-party and imported-source rights audit is still open.**
-- [ ] Admin-verified branch ruleset protecting \`main\`, shown to enforce as tested.
+- [x] Active `main` ruleset and four required checks verified; deliberately failing PR #12 was blocked without merging.
 - [ ] Real private vulnerability channel and conduct-reporting path with responsible maintainers.
 - [ ] Reviewed provenance and open/unknown claims advertised honestly.
 - [ ] Contributors can submit source corrections without using sensitive personal records.

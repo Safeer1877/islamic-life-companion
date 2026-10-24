@@ -59,7 +59,7 @@ Use reproducible checks for permissions, background scheduling, notification del
 - Check official API terms, redistribution conditions and revocation/usage restrictions for mosque data, texts, translations, maps and embedded media.
 - Do **not** treat an undocumented endpoint as permission to scrape a private API.
 - Attribution and quotations may require licenses. User-submitted content and volunteer contributions raise separate copyright and privacy questions.
-- The repository currently lacks a selected license; see [licensing decision](../governance/LICENSING_DECISION.md).
+- **Scoped licenses have been adopted** for original app code, a future hosted service, and rights-controlled documentation; see the [licensing decision](../governance/LICENSING_DECISION.md) and [license map](../../LICENSES/README.md). That decision does **not** establish clearance of third-party sources, translations, quoted material or the five original AI reports.
 
 ## 7. Verification log and change control
 
