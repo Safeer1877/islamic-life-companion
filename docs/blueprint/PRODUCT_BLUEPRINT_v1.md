@@ -1,10 +1,12 @@
-# Islamic Life Companion — Complete Experience Blueprint v1.0
+# Islamic Life Companion — Complete Experience Blueprint v1.0 (with v1.1 product policy)
 
 **Date:** 24 October 2026  
 **Status:** Proposed product specification, ready for wireframing and expert/usability review; **not** a finished or religiously certified application.  
 **Basis:** The founder's five fixed decisions; `Islamic_Life_Model_Consolidated_Foundation_v1.md`; the five uploaded desk-research texts; official human-interface and accessibility guidance.  
 **Audience:** Founder, product designer, UX researcher, Islamic scholarly reviewers, content reviewers, product engineers and accessibility testers.  
 **Scope:** Full user experience from first launch through everyday, weekly, seasonal and exceptional use, including navigation, screen inventory, interaction contracts, visual language, and testable behavior. No choice of programming language, backend, commercial model or implementation architecture.
+
+> **CURRENT FOUNDER DIRECTION / v1.1 OVERRIDE (24 October 2026):** [Free, local-first, zero-open policy](LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). The first release must be useful without a paid AI service, chatbot, subscription, account, ongoing backend connection or daily app check-in. Core experience is offline-first with optional on-device notifications; a successful ordinary day can involve **zero launches**. Where this earlier v1.0 specification implies AI-dependent onboarding, automatic background tracking, engagement reminders or a required dashboard visit, **the linked v1.1 policy takes precedence**. Screen IDs remain unchanged.
 
 > **Definition:** A rights-aware, context-sensitive, autonomy-preserving companion that helps Muslims plan and carry out responsibilities, preserve rest and family rights, and maintain self-chosen practices. It must never behave like a moral scoring machine or a religious authority.
 
@@ -86,7 +88,7 @@ Not a fatwa engine; prayer compliance tracker; streak-based gamified habit app; 
 
 **Phone — four top-level areas:**
 
-1. **Today:** current state, next meaningful anchor, upcoming commitments and restrained contextual help.
+1. **Today:** optional on-demand view of current state, next meaningful anchor, upcoming commitments and restrained contextual help. **Opening Today daily is not required for a successful experience.**
 2. **Plan:** day/week schedule, commitments, conflict alternatives, protected time and review.
 3. **Intentions:** optional practices and goals; support is sustainable, flexible and user-authored.
 4. **You:** life profile, assistance boundaries, prayer timing source, permissions, privacy, evidence policy and accessibility.
@@ -97,11 +99,24 @@ Not a fatwa engine; prayer compliance tracker; streak-based gamified habit app; 
 
 **Navigation rules:** tapping a tab preserves the previous scroll/context; overlays return to origin; deep links reconstruct a safe destination when signed out or unconfigured; screen content cannot disappear solely because permission was denied. Tablets and desktop/web use a rail/sidebar and optional side-by-side Today + timeline. Accessible back, no gesture-only navigation.
 
+### 6.1 Primary interaction is life outside the app (v1.1)
+
+The product's default delivery surfaces are an **approved personal routine**, **quiet normal operation**, and (only when explicitly enabled) **short, useful local notifications**. A dashboard is a fallback and exploration surface, **not** the center of a daily attention loop. A single selected cue should, where supported by the OS, communicate what matters without requiring navigation.
+
+- **No mandatory daily opening:** never schedule a routine "check in" or "come back" prompt for engagement. An empty home view, quiet week or zero-open day is acceptable.
+- **No always-on agent:** do not promise continuous detection of personal behavior, phone usage, location or schedule changes. In v1, only user-declared changes or supported/consented inputs can modify the plan.
+- **No paid AI requirement:** guided questions, structured constraints, conflict alternatives and locally scheduled reminders must work without model inference or network access.
+- **No cloud-first registration:** the user may start privately and maintain the working core entirely on-device. Optional backup/sync needs a separate review.
+- **No surprise interruptions:** reminders are opt-in by category, with appropriate quiet hours, freshness/expiry checks and a manual alternative.
+- **No invented religious fact:** offline or stale Iqamah information must be labeled, not treated as guaranteed, and may suppress a departure cue.
+
+The detailed operational rules, acceptance scenarios **ZO-01–ZO-08**, scope limits, privacy guardrails and platform caveats live in [`LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`](LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). It is the controlling product decision document for v1, without renumbering the original 106 screen/state entries or 30 journeys.
+
 ## 7. Functional scope by release
 
 | Priority | Included functionality | Deferral or constraint |
 |---|---|---|
-| **Core v1 experience** | Conversational onboarding; draft life model; Today; day/week planning; fixed/flexible commitments; user-selected assistance; optional intentions; prayer windows when configured; sleep/protected time; conflict explanation; corrections; weekly review; privacy controls; baseline offline display | Must work without account, continuous location or phone-usage access |
+| **Core v1 experience** | Guided adaptive onboarding (no AI required); draft life model; Today; day/week planning; fixed/flexible commitments; user-selected assistance; optional intentions; prayer windows when configured; sleep/protected time; conflict explanation; corrections; weekly review; privacy controls; baseline offline display | Must work without account, continuous location or phone-usage access |
 | **Bounded specialized v1** | Mosque lookup and sourced Iqamah *where data truly exists*; preparation cues; Qur'an-position bookmark; optional digital-focus sessions; Friday/shift/travel/Ramadan profile prompts | No invented mosque times, fiqh rulings or coercive blocking |
 | **Later with evidence** | Calendar import/writeback; richer mosque verification; learned suggestions; statistical personalization; multi-device sync; deeper accessibility paths | Permissioned and independently tested |
 | **Later with scholarly and user evidence** | Detailed character education, complex family mediation, finances/zakat, fasting jurisprudence, community programs, tailored religious learning | Separate content and safety review; don't quietly add to the daily planner |
