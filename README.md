@@ -44,15 +44,17 @@ We welcome **concrete, evidence-backed criticism**, especially source errors, re
 
 ### Contribution readiness
 
-A transparent public repository still needs real rights and safety controls. The [maintainer launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) explains owner actions needed for branch rules, private reporting and independent review; the [license options and rights audit](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) presents choices **without adopting one**. For now, focused evidence and correction issues are welcome; **do not assume the project is accepting unrestricted code or imported content**.
+A transparent public repository still needs real rights and safety controls. The [maintainer launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) explains owner actions needed for branch rules, private reporting and independent review; the [license options and rights audit](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) explains the chosen licenses and remaining provenance work. For now, focused evidence and correction issues are welcome; **do not assume the project is accepting unrestricted code or imported content**.
 
-### Important licensing note
+### Adopted licensing and exclusions
 
-**This public repository does not yet have a selected open-source LICENSE.** Public visibility is not permission to freely redistribute or relicense all material. See [the licensing decision](docs/governance/LICENSING_DECISION.md). The maintainer needs to resolve code, documentation, imported research and contributor rights before actively soliciting major code contributions.
+The repository owner approved and merged a scoped licensing structure in [PR #6](https://github.com/Safeer1877/islamic-life-companion/pull/6): **MPL-2.0** for future original app code, **AGPL-3.0-only** for original future hosted mosque/community backend code, and **CC BY-SA 4.0** for original, rights-controlled documentation. The five original AI-assisted reports and third-party material remain excluded pending rights review. Read the actual [license map](LICENSES/README.md), [decision record](LICENSES/DECISION_RECORD.md) and [contributor terms](LICENSES/CONTRIBUTION_TERMS.md). Licensing is not religious or technical certification.
 
 ## Repository map
 
 ```text
+LICENSE                                 Original application code: MPL-2.0
+LICENSES/                               AGPL, CC BY-SA, scope and contribution terms
 docs/
   FOUNDATION_v1.md                     Conceptual model
   blueprint/                           Product behavior and screen inventory
@@ -69,6 +71,6 @@ scripts/                               Documentation integrity checks
 2. **Usability and accessibility tests** for people with different schedules, disabilities, family responsibilities and languages.
 3. **Native prototypes** for local data storage, on-device notifications, time-zone changes and offline/no-permission paths.
 4. **Verification and authorization** for any mosque data sources, institutional editor roles and correction process.
-5. **A real licensing decision, security contact, and enforced review workflow** before promoting substantial public development.
+5. **Imported-source rights audit, monitored confidential reporting channel, and enforced review workflow** before promoting substantial public development.
 
 The repository aims to show precisely **what is known, what was chosen, what remains uncertain, and what would demonstrate that a proposed feature actually works**.
