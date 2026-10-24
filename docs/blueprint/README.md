@@ -20,6 +20,12 @@
 
 Research basis: `Islamic_Life_Model_Consolidated_Foundation_v1.md` and the research files already shared by the founder. Religious content needing interpretation **still requires qualified scholarly review**; proposed interventions and visuals still require user testing.
 
+## Research corrections from four external reviews (24 October 2026)
+
+- [**Research MVP & Validation Plan v0.1**](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md) selects candidate contracts from this inventory; the historical `release` column is **not** a committed v1 backlog. The register now has a separate `research_slice_v0_1` column so none of the 106 IDs need to be deleted or mistaken for required individual screens.
+- [**Mobile Reliability, Consent & Local-Data Contract v0.1**](../architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md) spells out limited mobile notification queues, impossible-to-guarantee offline mosque reminder correction, permission defaults, actual OS backup behavior, reporting recipients and device tests.
+- Full conceptual blueprint remains the reference for user journeys and exceptional cases, **not proof of feasibility**. External scholars and real-device/user tests remain required. These are separate *proposed* implementation/risk documents, not a new release certification.
+
 ## Immediate use
 
 Do not design a mandatory daily dashboard visit, an AI chat front page or ongoing background surveillance. First design and test a zero-open day, a notification-permission-denied day, and offline onboarding, then use the existing 106-state register for remaining detail.
