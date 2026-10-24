@@ -112,6 +112,19 @@ The product's default delivery surfaces are an **approved personal routine**, **
 
 The detailed operational rules, acceptance scenarios **ZO-01–ZO-08**, scope limits, privacy guardrails and platform caveats live in [`LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`](LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). It is the controlling product decision document for v1, without renumbering the original 106 screen/state entries or 30 journeys.
 
+### 6.2 Trusted mosque data as an optional connected layer (future module)
+
+The founder has proposed a community contribution model with mosque records and authorized Imam/committee/volunteer editors. **Decision:** Include this in the roadmap as a verified mosque-information network, not as a fifth tab or an Imam social network. **Separate the mosque's institutional identity, operational publishing permissions and scholarly qualifications.**
+
+The [Mosque & Community Network Proposal v0.1](MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) details verification, authority transfers, legitimate data sources, publication/versioning, subscriber privacy, Iqamah changes, communication categories, safeguarding, failure states and pilot acceptance gates. It is **proposed future scope**, not evidence that mosque adoption or community moderation is feasible.
+
+- Existing first-release `S61–S70` may show sourced or user-confirmed mosque information with a freshness label. Do not label a user entry "official" or create unverified departure promises.
+- A later verified organization profile can publish mosque-specific Iqamah and announcements. People choose sources and optional notification categories; their personal lives remain local and invisible to mosque administrators.
+- An Imam may be one authorized editor, but verification of mosque administration is **not** verification of qualifications to issue religious guidance.
+- Community groups, direct messaging and personalized fatwa services are excluded from v1 and the initial mosque pilot.
+- Existing mosque-management tools are potential **authorized sources**; do not use private/restricted APIs or force duplicate timetable maintenance when approved subscriptions/imports are available.
+- The background-first goal still applies: mosque content is actionable information, not a feed designed to increase app opens.
+
 ## 7. Functional scope by release
 
 | Priority | Included functionality | Deferral or constraint |
@@ -119,6 +132,7 @@ The detailed operational rules, acceptance scenarios **ZO-01–ZO-08**, scope li
 | **Core v1 experience** | Guided adaptive onboarding (no AI required); draft life model; Today; day/week planning; fixed/flexible commitments; user-selected assistance; optional intentions; prayer windows when configured; sleep/protected time; conflict explanation; corrections; weekly review; privacy controls; baseline offline display | Must work without account, continuous location or phone-usage access |
 | **Bounded specialized v1** | Mosque lookup and sourced Iqamah *where data truly exists*; preparation cues; Qur'an-position bookmark; optional digital-focus sessions; Friday/shift/travel/Ramadan profile prompts | No invented mosque times, fiqh rulings or coercive blocking |
 | **Later with evidence** | Calendar import/writeback; richer mosque verification; learned suggestions; statistical personalization; multi-device sync; deeper accessibility paths | Permissioned and independently tested |
+| **Future mosque network pilot (P1, independently gated)** | Verified mosque institution records; delegated timetable editors; sourced/dated Iqamah & Jumu'ah; opt-in selected alerts; dispute/correction process | Separate connected service; no personal data sharing; no required accounts for ordinary users; do not ship before verification/cost/live pilot gates |
 | **Later with scholarly and user evidence** | Detailed character education, complex family mediation, finances/zakat, fasting jurisprudence, community programs, tailored religious learning | Separate content and safety review; don't quietly add to the daily planner |
 
 ---
