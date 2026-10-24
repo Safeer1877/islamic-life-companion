@@ -4,6 +4,8 @@
 
 The repository is visible publicly, but it is **not yet licensed as an open-source project**. Public readability, cloning and GitHub forking rights are not the same as a license to use, modify and redistribute everything in this repository. See [Choose a License: No License](https://choosealicense.com/no-permission/) and [GitHub's licensing guidance](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions).
 
+**New companion analysis:** [Licensing Options and Rights Audit v0.1](LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) compares Apache-2.0, MIT, MPL-2.0, GPL/AGPL, CC BY 4.0 and CC BY-SA 4.0; separates the five AI-assisted original reports from a blanket grant; and records the exact approvals needed. **No license is activated by that analysis.**
+
 ## Decisions the maintainer must make
 
 1. **Code license:** Choose a recognized license for *future original software*, taking into account contributions, dependencies and your goals (permissive licenses such as MIT/Apache-2.0, or reciprocal licenses such as GPL/AGPL have materially different obligations). Do not add one by default.
