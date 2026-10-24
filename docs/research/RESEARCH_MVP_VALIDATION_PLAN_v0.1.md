@@ -23,6 +23,8 @@ A participant with a real or realistic schedule:
 
 **Do not collect histories of sins, menstruation, prayer attendance, personal relationships or diagnosis to make this task work.**
 
+**Field execution materials:** The [Issue #11 field-study kit](field-study/README.md) provides blank operational readiness/consent materials, interview and diary prompts, a fair baseline comparison, synthetic task cards and an unfilled decision record. It is **not** evidence that recruitment, interviews or comparative tests have begun.
+
 ## 2. Three independent research tracks
 
 ### Track A — Problem discovery (before declaring a release MVP)
