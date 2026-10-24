@@ -1,6 +1,6 @@
 # Imported source manifest
 
-Imported on 2026-10-24. Original report files are preserved under descriptive filenames. Hashes below are SHA-256 of imported bytes.
+Prepared on 2026-10-24. Original source hashes below identify the local preparatory package; they are not hashes of the GitHub copies. Repository uploads should be verified independently.
 
 | Original | Repository location | SHA-256 |
 |---|---|---|
@@ -19,3 +19,7 @@ Imported on 2026-10-24. Original report files are preserved under descriptive fi
 | `islamic_life_blueprint/UX_DESIGN_HANDOFF_PROMPT.md` | `docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md` | `cfa58e41bab8ad12b0c97ed26f17b60b6732aea87beb42521370e0ab17fbc65f` |
 | `islamic_life_blueprint/README.md` | `docs/blueprint/README.md` | `e152090875e4d2570d1c09d920a2a90e7002998de1e1cc03a7a3fbc0c8593048` |
 | `islamic_life_blueprint/PRODUCT_BLUEPRINT_v1.md` | `docs/blueprint/PRODUCT_BLUEPRINT_v1.md` | `3fbebaa9ff0d7801e865b0031cf22570ff6447d44b2db558fe23205b8c5c91c9` |
+
+## Remote upload caveat
+
+The archive ZIP and `build_screen_register.py` listed above are present only in the local preparatory package, not on the GitHub remote. The remote `blueprint.css` is a compatible simplified recreation, not a byte-identical copy of the local stylesheet.
