@@ -78,6 +78,12 @@ No market-size, mosque-adoption, availability or pricing estimates in this resea
 
 The exact evidence burden varies by jurisdiction. Keep stored proof minimal and retention-controlled.
 
+### Important mobile/offline correction (after independent review)
+
+A mosque may correct an Iqamah after a follower's device has already scheduled a local notification. **If that device is offline or never executes an update, it may still show the obsolete queued message.** Source versioning and short validity periods reduce risk but **cannot guarantee cancellation before delivery**. This risk affects P1 and cannot be solved merely with an unverified automatic background refresh, silent push, or AI. The [Mobile Reliability Contract](../architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md) defines cautious message wording, scheduling bounds, consent, and physical-device tests. If tests show unacceptable misinformation risk, do **not** release proactive official-Iqamah departure cues in P1; allow manually inspected, dated information instead.
+
+The [first research MVP](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md) requires **no directory service** and no new mosque operators. An individual may manually enter a dated, attributed mosque time as reference information, or not use mosque details at all. **No `Submit correction` control may claim success without a real receiving service and acknowledged receipt.**
+
 ## 5. Scope of a mosque profile
 
 **Minimal public record:**
@@ -186,7 +192,7 @@ However, ownership verification, security, abuse handling, hosting, monitoring, 
 | Two boards dispute mosque ownership | Freeze verified status and publishing privileges pending documented resolution; preserve evidence. |
 | Editor publishes wrong Iqamah | Corrections/versioning; cancel or amend future cues after sync; no false guarantee of delivery. |
 | Publisher goes inactive | Timetable expires/loses freshness; mark uncertainty; no fabricated official feed. |
-| Mosque changes timetable while device offline | Use cached data with status; do not promise current times or instant notification. |
+| Mosque changes timetable while device offline | **A previously queued reminder may still fire from outdated data.** Never guarantee cancellation without actual app update; restrict validity/horizon and test cautious copy; withhold proactive cue if residual harm is unacceptable. |
 | Time zone/DST mistake or multiple Jama'ah | Each dated event identifies time zone/session; reject ambiguous publication. |
 | Misleading theological or sectarian claim | Distinguish sourced educational claim from binding user instruction; human review/correction; no default doctrinal notification. |
 | Offensive announcement or spam | Category/rate limits, rapid reporting, moderation, suspension and appeal. |
