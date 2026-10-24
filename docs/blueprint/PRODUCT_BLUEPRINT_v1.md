@@ -6,6 +6,8 @@
 **Audience:** Founder, product designer, UX researcher, Islamic scholarly reviewers, content reviewers, product engineers and accessibility testers.  
 **Scope:** Full user experience from first launch through everyday, weekly, seasonal and exceptional use, including navigation, screen inventory, interaction contracts, visual language, and testable behavior. No choice of programming language, backend, commercial model or implementation architecture.
 
+**Implementation status after independent review:** This is a **candidate experience catalog**, not the release backlog; no native OS notification/backup implementation, user study or qualified Islamic sign-off exists. The linked v0.1 research slice and mobile contract state the additional verification required.
+
 > **CURRENT FOUNDER DIRECTION / v1.1 OVERRIDE (24 October 2026):** [Free, local-first, zero-open policy](LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). The first release must be useful without a paid AI service, chatbot, subscription, account, ongoing backend connection or daily app check-in. Core experience is offline-first with optional on-device notifications; a successful ordinary day can involve **zero launches**. Where this earlier v1.0 specification implies AI-dependent onboarding, automatic background tracking, engagement reminders or a required dashboard visit, **the linked v1.1 policy takes precedence**. Screen IDs remain unchanged.
 
 > **Definition:** A rights-aware, context-sensitive, autonomy-preserving companion that helps Muslims plan and carry out responsibilities, preserve rest and family rights, and maintain self-chosen practices. It must never behave like a moral scoring machine or a religious authority.
@@ -124,6 +126,12 @@ The [Mosque & Community Network Proposal v0.1](MOSQUE_COMMUNITY_NETWORK_PROPOSAL
 - Community groups, direct messaging and personalized fatwa services are excluded from v1 and the initial mosque pilot.
 - Existing mosque-management tools are potential **authorized sources**; do not use private/restricted APIs or force duplicate timetable maintenance when approved subscriptions/imports are available.
 - The background-first goal still applies: mosque content is actionable information, not a feed designed to increase app opens.
+
+### 6.3 The actual research prototype is a selected slice, not the full catalog
+
+The historical **Core/Bounded/Scholar-gated/Later** labels in the 106-entry screen catalogue are *original specification priorities*, **not** a committed engineering backlog. An external review found **79 Core, 17 Bounded, 7 Scholar-gated and 3 Later** catalog entries. Implementing all Core-labelled views before testing user need is not justified. See [Research MVP & Validation Plan v0.1](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md) for a narrow vertical slice centered on one real conflict, consent, source transparency, offline persistence and reversible choices. Preserve screen IDs; reclassify actual implementation scope based on observed tasks, not a fixed page count.
+
+The [Mobile Reliability, Consent & Local-Data Contract](../architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md) governs any implementation assertion regarding notifications, source freshness, backup, denial and reporting. Its technical assertions are provisional until tested on actual supported devices.
 
 ## 7. Functional scope by release
 
@@ -477,7 +485,7 @@ The **screen register** is the exhaustive v1 information architecture. A spreads
 | **S67 — Travel and accessibility context** (Sheet) | Only functional travel constraints; manual area; route mode; safety | Apply travel preferences; → S65 | No route; wheelchair accessible unknown; **Bounded** |
 | **S68 — Prayer-information evidence** (Full screen) | Prayer rule record; reviewer/source; limits; uncertainty and last checked | Close; → Origin | Not reviewed; translation mismatch; **Scholar-gated** |
 | **S69 — Prepare to leave** (Sheet) | Specific Iqamah; route allowance; buffer; confidence; requested alert | Enable reminder; → S05 or S25 | Permission blocked; source stale; **Bounded** |
-| **S70 — Report timetable correction** (Full screen) | What appears wrong; specific date and source; optional evidence; no public identity | Submit correction request; → S64 | Cannot verify submission; offline queue; **Bounded** |
+| **S70 — Report timetable correction** (Full screen) | Specific date/source and proposed correction, no private identity required | Copy correction details or open a known external contact; → S64 | No verified receiving service; offline; **future submission requires acknowledged receipt**; **Bounded** |
 
 ### You screens
 
@@ -499,7 +507,7 @@ The **screen register** is the exhaustive v1 information architecture. A spreads
 | **S84 — Ramadan and seasonal rhythm** (Full screen) | Observed changes; user-chosen sleep/fasting plan; verified timing caveats | Review seasonal draft; → S38/S25 | No Ramadan timetable; personal exemptions; **Bounded** |
 | **S85 — Travel mode** (Full screen) | Dates/destination; timezone; prayer-source uncertainty; no automatic fiqh exemption | Start travel context; → S35/S61 | Unknown destination; date crossing; **Bounded** |
 | **S86 — Help & contact** (Full screen) | How to correct app; support; accessibility; religious error reporting | Choose help route; → S87 | Offline; no contact available; **Core** |
-| **S87 — Report safety/religious concern** (Full screen) | Category; affected message; optional context; privacy notice | Submit report; → S86 | Sensitive information; no connectivity; **Core** |
+| **S87 — Report safety/religious concern** (Full screen) | Category; affected message; minimal optional context; privacy notice | Copy limited report / show verified private contact; → S86 | No configured recipient; offline; **never claim submitted until acknowledged**; **Core** |
 
 ### Exceptions screens
 
@@ -575,7 +583,7 @@ Input fields: short title, date/time or broad window, recurrence, practical flex
 
 ### 16.10 Assistance controls: S74 and M99–M100
 
-Controls are **permission categories**, not personality labels alone: opted-in prayer-preparation alerts, conflicts, check-ins, voluntary intention cues, weekly review. Each has on/off and context; proactive style permits proposals but not automatic change. Quiet hours and “Pause all” always visible. User-requested essential reminders require explicit choice on what pausing affects. **Success:** the app honors silence preferences while allowing selected reminders. A single dismissal does not silently rewrite the user's values.
+Controls are **permission categories**, not personality labels alone: opted-in prayer-preparation alerts, conflicts, check-ins, voluntary intention cues, weekly review. **Every unsolicited OS notification category defaults OFF even if Gentle or Proactive is selected.** Assistance style controls the *availability and tone of in-app proposals*, not an implicit permission to send alerts, infer religious/health state, or obtain background location. Each alert category has a separate explicit opt-in, editable quiet hours and dismissal; OS permission is necessary where applicable but never sufficient on its own. Proactive style permits proposals but not automatic consequential plan changes. Quiet hours and “Pause all” always visible. User-requested essential reminders require explicit choice on what pausing affects. **Success:** the app honors silence preferences while allowing selected reminders. A single dismissal does not silently rewrite the user's values.
 
 ### 16.11 Reviewing the model: S72–S76 and S83
 
@@ -726,7 +734,7 @@ After enough user-chosen data, `S25 → S45 [optional weekly reflection] → S46
 
 ### UF25 — Mosque timetable is inaccurate
 
-`S64 → X90 → S70 [report dated correction] → S64`. Submitted information is not treated as independently confirmed until reviewed. Saved outdated data must not produce “verified Iqamah” alerts.
+`S64 → X90 → S70 [copy dated correction or open a verified contact] → S64`. **Until there is a receiving service, nothing is submitted:** an exported draft is not a report received by mosque staff. Reported information is not independently confirmed until an authorized reviewer checks it; known stale data cannot produce a newly queued confident Iqamah alert. Previously queued messages may still appear if the device never receives a correction.
 
 ### UF26 — Offline, no GPS, no notifications
 
