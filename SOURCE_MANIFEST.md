@@ -5,7 +5,7 @@ Prepared on 2026-10-24. **The SHA-256 column describes files in the original pre
 For evidence checks see [research standards](docs/research/RESEARCH_STANDARDS.md) and [initial audit](docs/research/AUDIT_REPORT_2026-10-24.md).
 
 | Original | Intended repository location | Original package SHA-256 | GitHub status |
-|---|---|---|
+|---|---|---|---|
 | `Islamic_Life_Model_Consolidated_Foundation_v1.md` | `docs/FOUNDATION_v1.md` | `74291709a2d6653b879829eb8ab0af396aecd55f115c07e18fe47c2ab82039cd` | Uploaded (not byte-hash verified) |
 | `Pasted text(3).txt` | `research/original-reports/01-islamic-framework-investigation.txt` | `9eedea19225ffca6b668b0ea5072f59523c59fcd2c75066cb6e60fd2c7388c8f` | Uploaded (not byte-hash verified) |
 | `Pasted text(6).txt` | `research/original-reports/02-foundational-research-report.txt` | `ce0af41dfa59d4024dff32656ed5e4d40b263b0460843e9915fe60c1eba92241` | Uploaded (not byte-hash verified) |
