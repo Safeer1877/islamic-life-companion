@@ -1,6 +1,6 @@
 # Islamic Life Companion
 
-> Private working repository for an Islamic life-management product concept. **Research and design stage; no functional application is implemented yet.**
+> Public, community-reviewable repository for an Islamic life-management product concept. **Research and design stage; no functional application is implemented yet.**
 
 ## Purpose
 
@@ -25,6 +25,17 @@ The future [Mosque & Community Network](docs/blueprint/MOSQUE_COMMUNITY_NETWORK_
 5. [`docs/blueprint/READ_BLUEPRINT.html`](docs/blueprint/READ_BLUEPRINT.html) — locally readable HTML edition; styles in `blueprint.css`.
 6. [`docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md`](docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md) — visual design brief.
 7. [`research/original-reports/`](research/original-reports/) — original independent AI-generated research documents for reference, not verified religious rulings.
+
+## Licenses and contributor rights
+
+**The repository has separate licenses for distinct materials** (not a blanket license over everything):
+
+- **MPL-2.0** for future original app/client source code and original project tools (full legal text: [LICENSE](LICENSE)).
+- **AGPL-3.0-only** for original future hosted mosque/community service source code in designated backend directories ([legal text](LICENSES/AGPL-3.0-only.txt)).
+- **CC BY-SA 4.0** for original, rights-controlled documentation and proposal prose ([legal text](LICENSES/CC-BY-SA-4.0.txt)).
+- **Not covered by the blanket grant:** [the five preserved original AI-assisted research reports](research/original-reports/README.md), third-party translations/editions, quoted works, datasets, fonts and other material requiring separate rights.
+
+**Read the exact [licensing scope](LICENSES/README.md), [decision record](LICENSES/DECISION_RECORD.md) and [contribution terms](LICENSES/CONTRIBUTION_TERMS.md) before reusing material or submitting substantial changes.** The official app's intent to be free for users is separate from copyright licenses; these licenses permit commercial uses within their terms.
 
 ## Status and caveats
 
