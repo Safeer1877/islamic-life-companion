@@ -14,7 +14,7 @@ This document complements [review process](REVIEW_PROCESS.md), [licensing decisi
 - GitHub draft PRs #1 and #2 are present; they represent different independent workstreams and are **not merged**.
 - GitHub Actions documentation checks completed successfully for the PR versions inspected; passing link/inventory checks do **not** validate source truth, mobile implementation, fiqh applicability or usability.
 - Private vulnerability reporting enablement status was **not established** from an authorized account settings read.
-- No formal licensing policy, independent scholarly panel or second human maintainer has been verified.
+- **Scoped code/docs licenses were approved and merged in PR #6.** The imported-material rights audit remains open; an independent scholarly panel and second human maintainer have not been verified.
 
 **Never mark a checklist item complete merely because a policy document exists or the connected AI said “done.”**
 
@@ -57,15 +57,15 @@ GitHub currently makes branch rulesets available on public repositories under Gi
 
 Rulesets only enforce configured GitHub mechanics. They **cannot** check scholarly correctness, opinion quality, model hallucinations or user consent.
 
-## 4. Contributor licensing and rights (owner decision before broad invitation)
+## 4. Contributor licensing and remaining rights audit
 
-Read [Licensing Options & Rights Audit](LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) and approve code and original documentation rights independently. Do not automatically license five raw AI reports, modern translations or third-party timetable data.
+The owner approved [MPL-2.0 / AGPLv3 / CC BY-SA 4.0 licensing](../../LICENSES/README.md) in PR #6. Read [Licensing Options & Rights Audit](LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) for tradeoffs and unfinished source-rights work. Do not automatically license five raw AI reports, modern translations or third-party timetable data.
 
-After the owner decides and the source-rights audit is sufficient:
+Adopted steps and remaining checks:
 
-1. Add exact, unmodified recognized license texts in a coherent path arrangement.
-2. Make scoped license boundaries evident in README and in a root notice/manifest.
-3. Record whether contributor terms are inbound=outbound and whether DCO is required. If DCO is requested, explain public identity/sign-off persistence.
+1. **Complete:** Exact, unmodified recognized license texts have been published in a coherent path arrangement.
+2. **Complete:** License boundaries are documented in README and `LICENSES/README.md`.
+3. **Complete:** Inbound=outbound in `LICENSES/CONTRIBUTION_TERMS.md`. No CLA or mandatory DCO was introduced.
 4. Update PR template, source manifest, reviewed content licensing and any license compatibility checks.
 5. Check that a third party can independently determine what is safe to fork, redistribute, modify or build upon.
 
@@ -83,7 +83,7 @@ Before releasing religiously consequential copy:
 
 ## 6. External-contribution readiness release gate
 
-- [ ] Licenses and contribution rights approved, root scope notice published.
+- [x] Licenses and inbound=outbound terms approved, scope notice published. **Third-party and imported-source rights audit is still open.**
 - [ ] Admin-verified branch ruleset protecting \`main\`, shown to enforce as tested.
 - [ ] Real private vulnerability channel and conduct-reporting path with responsible maintainers.
 - [ ] Reviewed provenance and open/unknown claims advertised honestly.
