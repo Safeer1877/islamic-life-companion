@@ -1,29 +1,27 @@
-# Licensing decision required before broad public contribution
+# Licensing adopted — remaining provenance and compatibility decisions
 
-**Status: unresolved — no LICENSE file has been selected.**
+**Status (24 October 2026):** Repository owner approved the structure and merged [PR #6](https://github.com/Safeer1877/islamic-life-companion/pull/6) to `main`. The **root [LICENSE](../../LICENSE)** is Mozilla Public License 2.0 for covered original app/client code. The [license scope map](../../LICENSES/README.md) separately designates **AGPL-3.0-only** for original future hosted mosque/community backend code and **CC BY-SA 4.0** for original, rights-controlled documentation.
 
-The repository is visible publicly, but it is **not yet licensed as an open-source project**. Public readability, cloning and GitHub forking rights are not the same as a license to use, modify and redistribute everything in this repository. See [Choose a License: No License](https://choosealicense.com/no-permission/) and [GitHub's licensing guidance](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions).
+The five preserved raw AI-assisted research reports and externally owned translations, editions, substantial quotations, maps, assets or datasets are **not** covered by blanket relicensing without appropriate rights. Published open-source licenses do not imply verified religious scholarship, software implementation, commercial non-use or zero hosting cost.
 
-**New companion analysis:** [Licensing Options and Rights Audit v0.1](LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) compares Apache-2.0, MIT, MPL-2.0, GPL/AGPL, CC BY 4.0 and CC BY-SA 4.0; separates the five AI-assisted original reports from a blanket grant; and records the exact approvals needed. **No license is activated by that analysis.**
+See the dated [founder decision record](../../LICENSES/DECISION_RECORD.md), [contribution rights](../../LICENSES/CONTRIBUTION_TERMS.md) and [licensing options/rights audit](LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md). The latter originated as a pre-decision comparison and retains open source-rights questions.
 
-## Decisions the maintainer must make
+## Decisions completed
 
-1. **Code license:** Choose a recognized license for *future original software*, taking into account contributions, dependencies and your goals (permissive licenses such as MIT/Apache-2.0, or reciprocal licenses such as GPL/AGPL have materially different obligations). Do not add one by default.
-2. **Documentation license:** Specify whether the product specs, diagrams and original prose are openly reusable, and under what license. A documentation license can differ from a code license.
-3. **Research materials and third-party content:** The five AI-assisted source reports, Qur'an/hadith translations, external quotes, images and vendor assets may involve separate source/provider terms or third-party rights. Confirm provenance and rights; do not automatically assume your chosen license covers third-party material.
-4. **Contributor terms:** Set a transparent contribution policy about authorship, provenance, permission to submit, and reuse. Decide whether you want ordinary inbound=outbound licensing or an additional DCO/CLA process. Don't surprise contributors after they have contributed.
-5. **Trademark/name:** A software/content license does not automatically license project marks or endorsements.
+1. **Future original application/client code:** MPL-2.0. Its file-level copyleft does not force every separately written file of a larger work to be opened.
+2. **Future original hosted mosque/community backend:** AGPL-3.0-only in explicitly designated service directories, with license compatibility review required for copied/shared code.
+3. **Rights-controlled original documentation:** CC BY-SA 4.0; no claim over external copyrighted editions or translations.
+4. **Preserved raw AI desk reports:** excluded pending specific provenance and rights review.
+5. **Contributor approach:** inbound=outbound within each scoped component; no copyright assignment, CLA or mandatory DCO introduced.
 
-## Suggested decision path (no choice made yet)
+## Still open before large-scale contribution or redistribution
 
-- If your priority is broad reuse by community projects with minimal restrictions, evaluate **MIT or Apache-2.0 for code**, and **CC BY 4.0 / CC BY-SA 4.0** for original docs.
-- If your priority is requiring redistributed modifications to remain open, evaluate reciprocal **GPL/AGPL** approaches with attention to obligations and compatibility.
-- Confirm compatibility with planned dependency licenses and the rights to included research/source files.
-- Record founder approval and add the actual license texts with attribution as applicable.
-- Update `README.md`, `CONTRIBUTING.md` and source manifest **after** this decision.
+- Audit protectable original material and third-party quotations, translations, citations, imported models/terms and external assets.
+- Check dependency/license compatibility, file-specific notices, trademark and documentation attribution when future software is actually added.
+- Configure real GitHub branch rules, a monitored confidential reporting route and qualified review gates.
+- Add SPDX notices to newly authored source files and avoid false blanket ownership claims.
+- Confirm that contributors understand the difference between rights to submit and technical/religious correctness.
 
-These are discussion options, not a legal determination or a commitment. A qualified legal reviewer may be appropriate if commercial licensing or contribution ownership becomes material.
+**Licensing is decided. Source rights are not fully audited.** Do not describe this as an unresolved choice, nor as proof that every published fragment can be relicensed freely. See [Issue #3](https://github.com/Safeer1877/islamic-life-companion/issues/3) for remaining rights work.
 
-**Current contributor note:** Until the project adopts an appropriate license and contributor policy, prioritize issues, evidence correction proposals and narrowly scoped documentation review over substantial new code contributions. Maintainers should not represent repository visibility as an open-source permission grant.
-
-For public guidance: https://choosealicense.com/no-permission/
+License discussion references: [Mozilla MPL](https://www.mozilla.org/en-US/MPL/2.0/), [GNU AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html), [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
