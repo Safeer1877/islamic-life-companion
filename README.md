@@ -42,6 +42,10 @@ We welcome **concrete, evidence-backed criticism**, especially source errors, re
 - Do **not** present a model's confidence, five similar model outputs, or an attractive screen as religious certification or proof of user benefit.
 - Do not post secrets, private religious or family details, or exploitable vulnerabilities publicly. See [SECURITY.md](SECURITY.md).
 
+### Contribution readiness
+
+A transparent public repository still needs real rights and safety controls. The [maintainer launch checklist](docs/governance/MAINTAINER_LAUNCH_CHECKLIST.md) explains owner actions needed for branch rules, private reporting and independent review; the [license options and rights audit](docs/governance/LICENSING_OPTIONS_AND_RIGHTS_AUDIT_v0.1.md) presents choices **without adopting one**. For now, focused evidence and correction issues are welcome; **do not assume the project is accepting unrestricted code or imported content**.
+
 ### Important licensing note
 
 **This public repository does not yet have a selected open-source LICENSE.** Public visibility is not permission to freely redistribute or relicense all material. See [the licensing decision](docs/governance/LICENSING_DECISION.md). The maintainer needs to resolve code, documentation, imported research and contributor rights before actively soliciting major code contributions.
