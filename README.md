@@ -34,13 +34,14 @@ docs/
     READ_BLUEPRINT.html
     blueprint.css
     UX_DESIGN_HANDOFF_PROMPT.md
-    build_screen_register.py
 research/
   original-reports/
-archive/
-  Islamic_Life_Complete_Blueprint_v1.zip
 ```
 
 ## Next phase
 
 Translate the proposed journeys into a coherent visual prototype; validate the religiously sensitive cases, onboarding burden, and user decision-making before development.
+
+## Upload status
+
+The complete text-based foundation, blueprint and five research reports are present. The local preparatory package additionally contains an archival ZIP and a screen-register generation script; these two auxiliary files were not transferred through the connected GitHub integration. The CSV screen register itself is present. The repository CSS was recreated for online viewing rather than imported byte-for-byte.
