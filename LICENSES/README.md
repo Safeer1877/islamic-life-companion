@@ -12,6 +12,7 @@
 | **Original, rights-controlled project documentation**, including Markdown documentation in \`docs/\`, \`README.md\`, \`SOURCE_MANIFEST.md\`, and project-authored policy/template prose | **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** | [CC BY-SA text](CC-BY-SA-4.0.txt) |
 | **Original stylesheet \`docs/blueprint/blueprint.css\`** and original automation/build scripts or CI workflow code | **MPL-2.0** | [root LICENSE](../LICENSE) |
 | **Raw research inputs** in \`research/original-reports/\` | **Excluded pending provenance and rights review** | Not covered by blanket project license |
+| **Original research audit metadata** in \`research/provenance/\` | **CC BY-SA 4.0**, only for original grantable inventory and prose | [CC BY-SA text](CC-BY-SA-4.0.txt) |
 | **Externally owned material** (e.g., third-party translations/editions, substantial third-party quotations, screenshots, fonts, icons, datasets, maps, third-party dependencies and trademarks) | **Their respective authors'/providers' terms** | Consult source/file-specific provenance |
 
 **Important:** A file's **original copyrightable content** is covered only to the extent the licensor/contributors have rights to grant. Licenses do not purport to relicense third-party material or confer copyright over material that is not protectable under applicable law. Attribution and original source quotations may require separate permissions. A repository-level license notice is not proof that every embedded quotation or generated paragraph has cleared a legal rights audit.
