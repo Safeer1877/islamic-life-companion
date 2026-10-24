@@ -12,12 +12,12 @@
 2. **Local-first:** Private onboarding answers, commitments, preferences, reminders and the current plan are kept on the user's device by default. Core planning does not require creating an account or a continuously available backend.
 3. **No required AI:** All essential first-release journeys must work without a language model, AI subscription or AI service account. An AI chat tab is not a required feature.
 4. **Background-first, not constant engagement:** The default outcome of an ordinary well-configured day may be **zero app launches**. Necessary information is available through user-selected local alerts or lightweight system surfaces where genuinely supported.
-5. **User-controlled interruptions:** Every proactive category is opt-in; frequency, hours and dismissal are adjustable. Disabling notifications must never disable planning or access to information.
+5. **User-controlled interruptions:** **Every unsolicited notification category defaults OFF**, regardless of On-demand/Gentle/Proactive assistance style. Each requires its own explicit opt-in, with adjustable frequency, hours and dismissal. OS notification permission alone never enables a category. Disabling notifications must never disable planning or access to information.
 6. **Religious integrity is independent of AI:** Applicable prayer windows and related rules come from a documented, reviewed source and an explicitly configured method; the system does not invent rulings, concessions or mosque Iqamah times.
 7. **No covert observation:** No always-on GPS, microphone, reading messages, hidden app-usage collection or spiritual scoring. Optional access is explained just before permission is requested.
 8. **Reversible assistance:** Suggestions are proposals. Consequential plan changes require approval. The person can pause, correct, export and erase their data.
 
-The policy governs the existing screen catalogue. Do **not** redesign 106 screen/state entries or add new tabs simply to accommodate these decisions.
+The 106-entry screen/state catalogue is a **candidate reference**, not an untouchable release scope or 106 implemented screens. Keep stable IDs for traceability, but allow an evidence-led prototype to combine, defer, or eliminate experiences. See [Research MVP & Validation Plan](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md). Do not add new permanent tabs solely to accommodate optional AI or mosque features.
 
 ## 2. Distinguish on-device automation from AI
 
@@ -99,13 +99,13 @@ Keep existing screen IDs. Adjust their purpose and success tests as follows.
 
 ### Acceptance journeys for design and QA
 
-**ZO-01 — Setup with no account, no AI and no notification access:** Complete S01–S20, confirm a draft routine, then close the app. Reopen offline; the approved plan still exists.
+**ZO-01 — Setup with no account, no AI and no notification access:** Follow the *shortest useful, skippable path* through the applicable S01–S20 contracts; these IDs are **not** mandatory consecutive onboarding screens. Confirm a draft routine, close the app and reopen offline: the approved plan still exists.
 
 **ZO-02 — Seven days without opening the app:** An ordinary user with only two consented event reminders receives only those relevant reminders when device delivery permits. No engagement nudges, streak prompts or forced weekly check-in.
 
 **ZO-03 — No notification permission:** The person can still see prayer source information, commitments, intentions and plan alternatives when opening the app. No repeated permission pressure.
 
-**ZO-04 — Mosque schedule becomes stale:** No confidently worded Iqamah departure alert is issued from a stale unverified entry. The app offers source-check information on request and does not fabricate a replacement.
+**ZO-04 — Mosque schedule becomes stale:** A known stale/unverified source must not produce a new confident departure cue. **An already queued local notification may still fire if the device is offline and cannot learn of a subsequent correction**; do not claim guaranteed suppression. Use short, dated validity, cautious wording, and cancel/update only when app execution actually receives the correction. Until independently tested, source-dependent departure cues may be excluded from first release.
 
 **ZO-05 — AI unavailable forever:** All core setup, calculation, planning, editing and opted-in local reminders work exactly as designed. No hidden paid API calls.
 
@@ -122,13 +122,20 @@ These scenarios add coverage to the existing 30 user flows; they do not create e
 - Prefer on-device computation, data persistence and local notification scheduling.
 - Do not require server accounts, usage analytics, paid push providers or AI inference for core usefulness.
 - Optional online services (fresh mosque information, backups or future sync) must have an explicit offline/manual fallback and a clear explanation of their privacy/cost implications.
-- Cloud backup, multi-device synchronization and automatic data acquisition are **not part of the required local-first core**; evaluate separately.
+- **Local-first does not prove cloud exclusion.** Android can back up app data by default, and iCloud Backup may include iOS app data unless suitable handling is implemented. Android cloud-backup vs device-transfer rules differ; Apple warns that exclusion flags are guidance, not a guaranteed confidentiality boundary. Define and verify the data-class-specific backup/restore policy and disclose it before processing real sensitive routines.
+- A user-controlled optional sync service is **not** required for the local core; however, **OS-managed backup/transfer is a distinct mechanism** that must be addressed even if the product offers no cloud account.
 - Explain backup/device-loss risk plainly. A completely local experience can lose data if the device is lost or reset without an export or user-enabled backup.
 - Launching and maintaining a free application still involves distribution, review, maintenance, accessibility and support costs. Define a sustainable funding plan before any promise of indefinite operation.
 
 ### Optional connected mosque network (not a core dependency)
 
 The proposed [Mosque & Community Network v0.1](MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) may eventually offer verified mosque-managed Iqamah schedules, dated announcements, and user-selected subscriptions. Treat these as **remote public information**, not a reason to move private calendars, family situations or religious behavior logs to mosque administrators or the server. Core app functions work independently. Mosque information may be stale/offline, and automatic background propagation cannot be guaranteed. Community groups, personal religious Q&A, and compulsory mosque membership are not approved for the first release.
+
+### Concrete mobile constraints and pre-release tests
+
+Read the [mobile reliability, backup and consent contract](../architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md) before promising unattended reminders. iOS pending notification requests are finite (legacy Apple documentation specifies the 64 nearest requests, and recent Apple discussion confirms this constraint); daily-changing prayer times need date-specific queue management rather than a simplistic endless repeating time. Android exact-alarm eligibility and notification permissions vary by OS and user action. Background scheduling and source updates are discretionary, not guaranteed. A “scheduled through” indicator must be derived from actual accepted requests where observable, **not** from an invented guaranteed seven-day period.
+
+Users may opt into one or more cues but are never forced to open weekly or to enable tracking as a queue workaround. The project must test denied permission, time-zone changes, closed-app operation, device restore, missed mosque updates and on-device export/erase. [Research prototype scope](../research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md) identifies which tests precede release claims.
 
 ## 7. Platform reality and limits
 
