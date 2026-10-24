@@ -6,14 +6,21 @@
 
 Help Muslims organize practical daily life in accordance with verified Islamic principles while respecting worship, work, family, health, personal agency, capacity, and legitimate differences of jurisprudence. The product is designed to reduce unnecessary friction and phone dependence, not maximize engagement, streaks, or a numerical measure of religiosity.
 
+## Product direction (24 October 2026)
+
+**Free, local-first and designed for zero unnecessary app opens.** First-release core features must work without an AI model, paid service, account or continuous internet. Users opt into notifications and may choose on-demand-only support. AI is a possible future enhancement, not a core feature. The goal is useful assistance in real life, not keeping the user in the app.
+
+**Current policy:** [Local-first, zero-open, free-to-use v1.1](docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). This policy supersedes any older screen or UX language implying AI-dependent onboarding, mandatory check-ins or automatic background observation.
+
 ## Start here
 
-1. [`docs/FOUNDATION_v1.md`](docs/FOUNDATION_v1.md) — consolidated principles, religious boundaries, and decision framework.
-2. [`docs/blueprint/PRODUCT_BLUEPRINT_v1.md`](docs/blueprint/PRODUCT_BLUEPRINT_v1.md) — functional product blueprint, screens, journeys and behavioral flows.
-3. [`docs/blueprint/SCREEN_REGISTER_v1.csv`](docs/blueprint/SCREEN_REGISTER_v1.csv) — inventory of 106 views, sheets, and states (not 106 primary navigation screens).
-4. [`docs/blueprint/READ_BLUEPRINT.html`](docs/blueprint/READ_BLUEPRINT.html) — locally readable HTML edition; styles in `blueprint.css`.
-5. [`docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md`](docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md) — visual design brief.
-6. [`research/original-reports/`](research/original-reports/) — original independent AI-generated research documents for reference, not verified religious rulings.
+1. [`docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`](docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md) — **latest product decisions**: free access, offline core, notification restraint, no required AI and zero-open acceptance tests.
+2. [`docs/FOUNDATION_v1.md`](docs/FOUNDATION_v1.md) — consolidated principles, religious boundaries, and decision framework.
+3. [`docs/blueprint/PRODUCT_BLUEPRINT_v1.md`](docs/blueprint/PRODUCT_BLUEPRINT_v1.md) — functional product blueprint, screens, journeys and behavioral flows.
+4. [`docs/blueprint/SCREEN_REGISTER_v1.csv`](docs/blueprint/SCREEN_REGISTER_v1.csv) — inventory of 106 views, sheets, and states (not 106 primary navigation screens).
+5. [`docs/blueprint/READ_BLUEPRINT.html`](docs/blueprint/READ_BLUEPRINT.html) — locally readable HTML edition; styles in `blueprint.css`.
+6. [`docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md`](docs/blueprint/UX_DESIGN_HANDOFF_PROMPT.md) — visual design brief.
+7. [`research/original-reports/`](research/original-reports/) — original independent AI-generated research documents for reference, not verified religious rulings.
 
 ## Status and caveats
 
@@ -29,6 +36,7 @@ Help Muslims organize practical daily life in accordance with verified Islamic p
 docs/
   FOUNDATION_v1.md
   blueprint/
+    LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md
     PRODUCT_BLUEPRINT_v1.md
     SCREEN_REGISTER_v1.csv
     READ_BLUEPRINT.html
@@ -40,7 +48,7 @@ research/
 
 ## Next phase
 
-Translate the proposed journeys into a coherent visual prototype; validate the religiously sensitive cases, onboarding burden, and user decision-making before development.
+First prototype and test the **zero-open** lifecycle, optional local reminders, adaptive non-AI onboarding and no-notification/no-account paths. Then visually design the main flows and validate religiously sensitive cases before development.
 
 ## Upload status
 
