@@ -126,6 +126,10 @@ These scenarios add coverage to the existing 30 user flows; they do not create e
 - Explain backup/device-loss risk plainly. A completely local experience can lose data if the device is lost or reset without an export or user-enabled backup.
 - Launching and maintaining a free application still involves distribution, review, maintenance, accessibility and support costs. Define a sustainable funding plan before any promise of indefinite operation.
 
+### Optional connected mosque network (not a core dependency)
+
+The proposed [Mosque & Community Network v0.1](MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) may eventually offer verified mosque-managed Iqamah schedules, dated announcements, and user-selected subscriptions. Treat these as **remote public information**, not a reason to move private calendars, family situations or religious behavior logs to mosque administrators or the server. Core app functions work independently. Mosque information may be stale/offline, and automatic background propagation cannot be guaranteed. Community groups, personal religious Q&A, and compulsory mosque membership are not approved for the first release.
+
 ## 7. Platform reality and limits
 
 - iOS and Android impose restrictions on background execution, location access, notification delivery and third-party control. Do not promise an always-running intelligence that continuously detects the user's activities.
