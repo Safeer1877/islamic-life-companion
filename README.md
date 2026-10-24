@@ -12,6 +12,10 @@ Help Muslims organize practical daily life in accordance with verified Islamic p
 
 **Current policy:** [Local-first, zero-open, free-to-use v1.1](docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md). This policy supersedes any older screen or UX language implying AI-dependent onboarding, mandatory check-ins or automatic background observation.
 
+## Mosque/community direction (proposed, not in core v1)
+
+The future [Mosque & Community Network](docs/blueprint/MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) describes verified mosque institutions, authorized timetable editors, voluntary information subscriptions, and a strictly gated pilot. It **does not** add an Imam chat/social network or require a connected mosque account for the local personal-planning experience. Groups and qualified religious guidance are explicitly deferred.
+
 ## Start here
 
 1. [`docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md`](docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md) — **latest product decisions**: free access, offline core, notification restraint, no required AI and zero-open acceptance tests.
@@ -37,6 +41,7 @@ docs/
   FOUNDATION_v1.md
   blueprint/
     LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md
+    MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md
     PRODUCT_BLUEPRINT_v1.md
     SCREEN_REGISTER_v1.csv
     READ_BLUEPRINT.html
