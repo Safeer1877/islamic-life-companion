@@ -38,6 +38,10 @@ Every merged normative change should cite the corresponding [claim ledger](../re
 
 **Maintainer setup not yet verified:** Require a PR before merging, code owner review and at least one approval using GitHub branch protection/rulesets. Do not claim protection is in force until settings are inspected. The CODEOWNERS file identifies a review contact but does **not** itself block direct pushes.
 
+### Concrete configuration and verification (maintainer-only)
+
+The [Maintainer Launch Checklist](MAINTAINER_LAUNCH_CHECKLIST.md) documents the proposed `main` ruleset, real PR/CI enforcement tests, GitHub private vulnerability reporting, reviewer-dependency caveats and licensing gate. **Repository API check on 24 October 2026 showed no listed rulesets; a legacy branch-protection read was forbidden to the connected integration, so full protection status remains unverified.** GitHub settings and private reporting controls must be configured by an authorized human administrator; repository policy files do not enable them.
+
 ## 4. Resolving disagreement
 
 - State precisely which claim is disputed.
