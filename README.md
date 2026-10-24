@@ -26,7 +26,9 @@ Islamic Life Companion explores how to help Muslims organize daily commitments, 
 | [Functional foundation](docs/FOUNDATION_v1.md) | Core rights-aware product model and religious boundaries |
 | [Local-first zero-open policy](docs/blueprint/LOCAL_FIRST_ZERO_OPEN_POLICY_v1.1.md) | Latest binding founder constraints |
 | [Product experience blueprint](docs/blueprint/PRODUCT_BLUEPRINT_v1.md) | Proposed screens, behavior, journeys and exceptions |
-| [Screen/state register](docs/blueprint/SCREEN_REGISTER_v1.csv) | 106 catalog entries, **not** 106 implemented screens |
+| [Research MVP and validation plan](docs/research/RESEARCH_MVP_VALIDATION_PLAN_v0.1.md) | **Proposed** narrow vertical slice, baseline comparison, user and engineering tests; not built |
+| [Mobile reliability, consent and backup contract](docs/architecture/MOBILE_RELIABILITY_PRIVACY_CONTRACT_v0.1.md) | Mobile OS constraints, pre-scheduled stale reminders, privacy and permission risks; not verified on devices |
+| [Screen/state register](docs/blueprint/SCREEN_REGISTER_v1.csv) | 106 historical contracts, separately triaged into a proposed smaller experiment; **not** 106 built screens |
 | [Mosque and community proposal](docs/blueprint/MOSQUE_COMMUNITY_NETWORK_PROPOSAL_v0.1.md) | Future verified information network, with pilot gates |
 | [Original AI-assisted desk research](research/original-reports/) | Five preserved research inputs — **not** scholarly approval or field evidence |
 | [Independent AI review protocol](docs/research/INDEPENDENT_AI_REVIEW_PROTOCOL.md) | Reproducible adversarial reviews without counting consensus as proof |
