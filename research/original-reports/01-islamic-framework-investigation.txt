@@ -1,0 +1,1424 @@
+# Research Investigation: An Islamic Framework for Everyday Life
+
+Multidisciplinary research assessment | 24 October 2026
+
+Research objective: Determine whether a trustworthy, minimally intrusive personal system can help Muslims organize everyday life in accordance with Islamic principles, without imposing an artificial religious routine, increasing psychological burden, or compromising existing responsibilities.
+
+Scope: Islamic primary sources, comparative jurisprudence, behavioral science, human-centered field research, sleep and circadian science, adaptive decision-making, and empirical validation.
+
+## Executive assessment
+
+PROVISIONAL CONCLUSIONS
+
+The concept is worth investigating, but its central premise requires substantial qualification.
+
+The strongest potential contribution is not helping Muslims perform more religious activities. It is helping them navigate conflicts between responsibilities, circumstances, opportunities, and personal limitations without unnecessary friction or harm.
+
+Five findings shape the investigation:
+
+1\. Islam does not prescribe one universal, minute-by-minute daily schedule. Primary sources establish obligations, religious priorities, rights, concessions, and examples of conduct. Translating these into a modern timetable requires interpretation, not merely copying a supposed historical routine.
+
+2\. Religious responsibility is broader than additional worship. Family care, lawful livelihood, rest, and fulfilling existing obligations cannot automatically be treated as inferior activities that should yield to optional devotional practices. The narration concerning Salman and Abu al-Darda in Sahih al-Bukhari 1968 is particularly important here.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
+
+
+3\. Many everyday problems may be structural rather than motivational. A student attending compulsory classes, a healthcare worker on duty, and a parent caring for an infant experience fundamentally different constraints. Better reminders cannot remove all those constraints.
+
+4\. Behavioral intervention is not necessarily beneficial. Research supports some mechanisms for forming habits and reducing unwanted phone use, but does not establish that a comprehensive Islamic life-management system would improve religious practice, wellbeing, or family life. In a randomized field experiment, reduced smartphone screen time did not produce an immediate demonstrated improvement in subjective wellbeing or academic performance.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+5\. Non-intervention must be considered a successful outcome. Sometimes a person's existing routine is appropriate. Sometimes the most useful response is preserving sleep, respecting a caregiving responsibility, or leaving an individual undisturbed.
+
+### The central hypothesis
+
+The research should test this statement:
+
+> A context-sensitive, religiously reviewed, autonomy-preserving system can reduce avoidable conflicts and planning burdens in Muslims' everyday lives, compared with existing practices and simpler alternatives, without increasing guilt, fatigue, distraction, religious error, or dependency.
+
+This is a hypothesis, not an established result.
+
+It could be false because the system misunderstands people's lives, because it lacks reliable information, because existing tools are sufficient, or because turning everyday religious decisions into an ongoing planning process creates more problems than it solves.
+
+The investigation therefore needs to answer three questions independently:
+
+- Normative: What does Islamic scholarship establish, recommend, permit, or leave open?
+- Empirical: What actually happens in people's daily lives, and why?
+- Causal: Does a particular form of assistance produce a measurable improvement compared with doing less or nothing?
+
+These questions must not be conflated.
+
+## A. Islamic foundations: What the sources actually establish
+
+### A1. Establish a hierarchy of religious claims
+
+Before identifying behaviors worth supporting, the research needs a reliable classification of religious evidence.
+
+| Classification                        | Meaning                                                                     | Implication for the proposed system                                               |
+| ------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Obligatory (fard/wajib)               | A binding responsibility under an applicable jurisprudential interpretation | Recognize its priority, conditions, and legitimate exceptions                     |
+| Recommended (mandub/mustahabb/sunnah) | A religiously encouraged act, without the same binding status               | Support voluntarily; do not present omission as a violation                       |
+| Permissible (mubah)                   | An act ordinarily permitted, subject to relevant circumstances              | Do not impose invented religious requirements                                     |
+| Disliked (makruh)                     | An act discouraged under a particular legal interpretation                  | Explain relevant differences; avoid treating every disliked act as prohibited     |
+| Prohibited (haram)                    | An act religiously forbidden                                                | Never recommend it as a convenience                                               |
+| Disputed                              | A ruling with recognized scholarly disagreement                             | Preserve the distinction between valid positions                                  |
+| Descriptive                           | A report of something done historically                                     | Do not automatically transform a historical example into a universal prescription |
+| Cultural or contemporary              | A social practice or modern organizational interpretation                   | Label it accurately rather than presenting it as revelation                       |
+
+A critical complication is that wajib, fard, and makruh do not carry identical technical meanings across all schools. For example, Hanafi jurisprudence makes distinctions between fard and wajib that are not used in precisely the same way in other Sunni schools.
+
+The unit of religious verification therefore cannot simply be "the Islamic ruling." It must be an issue-specific ruling, supported by a source, interpreted within a documented scholarly framework, with its applicability and exceptions clearly defined.
+
+### A2. Primary-source evidence map
+
+The following is an initial, source-checked evidence register, not a complete scholarly legal review.
+
+| Domain                   | Primary reference                                 | What it supports                                                                    | What it does not establish                                              |
+| ------------------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Prayer                   | Qur'an 4:103; 17:78; Sahih Muslim 612a            | Prescribed prayer times and temporal boundaries                                     | One identical clock-time schedule worldwide                             |
+| Friday prayer            | Qur'an 62:9–10                                    | Religious priority of Jumu'ah and the legitimacy of seeking livelihood afterward    | That all persons have identical attendance obligations                  |
+| Rest                     | Qur'an 78:9–11; 30:23                             | Sleep and the alternation of rest and activity are acknowledged parts of human life | An obligatory bedtime or precise sleep duration                         |
+| Work                     | Qur'an 67:15; 62:10                               | Seeking provision is part of legitimate human activity                              | That productivity or economic success indicates greater piety           |
+| Family                   | Qur'an 17:23; Sahih al-Bukhari 5363               | Kind treatment of parents and participation in family responsibilities              | A modern, universal allocation of household labor                       |
+| Capacity and concessions | Qur'an 2:185, 2:286, 4:101; Sahih al-Bukhari 1117 | Hardship, travel, illness, and capacity have legal significance                     | That users may independently invent religious exemptions                |
+| Sustainable devotion     | Sahih al-Bukhari 39, 6464–6465                    | Moderation and consistency in religious practice                                    | An obligation to perform every optional act daily                       |
+| Qur'an engagement        | Sahih al-Bukhari 5054                             | Guidance to a particular companion regarding sustainable recitation                 | A universal requirement to finish the Qur'an every seven or thirty days |
+
+Primary references:&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://legacy.quran.com\&sz=32)
+
+القرآن الكريم
+
++15
+
+
+
+### A3. Five religious findings with direct behavioral implications
+
+1\. Prescribed prayer is not equivalent to a single fixed meeting time.
+
+Qur'an 4:103 establishes prayer at prescribed times. Sahih Muslim 612a describes the temporal limits associated with the five prayers.
+
+A prayer window, a preferred time within that window, and a mosque's actual congregational start time are different concepts.
+
+A behavioral model must distinguish all three. Even that distinction requires further treatment of times that have different legal statuses within the prayer window, such as the later portion of Asr's time.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://legacy.quran.com\&sz=32)
+
+القرآن الكريم
+
++1
+
+
+
+2\. Rest and family obligations cannot simply be sacrificed to maximize voluntary worship.
+
+In Sahih al-Bukhari 1968, Salman objected to Abu al-Darda's excessive voluntary worship at the expense of other responsibilities. The Prophet Muhammad ﷺ affirmed Salman's reasoning.
+
+In Sahih al-Bukhari 1977, Abdullah ibn Amr was instructed to balance fasting and night prayer with sleep and the rights of his body and family.
+
+Both are reports in Sahih al-Bukhari, conventionally treated as sahih within Sunni hadith scholarship.
+
+The inference is not that religious devotion should be minimized. It is that maximizing optional devotional activity without considering other rights is not an adequate Islamic decision principle.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
++1
+
+
+
+3\. Household responsibilities have a place in the Prophetic example.
+
+Aisha reported that the Prophet ﷺ attended to his family's work and went out when he heard the call to prayer (Sahih al-Bukhari 5363).
+
+This establishes a meaningful historical example, but it does not provide a modern household management algorithm or prove exactly how every family should divide responsibilities.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
+
+
+4\. Religious practice accommodates real limitations.
+
+Qur'an 2:185 expressly recognizes illness and travel in the context of fasting. In Sahih al-Bukhari 1117, prayer is adapted to physical capacity.
+
+These are evidence that capacity matters. They do not authorize software to determine independently whether someone qualifies for a particular dispensation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://legacy.quran.com\&sz=32)
+
+القرآن الكريم
+
++1
+
+
+
+5\. Consistency is valued, but the appropriate amount depends on context.
+
+Sahih al-Bukhari 6464–6465 encourages manageable, consistent good deeds. The specific exchange with Abdullah ibn Amr in Sahih al-Bukhari 5054 concerns the pace of Qur'an completion.
+
+Neither report establishes that every Muslim must recite the same number of pages per day.
+
+Consequently, recommending five minutes of recitation may be a practical hypothesis for one person, but the five-minute target itself must not be represented as a religious ruling.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
++2
+
+
+
+### A4. Major jurisprudential differences that directly affect scheduling
+
+These disagreements are not minor details. They can change what a valid schedule looks like.
+
+| Issue                                | Recognized differences                                                                                                                       | Consequence                                                                       |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Beginning of Asr                     | The commonly followed Hanafi calculation differs from that used by the other three major Sunni schools                                       | A single timetable may give inappropriate guidance for some users                 |
+| Daily congregational prayer          | Positions include emphasized Sunnah, communal obligation, and individual obligation, with distinctions about attending a mosque specifically | A missed congregation cannot automatically be classified as a religious violation |
+| Combining prayers                    | Hanafi, other Sunni, and Ja'fari jurisprudence differ significantly about when combining is permissible                                      | Travel or work-related recommendations need school-specific review                |
+| Isha and Fajr at high latitudes      | Different recognized calculation and estimation methods address unusual twilight conditions                                                  | Astronomical calculations alone may not settle the religious timetable            |
+| Jumu'ah                              | Rules of obligation and exemptions vary with individual circumstances                                                                        | The system must not assume identical duties for every adult                       |
+| Menstruation and postpartum bleeding | These affect prayer and fasting obligations, with additional jurisprudential details                                                         | Generic activity-completion tracking can become religiously inaccurate            |
+| Prayer during illness or disability  | Adaptations depend on actual capabilities and applicable rulings                                                                             | A conventional posture or mosque attendance cannot be assumed                     |
+
+Representative scholarly documentation: Egypt's Dar al-Ifta recognizes the disputed status of congregational prayer; SeekersGuidance summarizes Sunni school distinctions; Hanafi sources document differences in Asr timing and combining; Ja'fari scholarship documents broader permission to combine prayers.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.dar-alifta.org\&sz=32)
+
+dar-alifta.org
+
++4
+
+
+
+For menstruation specifically, Sahih Muslim 335c records Aisha's explanation that missed Ramadan fasts were to be made up, whereas prayers omitted during menstruation were not. A system labeling those prayers as "missed obligations" would be seriously misleading.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
+
+
+Similarly, Sahih Muslim 442a records that women should not be prevented from attending mosques. This is important when distinguishing religious sources from local practices, practical safety issues, and whether a mosque actually provides accessible women's facilities.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
+
+
+### A5. Why the popular "Prophetic daily routine" should not become the model
+
+A widely circulated reconstruction might suggest:
+
+- Wake before Fajr.
+- Pray in the mosque.
+- Recite Qur'an after Fajr.
+- Work in the morning.
+- Rest briefly at midday.
+- Attend to family after Asr.
+- Sleep shortly after Isha.
+
+Some elements have authentic supporting narrations. Others are general historical observations, context-dependent practices, or contemporary extrapolations.
+
+For example, Sahih al-Bukhari 568 reports that the Prophet ﷺ disliked sleeping before Isha and conversation afterward. But that report does not establish a universal 9 p.m. bedtime. It also does not demonstrate that modern workers on rotating night shifts should use a single sleep schedule.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+sunnah.com
+
+
+
+The same problem appears with midday rest. Qur'an 24:58 refers to midday privacy and rest-related circumstances. That supports recognizing an established social pattern, not mandating a daily nap for every Muslim.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://legacy.quran.com\&sz=32)
+
+القرآن الكريم
+
+
+
+A genuinely historical reconstruction would require source criticism across hadith, shama'il, and sirah material, including the circumstances, transmission, authenticity, and representativeness of each account.
+
+Finding: The defensible Islamic foundation is a framework of duties, rights, priorities, lawful opportunities, and context-sensitive concessions, rather than a universal Prophetic productivity timetable.
+
+### A6. Required independent scholarly verification
+
+Before any religiously consequential behavior is tested, a scholarly review group should produce an auditable matrix containing:
+
+- Primary Arabic evidence and precise reference.
+- Hadith grading, source of grading, and disagreements where relevant.
+- Classical legal interpretation and named school.
+- Contemporary applicability and conditions.
+- Relevant exemptions and exceptional circumstances.
+- Whether a conclusion is obligatory, recommended, permissible, disputed, or merely historical.
+- What a non-specialist system may safely state.
+- When it must abstain and refer the matter to a qualified scholar.
+
+The reviewing group should include expertise in Sunni comparative fiqh, relevant Shi'a jurisprudence if that population is included, hadith criticism, and contemporary Muslim minority circumstances. Female scholars and reviewers experienced with family, menstrual, and postpartum jurisprudence are essential to avoid a male-only model of everyday life.
+
+This review has not yet been completed. The evidence above establishes a research foundation, not a certified multi-school body of rulings.
+
+## B. Evidence about actual everyday behavior and research gaps
+
+### B1. What existing empirical evidence tells us
+
+Current research supports studying daily behavior as a combination of time allocation, opportunity, social context, and individual constraints. It does not yet establish how the proposed system should behave.
+
+National time-use surveys
+
+The US American Time Use Survey uses retrospective 24-hour activity diaries. The UK's Online Time Use Survey has collected weekday and weekend diaries with activities recorded in short intervals.
+
+These provide tested methodological approaches for studying actual daily time allocation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.bls.gov\&sz=32)
+
+2025 A01 Results
+
++1
+
+
+
+Pakistan-specific structural evidence
+
+Pakistan's 2007 national Time Use Survey covered 19,600 households and recorded activities in 30-minute intervals. More recent national labor-force evidence documents substantial differences in unpaid domestic and care responsibilities between women and men.
+
+These sources suggest that family responsibilities cannot be represented as a small, universally flexible block of time.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://unstats.un.org\&sz=32)
+
+Demographic and Social Statistics
+
++1
+
+
+
+Self-reports versus observed behavior
+
+Parry and colleagues' 2021 meta-analysis found only moderate agreement between reported and logged digital-media use. People can accurately describe their intentions while misestimating their actual behavior.
+
+Interviews alone are therefore insufficient for discovering the pattern of digital distraction.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.nature.com\&sz=32)
+
+Nature Human Behaviour
+
+
+
+Sleep during Ramadan
+
+A small observational study using objective measurements found altered sleep timing and reduced sleep duration among its eight Muslim participants during Ramadan. The authors also identified work schedules as an important contextual factor.
+
+This supports investigating sleep as a real constraint, but the sample is far too small to establish a universal Ramadan pattern.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pmc.ncbi.nlm.nih.gov\&sz=32)
+
+PMC
+
+
+
+These sources are useful starting points. None demonstrates that Muslims generally need a continuous adaptive planner, and none validates the specific concept under investigation.
+
+### B2. The most important missing evidence
+
+We lack an adequately representative, context-rich dataset linking:
+
+- Actual religious practices and prayer-related decisions.
+- Fixed work, education, family, and caregiving commitments.
+- Religious knowledge and jurisprudential preferences.
+- Physical and social access to suitable prayer spaces.
+- Sleep, fatigue, commuting, and unpredictable events.
+- Actual time spent using digital devices.
+- The person's own understanding of a satisfactory day.
+- Which problems people currently resolve successfully without assistance.
+
+The final item is crucial. Studying only failure cases would make nearly any intervention seem necessary.
+
+We also need to distinguish three different kinds of information:
+
+| Information type    | Example                                                           | Main limitation                                     |
+| ------------------- | ----------------------------------------------------------------- | --------------------------------------------------- |
+| Aspiration          | "I want to attend every congregational prayer."                   | Expresses a goal, not feasibility                   |
+| Recollection        | "I usually finish work before Asr."                               | Vulnerable to recall and social-desirability bias   |
+| Recorded occurrence | Work ended after the local Asr congregation on four observed days | Requires verification and still does not reveal why |
+
+### B3. Proposed original field-research program
+
+The appropriate starting point is ethnographic observation, not feature evaluation.
+
+Exploratory study: approximately 48–60 participants, across multiple contrasting contexts.
+
+An initial sampling frame could be:
+
+| Life circumstances                                                     | Initial recruitment target |
+| ---------------------------------------------------------------------- | -------------------------- |
+| School, college, and university students                               | 8                          |
+| Salaried employees with regular schedules                              | 8                          |
+| Business owners and self-employed workers                              | 8                          |
+| Parents and unpaid caregivers                                          | 8                          |
+| Shift and on-call workers                                              | 8                          |
+| Frequent travelers or long-distance commuters                          | 6                          |
+| People managing disability, chronic illness, or accessibility barriers | 6                          |
+
+Illustrative total: 52 participants. Categories overlap in real life and should be treated as recruitment strata, not mutually exclusive identities.
+
+Within those groups, deliberately vary gender, age, degree of religious observance, family structure, income, school of jurisprudence, geographic context, and digital literacy. Include people who find the concept undesirable and those who do not own smartphones.
+
+The first study should involve at least one Muslim-majority urban context, one more resource-constrained context, and a contrasting minority-Muslim context where practical. Findings from Islamabad or Pakistan cannot automatically be generalized to London, Jakarta, Toronto, or rural Morocco.
+
+### B4. Data collection instruments
+
+1\. Contextual interview — 60–90 minutes
+
+Ask participants to describe the previous day's events before discussing ideal routines.
+
+Examples of useful questions:
+
+- "Walk me through yesterday, starting when you woke up."
+- "When did something happen that changed your plans?"
+- "Describe the last time you had to choose between two important responsibilities."
+- "What did you do, and who else was affected?"
+- "What makes that situation difficult?"
+- "When would advice from a phone be unwelcome?"
+- "Tell me about a day when everything worked reasonably well."
+
+Avoid leading questions such as "Would you use a smart Islamic schedule?" They invite hypothetical approval rather than explaining actual needs.
+
+2\. Time-use diaries — 14–21 days
+
+For each participant, record the sequence and context of major activities, including simultaneous responsibilities.
+
+An event record should distinguish the following:
+
+| Field               | Example                                      |
+| ------------------- | -------------------------------------------- |
+| Actual activity     | Working at a reception desk                  |
+| Start/end           | 13:10–14:05                                  |
+| Obligation          | Assigned work shift                          |
+| Flexibility         | Cannot leave without replacement             |
+| Religious context   | Dhuhr window is active                       |
+| Competing need      | Patients waiting                             |
+| Planned vs actual   | Break expected at 13:30, occurred at 14:05   |
+| Adaptation          | Prayer performed after a colleague took over |
+| Consequence         | No recorded disruption                       |
+| Person's assessment | "This was manageable"                        |
+
+An event can count as successful even when it differs from the participant's original plan.
+
+3\. Contextual inquiry and shadowing
+
+With explicit consent, observe selected transitions: preparing for work, commuting, taking breaks, changing shifts, arranging family responsibilities, and interacting with mosque schedules.
+
+Observation of private religious activity should be highly restricted. Researchers do not need to watch or verify the sincerity of someone's worship to understand scheduling constraints.
+
+4\. Ecological momentary assessment
+
+Brief, occasional questions can capture circumstances before they are forgotten. For instance:
+
+"What prevented the break you expected?" or "Did something interrupt your plans?"
+
+EMA can improve temporal accuracy, but it creates burden and can alter the very behavior being studied. Its use should be limited and evaluated. Shiffman, Stone, and Hufford's foundational methodological review describes both its strengths and design challenges.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.annualreviews.org\&sz=32)
+
+Annual Reviews
+
+
+
+5\. Consented behavioral data
+
+Potential sources include device-level usage summaries, sleep diaries, optional wearables, actual commute durations, workplace rosters, and mosque-published schedules.
+
+These should be used for triangulation, not automatically collected. Researchers should seek the least intrusive measure capable of answering the question.
+
+6\. Institutional inquiry
+
+Interview mosque administrators, employers, educators, and family caregivers to establish which constraints are negotiable.
+
+For example, a regular employee's inability to leave a shift may reflect workplace policy rather than a personal scheduling deficit.
+
+### B5. What analysis should produce
+
+Each observed conflict should be traced through:
+
+Observed difficulty
+
+What actually happened?
+
+Causal inquiry
+
+Capability, opportunity, motivation, conflicting duties, or external interruption?
+
+Existing coping strategy
+
+How does the person currently handle it?
+
+Assistance hypothesis
+
+What, if anything, could improve the outcome?
+
+Counterfactual
+
+Would the outcome have improved anyway?
+
+The analysis should use structured qualitative coding, independent review of a subset of observations, disagreement reconciliation, and negative-case analysis. Researchers should actively look for participants whose lives contradict the emerging explanation.
+
+The principal deliverable is an empirically derived taxonomy of decisions, constraints, coping strategies, and failed interventions, not a list of requested app features.
+
+## C. Why everyday difficulties happen: A behavioral diagnosis
+
+### C1. COM-B as a diagnostic framework
+
+Michie, van Stralen, and West introduced the Behaviour Change Wheel in 2011, placing the COM-B model at its center. COM-B explains behavior in relation to capability, opportunity, and motivation, each with distinct components.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Springer Nature Link
+
+
+
+# C
+
+Capability
+
+Physical and psychological capacity
+
+# O
+
+Opportunity
+
+Physical and social circumstances
+
+# M
+
+Motivation
+
+Reflective and automatic processes
+
+Interact to influence
+
+Observed behavior
+
+What the person actually does in context
+
+Analytical model, not an assertion that these three categories fully explain every moral, spiritual, or social decision.
+
+Consider a person who regularly misses an intended congregational prayer.
+
+| Possible cause                                                                              | COM-B classification                                       | Appropriate response to investigate            |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------- |
+| Does not know the actual congregation time                                                  | Psychological capability                                   | Reliable information                           |
+| Has difficulty walking to the mosque                                                        | Physical capability/opportunity                            | Accessibility and appropriate alternatives     |
+| Has no permitted workplace break                                                            | Physical/social opportunity                                | Workplace accommodation or viable alternatives |
+| Expects a break but repeatedly forgets                                                      | Automatic motivation                                       | Contextual cue, if welcomed                    |
+| Intends to go but underestimates travel time                                                | Capability/planning                                        | Better estimation                              |
+| Is caring for a dependent person                                                            | Competing responsibilities/opportunity                     | Human judgment and possible support            |
+| Does not wish to attend regularly                                                           | Reflective motivation, possibly jurisprudential preference | Respectful inquiry, not automatic persuasion   |
+| Believes attendance is religiously obligatory when their circumstances warrant an exemption | Religious knowledge                                        | Qualified scholarly clarification              |
+
+The same observed behavior can have fundamentally different causes.
+
+A model that simply classifies someone as "insufficiently motivated" would repeatedly choose the wrong intervention.
+
+### C2. What the Behaviour Change Wheel adds
+
+The Behaviour Change Wheel distinguishes intervention functions such as education, persuasion, training, enablement, environmental restructuring, modeling, incentivization, coercion, and restriction.
+
+These are analytical categories, not permissions to use all nine.
+
+For this concept, particularly sensitive functions include:
+
+- Persuasion: May become religiously manipulative when based on guilt or fear.
+- Incentivization: May encourage visible activity completion over personal sincerity.
+- Coercion: Inappropriate for ordinary voluntary personal assistance.
+- Restriction: Could prevent legitimate work, communication, or caregiving.
+- Environmental restructuring: Might be effective without introducing more screen interaction.
+- Enablement: Promising when it reduces a genuine external or practical obstacle.
+
+The original Behaviour Change Wheel paper also places policy and environmental changes outside individual motivation. That matters because some problems require institutional accommodation rather than user-directed prompts.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pmc.ncbi.nlm.nih.gov\&sz=32)
+
+PMC
+
+
+
+### C3. Proposed problem taxonomy
+
+The following is a hypothesis-driven starting taxonomy, not a set of observed findings.
+
+| Problem family             | Diagnostic question                                            | Is personal software likely to help?                        |
+| -------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------- |
+| Information uncertainty    | Is accurate information missing?                               | Potentially                                                 |
+| Temporal conflict          | Do two legitimate commitments overlap?                         | Sometimes                                                   |
+| Transition friction        | Is preparation or travel underestimated?                       | Potentially                                                 |
+| Forgetting                 | Does intention fail at a predictable moment?                   | Sometimes                                                   |
+| Habit/environment mismatch | Do recurring circumstances trigger unwanted behavior?          | Potentially                                                 |
+| Physical inaccessibility   | Is the activity difficult or impossible to access?             | Limited unless an alternative exists                        |
+| Institutional restriction  | Do work or school rules prevent action?                        | Usually requires human or policy change                     |
+| Family dependency          | Does another person's need constrain the choice?               | Only cautiously                                             |
+| Religious uncertainty      | Is the correct ruling unclear?                                 | Source retrieval may help; adjudication belongs to scholars |
+| Fatigue and sleep debt     | Does the proposed routine exceed physiological capacity?       | Scheduling may help, but treatment may be necessary         |
+| Social pressure or guilt   | Does perceived obligation exceed what is actually established? | Assistance may worsen the problem                           |
+| No meaningful difficulty   | Is the person's present routine satisfactory?                  | Probably no intervention                                    |
+
+Research decision: A candidate behavior should not be targeted until its cause is understood well enough to identify an appropriate intervention and a credible comparison condition.
+
+## D. Principles governing a trustworthy system
+
+These principles are proposed design constraints derived from the preceding religious and behavioral analysis. They remain subject to validation.
+
+### D1. The governing principles
+
+1\. Religious accuracy before scheduling convenience. The system must never invent religious flexibility to make a timetable work.
+
+2\. Duties and rights before maximizing activities. More optional worship is not automatically a better day if it displaces another legitimate responsibility.
+
+3\. Context before intervention. The same behavior can be appropriate in one situation and inappropriate in another.
+
+4\. Concessions are part of the religious framework. They should not be treated as failures or exceptions to an idealized perfect schedule.
+
+5\. Distinguish what is mandatory from what is preferred. A preference for congregation, early prayer, or additional recitation must never silently become a universal obligation.
+
+6\. Protect physiological needs. Sleep, recovery, and functional capacity are genuine constraints, not unused minutes.
+
+7\. Personal agency is fundamental. A person must remain free to reject, change, postpone, or disable assistance without receiving a moral judgment.
+
+8\. The person is not merely an optimization target. Family relationships, sincerity, social obligations, emotional wellbeing, and spiritual meaning cannot be adequately represented by maximizing completed tasks.
+
+9\. Uncertainty should reduce assertiveness. Unverified mosque times, ambiguous religious rulings, or incomplete knowledge of someone's life should produce narrower, more cautious assistance.
+
+10\. The burden of proof is on intervention. Doing nothing is the default against which every added behavior must justify itself.
+
+### D2. Four types of decisions
+
+| Decision category         | Example                                                             | Who should govern it?                           |
+| ------------------------- | ------------------------------------------------------------------- | ----------------------------------------------- |
+| Religious constraint      | Whether an action falls within an applicable prayer window          | Source-verified, scholar-reviewed rule          |
+| Personal value/preference | Whether to attend a particular mosque or choose a recitation period | The individual                                  |
+| Contextual judgment       | Whether travel is feasible under current circumstances              | Contextual evidence plus individual judgment    |
+| Adaptive recommendation   | Whether a previously useful preparation cue should be offered again | Empirical evidence, within user-approved limits |
+
+Complex questions frequently span more than one category. For instance, a travel-related prayer decision involves jurisprudence, factual travel circumstances, and personal constraints. It should not be converted into a purely automatic scheduling calculation.
+
+### D3. Non-negotiable constraints
+
+An eventual decision model should treat some requirements as hard constraints, but only when applicability is established.
+
+Examples include:
+
+- A prayer cannot be casually assigned outside its applicable valid time.
+- A recommended voluntary practice must not override a binding duty.
+- A suggestion must not encourage an unsafe action, such as interrupting driving to respond.
+- An event marked private by the person must not be exposed to others.
+- A protected sleep or recovery period should not be repeatedly sacrificed for optional activity.
+
+A religious legal requirement is distinct from an engineering constraint. The latter cannot determine the former.
+
+### D4. Sleep and circadian health
+
+The American Academy of Sleep Medicine and Sleep Research Society recommend that adults regularly obtain at least seven hours of sleep for health, with individual circumstances affecting need. This is a medical guideline, not a religious ruling.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pmc.ncbi.nlm.nih.gov\&sz=32)
+
+PMC
+
+
+
+A scheduling model must distinguish:
+
+- Total sleep opportunity and actual sleep.
+- Sleep continuity and fragmentation.
+- Circadian timing and chronotype.
+- Occupational schedules and shift rotation.
+- Sleep interrupted by infant care or other dependencies.
+- Seasonal prayer-time changes.
+- Ramadan-related schedule changes.
+- Medical advice and known sleep conditions.
+
+For example, a recommendation to stay awake after Fajr could be counterproductive for someone who has worked through the night and needs recovery.
+
+Likewise, a person cannot always solve a sleep deficit by moving bedtime earlier. A late work shift, Fajr timing, commuting, a baby's needs, and household duties may jointly make a proposed schedule infeasible.
+
+The appropriate aim is not one "Islamically optimized" sleep pattern. It is recognizing sleep-related tradeoffs accurately and protecting sustainable functioning.
+
+## E. Functional model: How the system should organize and adapt a day
+
+The underlying model should be a contextual decision-support framework, not a machine that imposes an ideal day.
+
+Its most important decision is not "What should the person do next?"
+
+It is:
+
+"Does this person's current situation contain a meaningful, solvable problem for which assistance would produce more benefit than burden?"
+
+### E1. The fundamental decision problems
+
+Every proposed action should correspond to one of six problems.
+
+| Decision problem       | Question being answered                                                 |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Feasibility            | Can an intended activity happen under current constraints?              |
+| Timing                 | When are its valid, practical, and personally acceptable opportunities? |
+| Conflict resolution    | Which commitments are in tension, and which can legitimately change?    |
+| Preparation            | What must happen before an intended activity becomes feasible?          |
+| Recovery               | How should plans change after an unexpected interruption?               |
+| Intervention threshold | Would a suggestion help enough to justify interrupting the person?      |
+
+This is a smaller and more defensible problem space than controlling the entirety of someone's life.
+
+### E2. Represent the day as constraints, opportunities, and uncertainty
+
+A person's day can be understood through five interacting kinds of information.
+
+Time-bound commitments
+
+Prayer windows, lessons, work shifts, appointments, caregiving periods, and travel departures. Some are binding; others can be moved.
+
+Responsibilities and relationships
+
+Family needs, dependents, workplace duties, household contributions, and individual commitments that cannot always be reduced to time slots.
+
+Human capacity
+
+Sleep need, fatigue, mobility, energy variability, illness, accessibility, and the person's reported ability to manage demands.
+
+Preferences and personal intentions
+
+Desired worship practices, preferred mosque, family arrangements, time for learning, and explicit limits on unwanted assistance.
+Uncertainty and external events
+
+Unknown mosque schedules, variable journeys, work emergencies, delayed meetings, visitors, and incomplete information.
+
+The model should not assume that all five categories are equally measurable or that more data always improves decisions.
+
+### E3. A proposed decision policy
+
+1\. Determine whether a meaningful decision exists
+
+No real problem or requested goal → no action
+
+2\. Establish applicable religious and factual constraints
+
+Review source validity, individual circumstances, and confidence
+
+3\. Protect safety, essential responsibilities, and capacity
+
+Reject infeasible or harmful candidate actions
+
+4\. Identify permissible and acceptable choices
+
+Include an option not to change the existing routine
+
+5\. Assess incremental benefit versus burden
+
+Consider interruption, error, guilt, and distraction
+
+Offer limited assistance
+
+Only if justified, wanted, and sufficiently reliable
+
+Abstain
+
+If benefit is unclear, constraints unknown, or burden too high
+
+### E4. The mathematical decision principle
+
+A useful conceptual formulation is:
+
+\\[ a_t^\* \in \arg\max\_{a\in A\_{\mathrm{permitted}}(t)} \mathbb{E}[U(a,s_t)] \\]
+
+where:
+
+- \\(s_t\\) is the person's partially known situation at time \\(t\\).
+- \\(A\_{\mathrm{permitted}}(t)\\) contains actions allowed under applicable, verified constraints.
+- \\(U\\) is a multi-criteria assessment of personally relevant benefit, burden, autonomy, and adverse consequences.
+- The available actions always include no intervention.
+
+This is a research formulation, not an approved formula for moral or religious value.
+
+In particular, there should be no single numeric "Islamic life score." A scalar decision utility, if ever used, would represent the expected practical consequences of offering assistance, not the worth of a person's worship or faith.
+
+For many decisions, a set of acceptable alternatives may be better than one automatically selected optimum. Relative preferences can change by day, and some tradeoffs are incommensurable.
+
+### E5. Fixed rules, preferences, and adaptation
+
+The model needs several distinct types of constraints:
+
+- Hard normative boundaries: Validated religious obligations and prohibitions, subject to applicability.
+- Hard practical boundaries: Driving, an emergency, immovable commitments, inaccessible locations, or inability to travel.
+- Protected personal boundaries: Sleep, privacy, family commitments, or times the person has chosen not to be interrupted.
+- Flexible intentions: Optional recitation, exercise, studying, voluntary social visits, and other movable activities.
+- Uncertain opportunities: Possible work breaks, variable journeys, potentially available mosque congregations.
+
+Adaptation should occur when circumstances materially change, not merely because time has passed.
+
+After an interruption, the system should re-evaluate only affected decisions. It should not automatically move all unfinished optional activities into the evening, creating a compressed and unsustainable schedule.
+
+### E6. Mosque information requires a separate trust model
+
+Religious prayer windows and actual local congregation schedules are not the same kind of information.
+
+A mosque's congregation may vary because of seasonal announcements, Ramadan arrangements, special events, or local decisions.
+
+For a mosque-specific decision, the research must establish:
+
+- Where the timetable originated.
+- Whether it refers to adhan or congregational start.
+- Whether it applies to the relevant date.
+- How recently it was verified.
+- Whether prayer facilities are accessible to the particular person.
+- Whether the journey is practical and safe.
+- Whether an uncertainty warning or abstention is required.
+
+An outdated mosque schedule may be more damaging than having no mosque-specific guidance.
+
+### E7. Adaptation over time
+
+The evidence on habit formation argues against demanding immediate regularity.
+
+Lally and colleagues studied 96 participants practicing selected behaviors over twelve weeks. The estimated time to approach stable automaticity varied substantially across participants, and missing one opportunity did not materially disrupt the modeled habit-formation process.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Wiley Online Library
+
+
+
+The important lesson is not that every person needs a particular number of days. It is that:
+
+- Repetition may help where the context is sufficiently stable.
+- Some behaviors should not be made automatic without thought.
+- Interruptions are normal.
+- Seasonal or occupational changes can break contextual consistency.
+- Restarting after disruption should not be treated as failure.
+
+A system should therefore learn whether particular assistance is useful, not simply whether a person repeatedly completed an activity.
+
+## F. Illustrative scenarios and challenging edge cases
+
+These are analytical examples, not observed users or validated outcomes.
+
+1\. University student with consecutive classes
+
+A student wants to pray Dhuhr in congregation but has an important compulsory class at the same time.
+
+Appropriate behavior: Establish the actual prayer window, distinguish mosque congregation from prayer validity, identify any genuine break, and respect the student's circumstances and jurisprudential position.
+
+Avoid: Calling the student negligent or encouraging unapproved absence from a compulsory commitment without understanding the consequences.
+
+2\. Hospital worker handling an emergency
+
+A clinician is responding to an urgent patient situation when a planned prayer break becomes unavailable.
+
+Appropriate behavior: Recognize the immediate patient-care constraint, avoid interrupting the clinical task, and allow appropriate human and scholarly judgment afterward.
+
+Avoid: Demanding that the clinician leave a patient, or automatically declaring which legal dispensation applies.
+
+3\. Parent caring for a newborn
+
+A parent has repeatedly interrupted sleep and cannot sustain a proposed early-morning optional devotional routine.
+
+Appropriate behavior: Protect essential caregiving and recovery; do not turn optional activities into accumulating obligations.
+
+Avoid: Treating disrupted sleep as poor discipline or generating guilt because optional practices were omitted.
+
+4\. Night-shift worker
+
+A worker finishes a shift near dawn and has a limited window for consolidated sleep.
+
+Appropriate behavior: Distinguish prayer responsibilities from optional morning activities and recognize the need to recover from overnight work.
+
+Avoid: Prescribing one fixed wakefulness pattern regardless of fatigue.
+
+5\. Traveler crossing time zones
+
+A traveler changes location, experiences delayed transport, and follows a school with particular rules for shortening or combining prayers.
+
+Appropriate behavior: Treat the journey and legal circumstances as changed, acknowledge uncertain location-dependent times, and provide only verified guidance.
+
+Avoid: Automatically combining prayers because the schedule would otherwise be inconvenient.
+
+6\. Woman during menstruation
+
+The person's applicable jurisprudence recognizes that prescribed prayers are not performed during menstruation.
+
+Appropriate behavior: Avoid registering those prayers as omissions or generating compensatory pressure.
+
+Avoid: Counting them as failed tasks, requesting intimate health information unnecessarily, or making rulings about uncertain bleeding conditions.
+
+7\. Muslim living at high latitude
+
+During part of the year, conventional twilight indicators become difficult or impossible to apply.
+
+Appropriate behavior: Recognize that this is a jurisprudential and astronomical problem requiring an applicable scholarly method.
+
+Avoid: Quietly substituting an arbitrary calculation because it produces convenient times.
+
+8\. Someone already living satisfactorily
+
+A person has a sustainable worship routine, manageable family responsibilities, adequate rest, and no desire for active assistance.
+
+Appropriate behavior: Do nothing.
+
+Avoid: Inventing goals or suggesting more activities simply to create opportunities for interaction.
+
+The hardest scenarios are the most important. A system that performs well for an unmarried student with predictable hours but fails for a parent, traveler, or shift worker does not establish general usefulness.
+
+## G. Candidate behavioral interventions: Evidence and confidence
+
+The strongest evidence supports specific behavioral mechanisms, not this proposed overall system.
+
+### G1. Evidence from adjacent research
+
+Contextual planning and implementation intentions
+
+Gollwitzer and Sheeran's 2006 meta-analysis examined 94 independent tests of implementation intentions, finding an overall positive effect on goal attainment.
+
+This supports investigating plans tied to meaningful situations. It does not establish that automatically generated religious schedules outperform personally developed plans.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+ScienceDirect
+
+
+
+Contextual intervention and JITAIs
+
+Nahum-Shani and colleagues describe Just-in-Time Adaptive Interventions as approaches that vary assistance according to changing opportunity, vulnerability, and receptivity. Their framework requires explicit decision points, tailoring variables, and intervention options.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+A 2019 HeartSteps micro-randomized trial with 44 adults found that certain contextually tailored walking suggestions increased short-term walking. However, the effects diminished across the study period. This is especially relevant: the intervention that helps today may become ineffective or irritating through repetition.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+Digital friction and phone-use reduction
+
+A preregistered randomized field experiment involving 112 people found that grayscale phone use reduced objectively measured screen time relative to a monitoring control. It did not demonstrate immediate improvements in wellbeing or academic performance.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+Notification-related distraction
+
+Stothart and colleagues experimentally showed that notifications could disrupt attention even without the recipient interacting with the phone. This is direct evidence against assuming reminders are harmless.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+### G2. Candidate mechanism assessment
+
+Confidence below refers to the strength and relevance of evidence for the proposed use, not certainty that the mechanism will work.
+
+| Candidate mechanism                        | Problem addressed                             | Evidence status                                                | Principal risk                               | Confidence for this context                        |
+| ------------------------------------------ | --------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------- |
+| Reliable advance information               | Uncertainty about real opportunities          | Strong logical basis; local field validation still needed      | Incorrect or outdated information            | Medium                                             |
+| Person-defined if-then plan                | Forgetting or failed initiation               | Established general behavioral evidence                        | Rigid expectations when circumstances change | Medium                                             |
+| Context-sensitive preparation cue          | Underestimated preparation or transition time | Adjacent JITAI evidence                                        | Interruptions and habituation                | Low–medium                                         |
+| Selective silence                          | Unwanted interruption and notification burden | Supporting attention research; comparative testing needed      | Withholding useful information               | Medium as safety principle                         |
+| Flexible recitation intentions             | Unrealistically large optional commitments    | General habit evidence and religious sustainability principles | Turning devotion into quantitative targets   | Low–medium                                         |
+| Consented digital friction                 | Unwanted, habitual phone use                  | Direct but limited randomized evidence                         | Disrupting essential communication           | Medium for screen-use reduction; low for wellbeing |
+| Sleep-protection assistance                | Unsustainable demands and fatigue             | Strong sleep-health rationale; specific intervention untested  | Incorrect assumptions about individual needs | Low–medium                                         |
+| Automatic adaptation after interruption    | Repeated plan failure                         | Decision-theoretic rationale, not established efficacy         | Taking over personal decisions               | Low                                                |
+| Automated interpretation of religious duty | Jurisprudential uncertainty                   | No adequate safety case established here                       | Incorrect religious rulings                  | Not suitable for autonomous use                    |
+
+### G3. When is an intervention justified?
+
+A preliminary threshold is:
+
+\\[ \text{Expected incremental benefit} > \text{Expected burden and risk} \\]
+
+This comparison must include the cost of opening the device, distraction, frustration, loss of autonomy, and the possibility of error.
+
+It must also be compared with simpler alternatives such as a personally selected time, a paper schedule, a workplace agreement, or accurate information without active prompts.
+
+A contextual suggestion should be eligible only when:
+
+- A real, user-recognized goal or obstacle exists.
+- The relevant facts are sufficiently reliable.
+- The person is likely to be able and willing to act.
+- The action is religiously appropriate within the applicable framework.
+- The timing is not unsafe or intrusive.
+- The expected incremental benefit exceeds the cost of disturbing the person.
+
+### G4. How to test the mechanisms
+
+A suitable experimental design is a micro-randomized trial, as described by Klasnja and colleagues. At eligible decision points, researchers randomize whether a specific nonessential prompt is offered. This makes it possible to estimate the proximal causal effect of the prompt and how that effect changes with context or repeated exposure.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pmc.ncbi.nlm.nih.gov\&sz=32)
+
+PMC
+
+
+
+For example, when a participant has voluntarily set an intention and a verified opportunity exists, one could compare:
+
+- No prompt.
+- A simple advance cue.
+- A context-sensitive cue.
+
+Outcomes should include whether the person found assistance useful, any actual planning improvement, distraction, and annoyance.
+
+Randomization must not withhold necessary safety information, misstate religious obligations, or deliberately encourage behavior contrary to the person's applicable religious commitments.
+
+### G5. Preserve autonomy
+
+Ryan and Deci's Self-Determination Theory identifies autonomy, competence, and relatedness as important psychological needs. This provides a relevant framework for examining whether assistance is experienced as supportive or controlling.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+A trustworthy intervention should therefore remain:
+
+- Voluntary.
+- Explainable.
+- Dismissible.
+- Reversible.
+- Non-punitive.
+- Sensitive to personal context.
+
+It should never suggest that acceptance of the system's recommendation is evidence of greater religious devotion.
+
+## H. Failure modes, contradictions, and unintended consequences
+
+The concept has several fundamental contradictions that cannot be solved by improving scheduling accuracy alone.
+
+### H1. The principal risks
+
+| Failure mode                       | How it could happen                                                                    | Required safeguard                                            |
+| ---------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Religious misinformation           | Presenting a disputed ruling as universally binding                                    | Scholar-reviewed, jurisdiction- and school-aware guidance     |
+| False certainty                    | Unverified mosque times presented as confirmed                                         | Provenance, freshness checks, uncertainty disclosure          |
+| Excessive religious guilt          | Describing incomplete optional practices as failure                                    | No punitive language or moral completion metrics              |
+| Worship quantified as productivity | Treating more minutes or tasks as greater devotion                                     | No spiritual scores or universal targets                      |
+| Notification fatigue               | Repeated cues lose effectiveness and increase distraction                              | Strict intervention thresholds and silence                    |
+| Sleep disruption                   | Scheduling additional worship into necessary recovery                                  | Explicit capacity and sleep safeguards                        |
+| Family conflict                    | Encouraging an individual to prioritize optional activities over dependents            | Recognition of rights, commitments, and interpersonal context |
+| Digital dependency                 | People increasingly rely on the system for basic judgments                             | Preserve independent skills and offline alternatives          |
+| Privacy invasion                   | Sensitive religious activity, location, or intimate information is inferred or exposed | Data minimization and voluntary disclosure                    |
+| False personalization              | Inferences about religious practice become self-reinforcing                            | Human correction and avoidance of inferred religious identity |
+| Cultural bias                      | One region's mosque practices or household norms become universal                      | Cross-cultural and jurisprudential validation                 |
+| Invisible exclusion                | Research primarily reflects educated smartphone owners                                 | Deliberate inclusion of underserved groups                    |
+
+A particularly serious risk is that the system may unintentionally encourage a person to see their entire day as a religious performance record.
+
+That would contradict the project's objective even if the person became more organized.
+
+### H2. What must never be autonomously decided
+
+The following boundaries should be established before experimentation.
+
+Religious authority: The system must not issue novel fatwas, resolve contested matters without qualified review, decide that a person is sinful, or independently grant dispensations for travel, illness, or other exceptional circumstances.
+
+Moral or spiritual evaluation: It must not calculate piety, sincerity, closeness to Allah, worthiness, or spiritual success from observable actions.
+
+Health decisions: It must not override medical treatment, impose sleep restriction, or determine medical fitness to fast, travel, or exercise.
+
+Other people's rights: It must not unilaterally change shared family responsibilities, work obligations, caregiving arrangements, or other commitments involving third parties.
+
+Private information: It must not disclose individual worship records, suspected religious practices, menstrual information, or inferred personal struggles to employers, family members, mosque authorities, or other parties without specific authorization.
+
+Enforcement: It must not create coercive controls that prevent essential communications or make religiously motivated behavior compulsory through technical restrictions.
+
+An individualized recommendation can still be appropriate in these areas when it stays within documented information and leaves the consequential judgment to the person and, where necessary, a qualified professional.
+
+### H3. Four major contradictions
+
+#### Contradiction 1: More knowledge can create more anxiety
+
+A person may currently manage their religious life satisfactorily using general knowledge.
+
+Detailed analysis of every available devotional opportunity could cause them to feel permanently behind.
+
+Therefore, improved information quality does not guarantee improved wellbeing.
+
+#### Contradiction 2: Optimization can displace meaning
+
+An efficient schedule may create a tightly controlled sequence of activities.
+
+Yet meaningful worship, family care, personal reflection, and social relationships often benefit from flexibility and attention rather than strict time allocation.
+
+Therefore, maximizing activity completion is not an acceptable substitute for understanding lived experience.
+
+#### Contradiction 3: More personalization requires more sensitive information
+
+Accurate recommendations might depend on intimate circumstances.
+
+But collecting more information increases privacy risks, participant burden, and the possibility of false inference.
+
+Therefore, researchers must establish whether a smaller amount of explicitly supplied information is sufficient before considering extensive behavioral observation.
+
+#### Contradiction 4: Successful intervention may eliminate the need for intervention
+
+If people acquire effective habits and planning skills, they may no longer require assistance.
+
+For this project, reduced reliance should be treated as a potentially positive outcome rather than interpreted automatically as disengagement.
+
+### H4. Safety monitoring and stopping rules
+
+Every feasibility study should have predefined adverse-event categories.
+
+At minimum, record increases in:
+
+- Religious worry, guilt, or distress attributed to the intervention.
+- Sleep loss or daytime fatigue.
+- Family or workplace conflict.
+- Interruptions to important tasks.
+- Unwanted device interaction.
+- Reliance on incorrect religious guidance.
+- Privacy discomfort or unintended disclosure.
+- Participant-reported loss of autonomy.
+
+A serious incident involving unsafe advice, disclosure of sensitive information, or materially incorrect religious guidance should trigger immediate containment, independent review, and suspension of the implicated intervention.
+
+Repeated lower-severity harms should also have predefined thresholds for suspension, rather than being dismissed as usability problems.
+
+## I. Independent empirical validation plan
+
+This project requires more than a pilot in which users report liking the idea.
+
+The validation program must establish religious correctness, practical feasibility, causal benefit, and safety through different methods.
+
+### I1. Proposed sequence of research
+
+PHASE 0
+
+## 8–12
+
+weeks
+
+Source review and normative boundaries
+
+Assemble an independent Islamic scholarly panel and verify high-risk decision categories.
+
+Create a traceable ruling register, an unresolved-issues register, and a set of cases in which assistance must abstain.
+
+Success condition: independent reviewers can reliably distinguish established rulings, disputed matters, and unsupported recommendations.
+
+PHASE 1
+
+## 52
+
+people
+
+Foundational observation
+
+Conduct interviews, contextual observation, and 14–21 days of time-use diaries across contrasting groups.
+
+Investigate actual difficulties, existing coping mechanisms, structural limitations, and satisfactory routines.
+
+Suggested duration: 6–10 weeks of staggered fieldwork. The sample supports discovery and variation, not population prevalence estimates.
+
+PHASE 2
+
+## 20–30
+
+people
+
+Decision-model evaluation
+
+Present realistic scenarios to participants and independent experts. Test proposed decisions manually before automating them.
+
+Compare participant preferences, religious review, and the proposed model's judgments.
+
+Suggested duration: 4–6 weeks. The aim is to expose mistakes in the reasoning model, not test a polished interface.
+
+PHASE 3
+
+## 40–60
+
+people
+
+Feasibility and safety testing
+
+Test a restricted set of low-risk assistance mechanisms over approximately 4–6 weeks.
+
+Measure burden, false suggestions, information accuracy, participant control, and practical usefulness.
+
+This is a feasibility study, not proof of effectiveness.
+
+PHASE 4
+
+## 150–180
+
+people
+
+Randomized pilot comparison
+
+Allocate participants to three conditions: existing routine, simple planning assistance, and carefully bounded adaptive assistance.
+
+Follow participants for approximately 8–12 weeks, with a further follow-up where practical.
+
+Evaluate recruitment, adherence to study procedures, data completeness, safety, variance estimates, and preliminary between-group differences. Not a definitive efficacy claim.
+
+PHASE 5
+
+## TBD
+
+powered trial
+
+Definitive causal evaluation
+
+Conduct a preregistered efficacy trial only if earlier studies establish meaningful candidate benefits, acceptable safety, reliable measures, and a credible comparator.
+
+Sample size must be calculated from the prespecified primary outcome, variance, minimum meaningful effect, clustering, and expected attrition.
+
+Illustrative scale: several hundred participants rather than a small usability sample. Include varied seasons and a follow-up period sufficient to assess sustainability.
+
+These are planning estimates, not statistically justified efficacy sample sizes.
+
+For scale, a conventional two-arm comparison seeking to detect a standardized effect around 0.30 with 80% power and a two-sided 5% significance level would require roughly 175 participants per arm before attrition, under simple independent-observation assumptions. A three-arm trial, repeated measurements, subgroup analyses, or clustered recruitment requires a study-specific calculation.
+
+The main point is that 50 enthusiastic early users cannot establish causal effectiveness.
+
+### I2. Independent religious verification
+
+An external panel should evaluate a prespecified bank of cases covering:
+
+- The five daily prayers.
+- Congregational prayer.
+- Jumu'ah.
+- Travel, illness, and disability.
+- Menstruation and postpartum circumstances.
+- Different calculation and jurisprudential methods.
+- High-latitude conditions.
+- Conflicts involving dependents or essential work.
+- Deliberately ambiguous or contradictory information.
+
+The panel should assess not only whether a suggested action is acceptable, but whether the system correctly recognizes cases requiring human advice.
+
+Important measures include:
+
+| Measure                       | Why it matters                                                  |
+| ----------------------------- | --------------------------------------------------------------- |
+| Critical religious error rate | Detects recommendations that could materially mislead           |
+| Correct abstention rate       | Measures recognition of unresolved matters                      |
+| Unsupported certainty rate    | Detects definite answers without adequate evidence              |
+| Jurisprudential fidelity      | Confirms consistency with the selected framework                |
+| Explanation traceability      | Allows qualified reviewers to identify the source and reasoning |
+| Inter-reviewer disagreement   | Reveals where the normative standard itself remains unsettled   |
+
+A disputed case should not be converted into a binary correct/incorrect question without an established adjudication standard.
+
+Independent review is particularly important given emerging benchmark research documenting limitations in language-model reasoning about school-specific Islamic jurisprudence. Such benchmarks themselves require scrutiny and do not replace scholarly adjudication.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://arxiv.org\&sz=32)
+
+arxiv.org
+
+
+
+### I3. Primary outcomes must represent a better life
+
+Neither app engagement nor raw religious activity counts should be the central outcome.
+
+The research should first establish, through interviews and pilot measurement, what participants regard as a materially better day.
+
+A candidate primary outcome is:
+
+Avoidable day-to-day conflict burden: The frequency and perceived severity of planning conflicts that caused meaningful disruption and that could realistically have been prevented or reduced.
+
+This measure would require careful operational definition and validation. It should distinguish unavoidable conflicts from those involving genuinely available alternatives.
+
+Secondary outcomes should include:
+
+| Domain                  | Candidate measure                                                                             | Important caveat                             |
+| ----------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Practical functioning   | Preventable conflict burden per week                                                          | Requires standardized classification         |
+| Personal autonomy       | Validated autonomy-related questionnaire and qualitative evidence                             | Must not be inferred from compliance         |
+| Religious practice      | Voluntarily reported success in meeting self-defined, religiously valid intentions            | Does not measure sincerity or piety          |
+| Family responsibilities | Participant-reported conflict and, where appropriate, independently consented family feedback | Avoid intrusive monitoring                   |
+| Sleep                   | Sleep diary, quality, duration, and optional objective measurement                            | Needs individual interpretation              |
+| Digital wellbeing       | Unwanted phone use, pickups, and device time                                                  | Less screen time is not automatically better |
+| Psychological burden    | Guilt, distress, pressure, annoyance, and unwanted rumination                                 | Use appropriate validated instruments        |
+| Decision burden         | Time and effort spent resolving practical conflicts                                           | Less planning is not always better           |
+| Independence            | Ability to make decisions without assistance                                                  | Declining system use can indicate success    |
+| Safety                  | Religious errors, unsafe suggestions, and adverse incidents                                   | Must be reported even when infrequent        |
+
+The primary outcome and threshold for meaningful benefit must be selected before inspecting confirmatory trial results.
+
+### I4. Appropriate comparison conditions
+
+A convincing test needs to establish that adaptive assistance does more than a simpler solution.
+
+CONTROL A
+
+Existing routine
+
+Participants continue their normal practices and tools
+
+CONTROL B
+
+Simple assistance
+
+Accurate information and personally defined static planning
+
+TEST C
+
+Adaptive assistance
+
+Bounded contextual support with explicit abstention
+
+Primary causal question
+
+Does adaptive assistance improve outcomes over simple assistance, rather than merely outperforming no assistance?
+
+If Condition B performs as well as Condition C, the added complexity of adaptation has not justified itself.
+
+This would be a successful scientific finding, even if it contradicts the original vision.
+
+The study should use random allocation, intention-to-treat analysis, predefined subgroup questions, and independent assessment where feasible. Researchers should account for repeated observations, missing data, changing seasons, and the fact that participants cannot generally be blinded to receiving an intervention.
+
+A positive before-and-after trend is insufficient. It might reflect Ramadan, academic calendars, changing work shifts, motivation from joining a study, or regression toward the mean.
+
+### I5. Falsification and stop/go criteria
+
+The central hypothesis should be considered unsupported, or provisionally rejected, if sufficiently rigorous testing shows any of the following:
+
+No incremental benefit: Adaptive assistance does not outperform simpler alternatives by a prespecified practically meaningful amount.
+
+Excessive burden: Any practical improvements are offset by greater distraction, stress, guilt, sleep disruption, or conflict.
+
+Inadequate religious reliability: Materially incorrect advice remains common despite review and restrictions.
+
+Unacceptable privacy demands: The system only performs usefully when participants surrender information they reasonably prefer not to share.
+
+Poor generalizability: Benefits are confined to a narrow, highly structured population while common lifestyles experience little benefit or material harm.
+
+Weak sustainability: Short-term effects disappear, or meaningful functioning deteriorates after assistance is withdrawn.
+
+Insufficient controllability: People cannot understand, reject, or correct consequential recommendations.
+
+No demonstrable need: Field research finds that people's principal difficulties are already managed well, require structural change, or are adequately handled by simple existing tools.
+
+A zero-error expectation is unrealistic for many systems, but some kinds of critical religious or safety failure can justify an immediate stop even if their measured frequency is low.
+
+### I6. What independently establishes correctness?
+
+The relevant authorities are different for each question.
+
+| Question                                                 | Independent standard                                                                 |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Is a religious interpretation defensible?                | Qualified external scholars, primary-source traceability, and documented differences |
+| Is an everyday difficulty real?                          | Repeated observations, diaries, interviews, and triangulation                        |
+| Does a model represent the person's situation correctly? | Participant verification and independent case adjudication                           |
+| Is a proposed intervention feasible?                     | Real-world feasibility data and usability testing                                    |
+| Does it cause improvement?                               | Randomized comparison with appropriate outcomes                                      |
+| Is the improvement sustainable?                          | Longitudinal follow-up and withdrawal tests                                          |
+| Does it generalize?                                      | Replication across populations, sites, and seasons                                   |
+| Is it trustworthy?                                       | Independent safety review, adverse-event evidence, and participant control           |
+
+The research protocol, analysis plan, outcome definitions, and negative findings should be documented in advance and made available for independent scrutiny, with privacy-preserving treatment of participant data.
+
+## J. Most important unresolved questions
+
+The current investigation leaves several important questions unanswered.
+
+PRIORITIZED RESEARCH REGISTER
+
+| Priority | Unresolved question                                                                                                    | Evidence required                                      |
+| -------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 1        | What recurring problems do Muslims themselves experience that are both meaningful and realistically addressable?       | Multi-context observation and time-use diaries         |
+| 2        | Are these difficulties primarily informational, behavioral, institutional, or interpersonal?                           | COM-B-coded causal inquiry and negative cases          |
+| 3        | What would people consider a genuinely better day, independent of task counts?                                         | Qualitative outcome elicitation and measure validation |
+| 4        | Which religious decisions can safely be represented as verified constraints, and which require human interpretation?   | Independent comparative-fiqh review                    |
+| 5        | Does simple, reliable information solve most identified problems?                                                      | Controlled comparison with more elaborate assistance   |
+| 6        | At what point do reminders or adaptive recommendations become intrusive?                                               | Context-specific randomization and burden measurement  |
+| 7        | Can meaningful adaptation work with minimal sensitive data?                                                            | Data-minimization experiments                          |
+| 8        | Can assistance improve decisions without increasing moral pressure?                                                    | Autonomy, guilt, and wellbeing assessment              |
+| 9        | Does the approach remain useful for shift workers, parents, people with disabilities, and less predictable lifestyles? | Stratified pilots and subgroup replication             |
+| 10       | Do improvements persist without continuous technological assistance?                                                   | Longitudinal follow-up and withdrawal studies          |
+
+### Ten decisions that should be made only after this research
+
+The investigation should ultimately establish whether there is sufficient evidence to:
+
+1. Support mosque-specific preparation assistance.
+2. Offer proactive suggestions rather than on-demand information.
+3. Learn from a person's past daily behavior.
+4. Maintain ongoing knowledge of personal commitments.
+5. Adapt optional worship intentions as circumstances change.
+6. Address digital distraction directly.
+7. Influence sleep or rest scheduling.
+8. Support family-level decisions rather than individual planning only.
+9. Operate across multiple jurisprudential traditions.
+10. Attempt a unified model of everyday life instead of addressing a few narrow problems exceptionally well.
+
+None of these should be assumed necessary simply because it is possible to imagine them.
+
+## Final research synthesis
+
+The resulting functional hypothesis can be summarized as follows.
+
+## A trustworthy system should be able to:
+
+Recognize a person's real commitments, circumstances, and limitations without demanding unnecessary personal information.
+
+Distinguish religious obligations, recommendations, lawful alternatives, and unresolved jurisprudential questions.
+
+Identify whether a genuine and solvable decision problem exists.
+
+Preserve the person's agency and the rights of others when proposing alternatives.
+
+Offer assistance only when reliable evidence suggests that it provides a meaningful benefit.
+
+Recognize uncertainty, abstain from unsafe judgments, and remain silent when assistance is unnecessary.
+
+This is a proposed research model, not an empirically validated functional system.
+
+### The strongest challenge to the entire concept
+The original ambition is broad: organizing everyday life around Islamic principles.
+
+But the research may reveal that a broad system is unnecessary.
+
+It may turn out that people benefit most from a few trustworthy forms of assistance, while making almost all other decisions successfully themselves. Alternatively, it may reveal that the greatest barriers arise from work policies, infrastructure, family circumstances, fatigue, or economic conditions that personal scheduling cannot meaningfully change.
+
+It is also possible that users want better information but not a system that continuously evaluates their situation.
+
+These outcomes must be treated as legitimate results, not obstacles to be designed around.
+
+### Research verdict
+
+STATUS: THEORETICALLY PLAUSIBLE, EMPIRICALLY UNVALIDATED
+
+The religious and behavioral evidence is strong enough to justify investigation into context-sensitive, low-burden support. It is not strong enough to conclude that an integrated Islamic life-management system is needed or effective.
+
+The most defensible next step is to begin with two independently governed workstreams: a rigorous, comparative religious-source review and an observational study of real daily life. They should inform each other without allowing either religious aspirations or technological assumptions to predetermine the findings.
+
+The project's fundamental success criterion should be:
+
+Does this assistance make an independently meaningful part of someone's life easier, more sustainable, and more consistent with their religious commitments, without taking away their judgment or causing new harm?
+
+If that cannot be demonstrated against simpler alternatives, the larger concept should not proceed.
+
+If it can, the research will have established something more valuable than a compelling application concept: a defensible explanation of exactly which decisions require help, why that help works, when it should be offered, and when it should not exist at all.

@@ -1,0 +1,161 @@
+**Deliverable 1: Islamic Life Framework**
+
+A balanced Islamic life rests on fulfilling rights without extremes. Core evidence is the authenticated hadith of Salman al-Farisi and Abu al-Darda’ (Sahih al-Bukhari 1968): “Your Lord has a right over you, your self has a right over you, and your family has a right over you, so give each one its due right.” The Prophet ﷺ confirmed this. Parallel reports (e.g., Abdullah ibn Amr, Sahih al-Bukhari 5199) add that the body, eyes, and spouse have rights; continuous fasting or night prayer that harms them is rejected. The Qur’an (28:77) instructs: seek the Hereafter through what Allah has given without forgetting one’s share of the world. Wasatiyyah (moderation) is stated in 2:143. Prayer times structure the day (4:103); after prayer one disperses to seek bounty (62:10). The Prophetic example combined obligatory prayer, family time, work/community service, rest (including qailulah), and moderate voluntary worship; extreme renunciation of lawful life was corrected (Bukhari/Muslim).
+
+**Classification of everyday areas**
+- **Rights of Allah**: Binding obligations (fard ‘ayn: five daily prayers in their times, Ramadan fasting if able, zakat if due, Hajj if able). Primary sources: Qur’an and mutawatir practice. Evidence establishes fixed time windows and conditions of ability; it does not establish a universal daily timetable or require maximizing voluntary worship.
+- **Rights of the self**: Health, sleep, lawful sustenance, rest. Supported by the rights hadiths and Prophetic practice of sleep and moderate eating. These are not optional; neglecting them to pursue voluntary worship is discouraged.
+- **Family and relationships**: Care, companionship, provision, kindness. Qur’an (4:36, 17:23, 2:228, 66:6); “the best of you are those best to their families” (Tirmidhi). Historical practice of the Prophet ﷺ included serving the household and quality time after ‘Asr.
+- **Lawful livelihood, education, knowledge**: Encouraged as worship when done with intention; seeking knowledge is fard kifayah in many cases. No fixed hours; individual circumstances govern.
+- **Community and other people**: Neighbors, the needy, social duties. Qur’an 4:36.
+- **Character and conduct**: Honesty, lower the gaze, good manners—ongoing, not scheduled blocks.
+- **Recreation, rest, digital wellbeing**: Lawful enjoyment is permitted; excess that diverts from remembrance is cautioned (63:9). No prohibition on rest or halal recreation.
+
+**Distinctions**
+- Binding obligations have fixed conditions and time windows; failure without excuse is sinful.
+- Recommended practices (sunnah, nafl, dhikr, extra Qur’an) are virtuous but not obligatory; they yield if they collide with rights of self or family.
+- Permissible personal arrangements (work hours, sleep schedule, recreation) are left to individual judgment within bounds of lawfulness and rights.
+- Scholarly disagreements exist on details of congregational prayer for women, travel concessions, and exact sleep requirements; the system must not present one madhhab as universal.
+- Historical examples illustrate principles; they are not universal instructions for modern shift workers or single parents.
+- Modern behavioral interpretations (e.g., “optimize every free moment”) are not established by the sources and risk contradiction with the rights hadiths.
+
+Principles that can guide organization: prioritize obligations by their fixed windows; protect sleep and family time as rights; treat voluntary worship as flexible; accept legitimate concessions (travel, illness, caregiving). Principles requiring individual scholarly or personal judgment: specific quantity of voluntary worship, exact division of free time, gender-specific mosque practices.
+
+**Deliverable 2: Personal Understanding Framework**
+
+Minimum practical understanding needed: fixed obligations and their windows, non-negotiable responsibilities (work/education/caregiving), sleep capacity, family constraints, personal preferences for assistance level, and stated voluntary intentions. More information is not always better; progressive disclosure and skip options preserve autonomy.
+
+**Proposed onboarding conversation** (conversational, progressive; each question justified; skippable where noted; later updates possible)
+
+1. **Current life situation (required for basic mapping)**  
+   “What best describes your main daily responsibilities right now?” Options: student; salaried/fixed-hours work; irregular/shift/business owner; primary caregiver (children/elderly); combination; other.  
+   *Why*: Determines fixed blocks and flexibility. Different answers shift sleep and optional-activity windows (night-shift worker cannot treat Fajr–sunrise as high-energy voluntary time).  
+   *Follow-up if irregular/shift*: “Do your hours rotate or stay relatively fixed for periods?” Changes sleep-protection rules.  
+   Sensitive? Low. Skip? No (core). Later update: user-initiated or after repeated schedule failures.
+
+2. **Sleep and recovery**  
+   “Roughly when do you usually sleep and wake on a typical day/night? How many hours feel sustainable for you?”  
+   *Why*: Rights of the self. Night-shift or parent answers protect different recovery windows and deprioritize optional morning activities.  
+   Follow-up: health limitations or disability that affect energy. Sensitive: moderate (health). Skip: yes; default to conservative sleep protection. Later: user correction or observed disruption.
+
+3. **Family and caregiving**  
+   “Who relies on you regularly for care or presence (spouse, children, parents, others)?” Optional detail on peak demand times.  
+   *Why*: Rights of family. Changes evening/after-‘Asr proposals and conflict resolution.  
+   Sensitive: moderate. Skip: yes. Later: life-event trigger (new child, etc.).
+
+4. **Prayer-related circumstances and preferences**  
+   “How do you currently manage the five daily prayers (home, mosque when possible, work constraints)?” Optional: jurisprudential leanings only if user volunteers (e.g., congregational preference).  
+   *Why*: Obligations have time windows; local mosque schedules and personal ability matter. Avoid assuming male mosque attendance.  
+   Sensitive: low–moderate. Skip: partial. Later: travel or schedule change.
+
+5. **Voluntary worship intentions**  
+   “Are there any voluntary practices you want gentle support with (extra Qur’an, dhikr, night prayer), or prefer the system to stay silent on these?”  
+   *Why*: Recommended, not binding. Stated intention ≠ actual behavior; system starts light.  
+   Different answers change suggestion frequency. Sensitive: low. Skip: yes (default silent). Later: user re-expression.
+
+6. **Work/education/commute pattern and free-time windows**  
+   Typical blocks and known irregular days.  
+   *Why*: Practical feasibility. Rotating shifts or travel change everything.
+
+7. **Intervention preferences and boundaries**  
+   “How actively should the system assist? Options: information only; gentle suggestions; help reorganize when conflicts appear; stay mostly silent unless asked.” Also: digital-distraction concerns if volunteered.  
+   *Why*: Autonomy; prevent reactance (behavioral research on autonomy support).  
+   Sensitive: low. Skip: no (default low-intervention). Later: repeated dismissals trigger quiet mode.
+
+8. **Optional later or progressive**: goals for character/health, specific jurisprudential questions (refer to scholar), digital wellbeing. Never collect location, continuous monitoring, or inferred spirituality scores.
+
+**How answers change understanding**: Night-shift + caregiver → protect daytime sleep, limit optional morning worship, prioritize family evening windows, treat Fajr as flexible within its window under concession principles. Student with light family load → more room for voluntary practices after Fajr if energy allows. Confirmation step: system summarizes understanding (“I understand your work ends around X, sleep is roughly Y–Z, family needs evening presence, and you prefer low suggestions”) and asks for correction before any consequential plan.
+
+Never infer religious devotion, mental state, or unstated obligations. Never request continuous tracking without explicit opt-in.
+
+**Deliverable 3: Life Decision Framework**
+
+Decision order is hierarchical and non-numerical:
+1. Binding obligations within their time windows (prayer times fixed by evidence; ability and concessions apply).
+2. Rights of self (sleep, basic health) and family that would be violated by further demands.
+3. Fixed external responsibilities (work shifts, exams, caregiving schedules).
+4. User-stated priorities and voluntary intentions.
+5. Recommended practices and opportunities (mosque if feasible, extra worship).
+6. Recreation and unscheduled time—left largely free.
+
+**Conflict rules**
+- Obligation vs anything: protect the obligation window; propose practical alternatives only if concession applies (travel, illness).
+- Two rights (self vs family): ask user; do not decide.
+- Voluntary vs right: yield the voluntary.
+- Unpredictable event: preserve existing routine or offer reorganization only if user asks; otherwise remain silent.
+- Low confidence or insufficient data: offer information, ask clarification, or abstain. Never invent a ruling.
+
+**When the system acts**
+- Offer information: prayer times, mosque schedules (verified), general principles.
+- Suggest alternative: only for flexible items and only if user has opted for suggestions.
+- Ask clarification: conflicting rights or unclear capacity.
+- Help reorganize: user-initiated or after explicit approval of a plan.
+- Preserve routine / remain silent: default when confidence is low, suggestions are repeatedly dismissed, or free time exists.
+- Recommend scholar/professional: disputed fiqh, health limits, complex family situations.
+- Never score devotion, fill every free moment, or treat historical examples as binding schedules.
+
+Untested hypothesis (label clearly): mild implementation-intention prompts (“If it is after Maghrib and energy allows, you intended X”) may support voluntary goals better than frequent reminders; requires empirical test. Behavioral grounding: COM-B (capability, opportunity, motivation), JITAI principles for timing, autonomy support to avoid reactance.
+
+**Deliverable 4: Real-Life Simulations**
+
+All scenarios are hypothetical illustrations only.
+
+**1. University student (female, light family load)**  
+First use: questions 1–7 above; learns fixed class times, preferred low intervention, desire for consistent Qur’an. Understanding: obligations protected; voluntary window after Fajr if energy allows. Initial plan: prayer-time anchors + optional post-Fajr block; user approves. Ordinary day: Fajr, classes, Dhuhr/Asr around schedule, family call evening. Unexpected: late group project → system notes conflict, offers to shift voluntary block or stay silent. Week 1: observes actual sleep later than stated; asks once whether to adjust. Failure: insufficient data on exam week → asks rather than assumes.
+
+**2. Salaried office worker (male)**  
+Learns fixed 9–5, mosque preference when possible, moderate family. Plan: protect prayer windows, optional mosque for Dhuhr if commute allows. Ordinary: standard anchors. Disruption: overtime → protect family evening as right. Adaptation: repeated late finishes reduce optional suggestions. Failure: unknown local mosque times → information only + ask user.
+
+**3. Parent with significant caregiving (mother of young children)**  
+Learns high evening demand, fragmented sleep. Understanding: family rights and self-recovery prioritized; voluntary worship flexible/short. Plan: prayer windows protected with realistic interruptions noted. Ordinary day: short, interruptible blocks. Disruption: sick child → silence on voluntary; protect sleep when possible. Adaptation: user corrections on energy lower default suggestions. Failure: over-assumes capacity → user override restores control.
+
+**4. Business owner (unpredictable)**  
+Learns variable hours. Plan: obligation windows only fixed; everything else opportunistic. Ordinary: dynamic. Disruption: sudden client → preserve prayer, defer rest. Adaptation: pattern of late nights → prompt once about sustainable sleep. Failure: cannot predict → remain mostly silent.
+
+**5. Night-shift healthcare worker**  
+Learns rotating nights, daytime sleep critical. Understanding: sleep as right; Fajr handled under ability/concession; optional morning activities deprioritized. Plan: protect recovery window. Ordinary: inverted schedule. Disruption: extra shift → silence. Adaptation: confirms actual sleep blocks. Failure: assumes standard circadian → user correction required.
+
+**6. Person with accessibility limitations / frequent travel**  
+Learns mobility limits or changing locations. Understanding: concessions apply; no fixed mosque assumption. Plan: prayer by time window with location flexibility. Ordinary: portable. Disruption: travel day → information on times only. Adaptation: user updates location preferences. Failure: insufficient travel data → asks rather than schedules.
+
+In all cases the system confirms understanding, seeks approval for plans, and defaults to silence under uncertainty.
+
+**Deliverable 5: Rules and Boundaries**
+
+**Should do**: Protect binding obligations and their windows; respect rights of self and family as established by primary sources; offer information and optional reorganization; adapt only with user visibility and correction rights; remain silent when confidence is low or suggestions are dismissed; refer disputed matters to qualified scholars.
+
+**Never do**: Score or rank religious devotion or personal worth; invent rulings or present one scholarly view as universal; continuously monitor without explicit consent; fill free time by default; infer unstated intentions or health status; treat historical examples as binding modern schedules; maximize engagement or voluntary activity counts.
+
+**Requires approval**: Any reorganization of the user’s stated routine; increase in suggestion frequency; collection of additional sensitive data.
+
+**Must remain subject to human or scholarly judgment**: Specific quantities of voluntary worship; complex family or health trade-offs; jurisprudential details; whether a given free period should be used at all.
+
+**Deliverable 6: Foundation Readiness Assessment**
+
+**Supported by sufficiently strong evidence**: Rights hierarchy (Bukhari 1968 and parallels); obligation time windows; moderation against extremes; Prophetic balance of worship/family/work/rest; autonomy as practical necessity to avoid harm.
+
+**Reasonable provisional assumptions**: Progressive, skippable onboarding improves relevance without excessive friction; low-intervention default reduces reactance; sleep and family protection as first-order constraints in modern irregular schedules.
+
+**Require qualified scholarly review**: Exact application of concessions for shift workers, travelers, and caregivers; gender-specific mosque guidance; any system language that could be read as a ruling.
+
+**Require empirical testing**: Whether stated voluntary intentions predict actual behavior; effectiveness and harm of specific suggestion timings (JITAI-style); onboarding completion rates and comprehension; unintended effects on anxiety or performance mindset; comparison against simple paper planning.
+
+**Important contradictions / unresolved dependencies**: Tension between desire for personalization and risk of over-collection; stated vs revealed preferences; lack of longitudinal data on Muslim populations with highly irregular modern schedules.
+
+**Questions that must be answered before finalizing foundation**: Minimum viable question set that still yields usable plans; precise triggers for silence vs suggestion; scholarly sign-off on any religious language; measurement of harm (increased guilt, reduced autonomy).
+
+**Questions that can be deferred**: Detailed long-term character formation modules; advanced digital-wellbeing integrations; multi-year adaptation algorithms.
+
+**10 most important concrete decisions for the functional foundation**
+1. Anchor every plan on the five prayer time windows as fixed obligations subject to ability and concessions.
+2. Treat rights of self (especially sleep) and family as non-negotiable constraints that voluntary practices yield to.
+3. Use progressive, skippable onboarding focused only on responsibilities, sleep, family load, prayer circumstances, voluntary intentions, and intervention preference.
+4. Default to low intervention / silence; increase only with explicit user preference and visible override.
+5. Never generate numerical devotion or productivity scores.
+6. Confirm understanding and seek approval before any consequential recommendation.
+7. In conflicts, prioritize binding obligations, then rights, then fixed responsibilities, then user priorities; ask when rights collide.
+8. Adapt only on clear user signals or repeated, observable pattern mismatches; never assume motive.
+9. Refer all disputed fiqh and complex personal cases to qualified human scholars.
+10. Validate each mechanism independently (scholarly review for religious claims; usability and controlled tests for behavioral claims) and remove any that produce harm or overclaim.
+
+This foundation is evidence-grounded in primary sources for the religious layer and standard behavioral principles for the decision and adaptation layers. It deliberately stays limited so that the system supports balance without becoming an intrusive or religiously misleading authority. Further product behavior can now be specified on top of these constraints.

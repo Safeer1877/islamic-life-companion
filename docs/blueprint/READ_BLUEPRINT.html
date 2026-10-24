@@ -1,0 +1,2933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Islamic Life Companion ��� Product Experience Blueprint v1.0</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="blueprint.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Islamic Life Companion ��� Product Experience
+Blueprint v1.0</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#islamic-life-companion--complete-experience-blueprint-v10"
+id="toc-islamic-life-companion--complete-experience-blueprint-v10">Islamic
+Life Companion — Complete Experience Blueprint v1.0</a>
+<ul>
+<li><a href="#reading-this-specification"
+id="toc-reading-this-specification">Reading this specification</a></li>
+</ul></li>
+<li><a href="#part-i--product-identity-and-core-logic"
+id="toc-part-i--product-identity-and-core-logic">PART I — PRODUCT
+IDENTITY AND CORE LOGIC</a>
+<ul>
+<li><a href="#1-unchanging-decisions" id="toc-1-unchanging-decisions">1.
+Unchanging decisions</a></li>
+<li><a href="#2-the-users-job-to-be-done"
+id="toc-2-the-users-job-to-be-done">2. The user's
+job-to-be-done</a></li>
+<li><a href="#3-what-it-is-not" id="toc-3-what-it-is-not">3. What it is
+not</a></li>
+<li><a href="#4-conceptual-entities--what-the-experience-represents"
+id="toc-4-conceptual-entities--what-the-experience-represents">4.
+Conceptual entities — what the experience represents</a></li>
+<li><a href="#5-universal-intervention-protocol"
+id="toc-5-universal-intervention-protocol">5. Universal intervention
+protocol</a></li>
+<li><a href="#6-navigation-architecture"
+id="toc-6-navigation-architecture">6. Navigation architecture</a></li>
+<li><a href="#7-functional-scope-by-release"
+id="toc-7-functional-scope-by-release">7. Functional scope by
+release</a></li>
+</ul></li>
+<li><a href="#part-ii--look-feel-and-interaction-language"
+id="toc-part-ii--look-feel-and-interaction-language">PART II — LOOK,
+FEEL AND INTERACTION LANGUAGE</a>
+<ul>
+<li><a href="#8-visual-vision" id="toc-8-visual-vision">8. Visual
+vision</a></li>
+<li><a href="#9-the-four-central-screen-patterns"
+id="toc-9-the-four-central-screen-patterns">9. The four central screen
+patterns</a></li>
+<li><a href="#10-shared-interaction-patterns"
+id="toc-10-shared-interaction-patterns">10. Shared interaction
+patterns</a></li>
+</ul></li>
+<li><a href="#part-iii--onboarding-as-the-first-value-experience"
+id="toc-part-iii--onboarding-as-the-first-value-experience">PART III —
+ONBOARDING AS THE FIRST VALUE EXPERIENCE</a>
+<ul>
+<li><a href="#11-promise-of-first-use-experience"
+id="toc-11-promise-of-first-use-experience">11. Promise of first-use
+experience</a></li>
+<li><a href="#12-eight-core-question-areas-with-consequence-mapping"
+id="toc-12-eight-core-question-areas-with-consequence-mapping">12. Eight
+core question areas with consequence mapping</a></li>
+<li><a href="#13-the-first-draft-is-a-negotiation-not-a-command"
+id="toc-13-the-first-draft-is-a-negotiation-not-a-command">13. The first
+draft is a negotiation, not a command</a></li>
+<li><a href="#14-identity-notifications-and-location-choices"
+id="toc-14-identity-notifications-and-location-choices">14. Identity,
+notifications and location choices</a></li>
+</ul></li>
+<li><a href="#part-iv--every-screen-and-every-state"
+id="toc-part-iv--every-screen-and-every-state">PART IV — EVERY SCREEN
+AND EVERY STATE</a>
+<ul>
+<li><a href="#15-naming-conventions" id="toc-15-naming-conventions">15.
+Naming conventions</a></li>
+<li><a href="#16-detailed-contracts-for-consequential-screen-families"
+id="toc-16-detailed-contracts-for-consequential-screen-families">16.
+Detailed contracts for consequential screen families</a></li>
+<li><a href="#17-universal-screen-state-requirements"
+id="toc-17-universal-screen-state-requirements">17. Universal
+screen-state requirements</a></li>
+</ul></li>
+<li><a href="#part-v--all-end-to-end-user-flows"
+id="toc-part-v--all-end-to-end-user-flows">PART V — ALL END-TO-END USER
+FLOWS</a>
+<ul>
+<li><a href="#18-flow-map" id="toc-18-flow-map">18. Flow map</a></li>
+<li><a href="#19-the-time-cycles-the-experience-must-support"
+id="toc-19-the-time-cycles-the-experience-must-support">19. The time
+cycles the experience must support</a></li>
+</ul></li>
+<li><a href="#part-vi--practical-simulations-and-response-policy"
+id="toc-part-vi--practical-simulations-and-response-policy">PART VI —
+PRACTICAL SIMULATIONS AND RESPONSE POLICY</a>
+<ul>
+<li><a href="#20-six-genuinely-different-lived-days"
+id="toc-20-six-genuinely-different-lived-days">20. Six genuinely
+different lived days</a></li>
+<li><a href="#21-response-categories-and-example-wording"
+id="toc-21-response-categories-and-example-wording">21. Response
+categories and example wording</a></li>
+<li><a href="#22-notifications-and-interventions--exact-product-rules"
+id="toc-22-notifications-and-interventions--exact-product-rules">22.
+Notifications and interventions — exact product rules</a></li>
+<li><a href="#23-adaptation-rules--what-may-change-over-time"
+id="toc-23-adaptation-rules--what-may-change-over-time">23. Adaptation
+rules — what may change over time</a></li>
+</ul></li>
+<li><a href="#part-vii--quality-release-gates-and-decisions"
+id="toc-part-vii--quality-release-gates-and-decisions">PART VII —
+QUALITY, RELEASE GATES AND DECISIONS</a>
+<ul>
+<li><a href="#24-usability-and-behavioral-acceptance-criteria"
+id="toc-24-usability-and-behavioral-acceptance-criteria">24. Usability
+and behavioral acceptance criteria</a></li>
+<li><a href="#25-research-and-expert-review-gates"
+id="toc-25-research-and-expert-review-gates">25. Research and expert
+review gates</a></li>
+<li><a
+href="#26-release-sequence--by-coherent-experience-not-feature-count"
+id="toc-26-release-sequence--by-coherent-experience-not-feature-count">26.
+Release sequence — by coherent experience, not feature count</a></li>
+<li><a href="#27-what-is-deliberately-omitted-from-v1"
+id="toc-27-what-is-deliberately-omitted-from-v1">27. What is
+deliberately omitted from v1</a></li>
+<li><a href="#28-open-decisions--explicit-narrow-and-testable"
+id="toc-28-open-decisions--explicit-narrow-and-testable">28. Open
+decisions — explicit, narrow and testable</a></li>
+<li><a href="#29-final-source-and-evidence-record"
+id="toc-29-final-source-and-evidence-record">29. Final source and
+evidence record</a></li>
+<li><a href="#30-final-blueprint-verdict"
+id="toc-30-final-blueprint-verdict">30. Final blueprint verdict</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1
+id="islamic-life-companion--complete-experience-blueprint-v10">Islamic
+Life Companion — Complete Experience Blueprint v1.0</h1>
+<p><strong>Date:</strong> 24 October 2026<br />
+<strong>Status:</strong> Proposed product specification, ready for
+wireframing and expert/usability review; <strong>not</strong> a finished
+or religiously certified application.<br />
+<strong>Basis:</strong> The founder's five fixed decisions;
+<code>Islamic_Life_Model_Consolidated_Foundation_v1.md</code>; the five
+uploaded desk-research texts; official human-interface and accessibility
+guidance.<br />
+<strong>Audience:</strong> Founder, product designer, UX researcher,
+Islamic scholarly reviewers, content reviewers, product engineers and
+accessibility testers.<br />
+<strong>Scope:</strong> Full user experience from first launch through
+everyday, weekly, seasonal and exceptional use, including navigation,
+screen inventory, interaction contracts, visual language, and testable
+behavior. No choice of programming language, backend, commercial model
+or implementation architecture.</p>
+<blockquote>
+<p><strong>Definition:</strong> A rights-aware, context-sensitive,
+autonomy-preserving companion that helps Muslims plan and carry out
+responsibilities, preserve rest and family rights, and maintain
+self-chosen practices. It must never behave like a moral scoring machine
+or a religious authority.</p>
+</blockquote>
+<h2 id="reading-this-specification">Reading this specification</h2>
+<ul>
+<li><strong>LOCKED:</strong> chosen by the founder or inherited from the
+adopted conceptual foundation.</li>
+<li><strong>PROPOSED:</strong> our concrete UX decision, changeable
+after review and tests.</li>
+<li><strong>SCHOLAR GATE:</strong> religious content/rule must be
+approved by appropriate qualified reviewers before release.</li>
+<li><strong>TEST GATE:</strong> usable in concept but requires evidence
+from representative people before claiming benefit.</li>
+<li>Screen IDs remain stable across design iterations. <code>S</code> =
+screen, <code>M</code> = short-lived modal/bottom sheet, <code>X</code>
+= system or exception state.</li>
+<li>The catalog includes standalone views, full-screen flows, overlays,
+secondary settings and special states. Not every item is a bottom
+navigation destination.</li>
+<li>Example copy is a <strong>design hypothesis</strong>. Words such as
+<em>obligatory</em>, <em>recommended</em>, <em>missed</em>,
+<em>concession</em>, <em>Iqamah</em> and <em>valid time</em> require
+religious-content review where used consequentially.</li>
+</ul>
+<hr />
+<h1 id="part-i--product-identity-and-core-logic">PART I — PRODUCT
+IDENTITY AND CORE LOGIC</h1>
+<h2 id="1-unchanging-decisions">1. Unchanging decisions</h2>
+<ol type="1">
+<li><strong>Universal life model, individualized routine.</strong>
+Design for students, workers, owners, carers, parents, women, men,
+disabled people, travelers, retirees and people with irregular
+schedules. A universal <em>framework</em> must not require a universal
+timetable.</li>
+<li><strong>Daily-life organization first.</strong> Whole-life ethical
+and character development is a long-range expansion, not compulsory v1
+functionality.</li>
+<li><strong>Shared Islamic principles first.</strong> Where meaningful
+fiqh differences arise, disclose, use reviewed named guidance if
+selected, or abstain; don't guess from nationality, location, gender or
+title.</li>
+<li><strong>User-selectable involvement.</strong> On-demand, gentle,
+proactive; each involves different assistance frequency,
+<strong>not</strong> different religious rules.</li>
+<li><strong>Success outside the phone.</strong> Better fulfillment of
+chosen responsibilities, fewer preventable conflicts, sustainable sleep
+and family time, less unwanted distraction, autonomy and no increase in
+guilt.</li>
+</ol>
+<h2 id="2-the-users-job-to-be-done">2. The user's job-to-be-done</h2>
+<blockquote>
+<p>“Understand what my days actually demand, help me plan around my
+religious and personal responsibilities, give me a useful option when
+something clashes, and leave me alone when I don't need help.”</p>
+</blockquote>
+<p>Secondary jobs: “Help me arrive prepared for a congregation I want to
+attend”; “Let me maintain a modest Qur'an practice”; “Stop optional
+habits from crowding out sleep”; “Notice a changed routine without
+inventing facts”; “Give me a clear answer about what you know and don't
+know.”</p>
+<h2 id="3-what-it-is-not">3. What it is not</h2>
+<p>Not a fatwa engine; prayer compliance tracker; streak-based gamified
+habit app; Qur'an reader replacement; mosque authority; social network;
+parental/spousal surveillance tool; mandatory schedule; compulsive daily
+checklist; automated adjudicator of religious concessions; AI chatbot
+dressed as a life planner. It may deep-link to trusted content or offer
+practical bookmarks where the person chooses.</p>
+<h2 id="4-conceptual-entities--what-the-experience-represents">4.
+Conceptual entities — what the experience represents</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Object</th>
+<th>What it means</th>
+<th>Visible to user as</th>
+<th>Cannot be mistaken for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Right/responsibility</strong></td>
+<td>A legitimate claim to protect</td>
+<td>“Family care,” “Required work,” “Prayer window”</td>
+<td>Generic task points or spiritual worth</td>
+</tr>
+<tr class="even">
+<td><strong>Commitment</strong></td>
+<td>Time-bound or recurring engagement; may involve others</td>
+<td>Calendar block with <em>fixed/flexible/uncertain</em></td>
+<td>A religious ruling</td>
+</tr>
+<tr class="odd">
+<td><strong>Intention</strong></td>
+<td>Freely chosen activity to support</td>
+<td>“Read a little Qur'an,” “Walk regularly”</td>
+<td>A new obligation or debt</td>
+</tr>
+<tr class="even">
+<td><strong>Opportunity</strong></td>
+<td>A feasible occasion to act</td>
+<td>“Possible 15-minute window”</td>
+<td>Guaranteed availability</td>
+</tr>
+<tr class="odd">
+<td><strong>Capacity boundary</strong></td>
+<td>Need for rest, mobility, care, safety</td>
+<td>“Protected recovery”</td>
+<td>Medical diagnosis</td>
+</tr>
+<tr class="even">
+<td><strong>Prayer window</strong></td>
+<td>A source- and method-specific religious timing</td>
+<td>Start, end, source/method where configured</td>
+<td>Mosque's actual Iqamah</td>
+</tr>
+<tr class="odd">
+<td><strong>Congregation event</strong></td>
+<td>Mosque-specific start on a certain date</td>
+<td>“Iqamah reported at …, checked …”</td>
+<td>Universally verified fact</td>
+</tr>
+<tr class="even">
+<td><strong>Source record</strong></td>
+<td>Who asserted a fact, when, and with what certainty</td>
+<td>“You told me” / “Published by mosque” / “Estimated”</td>
+<td>Invisible truth</td>
+</tr>
+<tr class="odd">
+<td><strong>Assistance permission</strong></td>
+<td>Whether app may initiate contact</td>
+<td>“Quiet” / “Gentle” / “Proactive” + selected alerts</td>
+<td>Authority to decide the person's religion</td>
+</tr>
+<tr class="even">
+<td><strong>Suggestion</strong></td>
+<td>Proposed option with reason and consequence</td>
+<td>Card: “Why this?” / “Use” / “Not now”</td>
+<td>Automatically approved plan change</td>
+</tr>
+<tr class="odd">
+<td><strong>Correction</strong></td>
+<td>User changes known fact, preference or decision</td>
+<td>“This isn't accurate”</td>
+<td>Negative moral feedback</td>
+</tr>
+</tbody>
+</table>
+<h3 id="confidence-vocabulary">Confidence vocabulary</h3>
+<ul>
+<li><strong>Confirmed by you:</strong> explicitly supplied or
+re-confirmed by the person.</li>
+<li><strong>Verified source:</strong> directly attributable, current
+external source, with applicable date and category.</li>
+<li><strong>Estimated:</strong> a calculated value with basis stated,
+such as travel allowance.</li>
+<li><strong>Suggested:</strong> app-generated preference or option
+needing consent.</li>
+<li><strong>Unknown:</strong> not collected, out of date, contradictory,
+or not safely inferred.</li>
+<li><strong>Review required:</strong> normative/religious applicability
+cannot be safely resolved from approved content.</li>
+</ul>
+<h2 id="5-universal-intervention-protocol">5. Universal intervention
+protocol</h2>
+<p><strong>Trigger → relevance → facts → permissible boundary →
+feasibility → interruption cost → response → feedback.</strong></p>
+<ol type="1">
+<li>Only start if a person requests help, an opted-in reminder becomes
+due, or a permitted context reveals a genuinely relevant conflict.</li>
+<li>Determine which commitments and people are affected; identify facts,
+assumptions and missing information.</li>
+<li>Check a religious rule <strong>only</strong> if verified and
+applicable. Otherwise offer neutral timing data, ask for a chosen
+scholarly approach, or refer/abstain. Never manufacture exemptions.</li>
+<li>Check sleep/recovery, dependent care, travel safety, accessibility,
+interruption and fixed commitments.</li>
+<li>Prefer alternatives that preserve both rights or commitments. When
+not feasible, show valid choices and their implications without moral
+judgment.</li>
+<li>Possible outcomes: <strong>inform / suggest / ask / request approval
+/ preserve plan / abstain / refer / silent</strong>.</li>
+<li>Make no consequential change without approval; show undo for
+reversible changes.</li>
+<li>Learn only from explicit corrections or narrow, permissioned
+signals. Dismissal is not proof of moral failure.</li>
+</ol>
+<h3 id="sample-rule-written-as-product-behavior">Sample rule, written as
+product behavior</h3>
+<p><strong>When</strong> a selected congregation is approaching
+<strong>and</strong> the user requested preparation alerts
+<strong>and</strong> a current Iqamah source and route estimate are
+available <strong>and</strong> no suppressed context is active,
+<strong>then</strong> offer one departure cue. <strong>Else</strong>
+show the best known information only when requested, flag
+stale/unverified data, or remain silent. The app must not label the
+obligatory prayer missed merely because a congregation event passed.</p>
+<h2 id="6-navigation-architecture">6. Navigation architecture</h2>
+<p><strong>Phone — four top-level areas:</strong></p>
+<ol type="1">
+<li><strong>Today:</strong> current state, next meaningful anchor,
+upcoming commitments and restrained contextual help.</li>
+<li><strong>Plan:</strong> day/week schedule, commitments, conflict
+alternatives, protected time and review.</li>
+<li><strong>Intentions:</strong> optional practices and goals; support
+is sustainable, flexible and user-authored.</li>
+<li><strong>You:</strong> life profile, assistance boundaries, prayer
+timing source, permissions, privacy, evidence policy and
+accessibility.</li>
+</ol>
+<p><strong>Utility entry points, not permanent tabs:</strong> Mosque
+opportunities via prayer detail; Qur'an last-place marker via an
+intention; Focus/protected-time controls via Today/Intentions;
+Travel/Ramadan adjustments via contextual banner or You; Help/source
+explanation from any recommendation.</p>
+<p><strong>Global entry points:</strong> a contextual <strong>“Adjust
+today”</strong> action; <strong>“Ask for help”</strong> for a current
+planning problem; optional search of one's own commitments (not an
+open-ended fatwa chatbot). Do not show a permanent conversational input
+if there is no actual decision to make.</p>
+<p><strong>Navigation rules:</strong> tapping a tab preserves the
+previous scroll/context; overlays return to origin; deep links
+reconstruct a safe destination when signed out or unconfigured; screen
+content cannot disappear solely because permission was denied. Tablets
+and desktop/web use a rail/sidebar and optional side-by-side Today +
+timeline. Accessible back, no gesture-only navigation.</p>
+<h2 id="7-functional-scope-by-release">7. Functional scope by
+release</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Priority</th>
+<th>Included functionality</th>
+<th>Deferral or constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Core v1 experience</strong></td>
+<td>Conversational onboarding; draft life model; Today; day/week
+planning; fixed/flexible commitments; user-selected assistance; optional
+intentions; prayer windows when configured; sleep/protected time;
+conflict explanation; corrections; weekly review; privacy controls;
+baseline offline display</td>
+<td>Must work without account, continuous location or phone-usage
+access</td>
+</tr>
+<tr class="even">
+<td><strong>Bounded specialized v1</strong></td>
+<td>Mosque lookup and sourced Iqamah <em>where data truly exists</em>;
+preparation cues; Qur'an-position bookmark; optional digital-focus
+sessions; Friday/shift/travel/Ramadan profile prompts</td>
+<td>No invented mosque times, fiqh rulings or coercive blocking</td>
+</tr>
+<tr class="odd">
+<td><strong>Later with evidence</strong></td>
+<td>Calendar import/writeback; richer mosque verification; learned
+suggestions; statistical personalization; multi-device sync; deeper
+accessibility paths</td>
+<td>Permissioned and independently tested</td>
+</tr>
+<tr class="even">
+<td><strong>Later with scholarly and user evidence</strong></td>
+<td>Detailed character education, complex family mediation,
+finances/zakat, fasting jurisprudence, community programs, tailored
+religious learning</td>
+<td>Separate content and safety review; don't quietly add to the daily
+planner</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="part-ii--look-feel-and-interaction-language">PART II — LOOK,
+FEEL AND INTERACTION LANGUAGE</h1>
+<h2 id="8-visual-vision">8. Visual vision</h2>
+<p><strong>Design character:</strong> quiet, editorial, humane, premium,
+spiritually respectful, unmistakably useful. Think beautifully composed
+personal planner rather than “more Islamic productivity.” The app should
+feel calm at 5 AM and still useful during a hectic afternoon.</p>
+<p><strong>Proposed design tokens</strong> (all candidate values;
+require contrast and usability testing):</p>
+<table>
+<thead>
+<tr class="header">
+<th>Purpose</th>
+<th>Light theme</th>
+<th>Dark theme</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Canvas</td>
+<td><code>#F7F6F2</code> warm ivory</td>
+<td><code>#121916</code> deep charcoal-green</td>
+<td>Main background</td>
+</tr>
+<tr class="even">
+<td>Surface</td>
+<td><code>#FFFFFF</code></td>
+<td><code>#1C2722</code></td>
+<td>Cards and editors</td>
+</tr>
+<tr class="odd">
+<td>Primary ink</td>
+<td><code>#17241E</code></td>
+<td><code>#F2F3EF</code></td>
+<td>Headlines and essential content</td>
+</tr>
+<tr class="even">
+<td>Secondary ink</td>
+<td><code>#54635A</code></td>
+<td><code>#B6C4B9</code></td>
+<td>Explanations and metadata</td>
+</tr>
+<tr class="odd">
+<td>Core accent</td>
+<td><code>#235E48</code></td>
+<td><code>#78B49B</code></td>
+<td>Primary actions and active nav</td>
+</tr>
+<tr class="even">
+<td>Accent detail</td>
+<td><code>#B58B52</code> muted brass</td>
+<td><code>#C6A878</code></td>
+<td>Small indicators; never information-only</td>
+</tr>
+<tr class="odd">
+<td>Calm status</td>
+<td><code>#DDECE1</code></td>
+<td><code>#243D32</code></td>
+<td>Opportunity/selected state</td>
+</tr>
+<tr class="even">
+<td>Caution status</td>
+<td><code>#F5E7D4</code></td>
+<td><code>#4C3827</code></td>
+<td>“Not verified,” “needs confirmation”</td>
+</tr>
+<tr class="odd">
+<td>Error status</td>
+<td><code>#9E453B</code></td>
+<td><code>#E59D94</code></td>
+<td>Actual errors, not skipped worship</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Typography:</strong> highly legible contemporary sans-serif
+for interface; choose full-quality Arabic/Urdu glyph coverage and
+correct shaping. Use Arabic script sparingly and meaningfully (e.g.,
+prayer names), never as ornamental filler. Avoid calligraphy as a body
+font. Support localization and right-to-left layouts in navigation, date
+order, icons that convey direction, reading order, input and
+accessibility labels. Dynamic type must not truncate prayer dates or
+actions.</p>
+<p><strong>Spatial rhythm:</strong> 8-point grid, generous whitespace,
+one primary action per screen, clear contextual headings, small number
+of competing cards, 16–24dp page margins on phones, 12–16dp card radii,
+restrained dividers, 44–48dp practical touch targets. Use native
+accessibility sizing. No forced animations, fake progress rings or
+endless feeds.</p>
+<p><strong>Motion:</strong> 120–240ms gentle transitions to clarify
+change, not to create ritual spectacle. Respect reduced-motion settings;
+no fireworks/confetti when worship is marked complete. Haptics only for
+intentional confirmation, not guilt-inducing streak celebrations.</p>
+<p><strong>Photos/illustration:</strong> minimal. Use elegant abstract
+geometry, subtle natural light, and useful iconography; avoid faces as
+decorative default, stock mosque collage, emoji overload, or visually
+loud religious clichés. The person’s commitments are visually
+dominant.</p>
+<p><strong>Accessibility:</strong> large text, screen readers, semantic
+headings, sufficient contrast, non-color status labels, large targets,
+keyboard support on larger form factors, offline fallback, no
+time-limited forms, RTL testing, clear voice-over pronunciation and
+meaningful labels. Aim at WCAG 2.2 AA where applicable alongside mobile
+accessibility expectations. Reference: <a
+href="https://www.w3.org/TR/wcag/">https://www.w3.org/TR/wcag/</a> .</p>
+<p><strong>Official UI references:</strong> Apple HIG onboarding and tab
+bars encourage focused onboarding and fewer persistent navigation
+destinations (<a
+href="https://developer.apple.com/design/human-interface-guidelines/onboarding">https://developer.apple.com/design/human-interface-guidelines/onboarding</a>
+and /tab-bars). Android recommends adaptive navigation for larger
+windows (<a
+href="https://developer.android.com/design/ui/mobile/guides/layout-and-content/layout-and-nav-patterns">https://developer.android.com/design/ui/mobile/guides/layout-and-content/layout-and-nav-patterns</a>).
+These are <em>interaction</em> guidelines, not evidence for religious
+efficacy.</p>
+<h2 id="9-the-four-central-screen-patterns">9. The four central screen
+patterns</h2>
+<h3 id="91-today--what-matters-now">9.1 Today — “What matters now?”</h3>
+<pre class="text"><code>┌────────────────────────────────────┐
+│ Sat, 24 Oct          ◌ Quiet mode  │
+│ Good evening                       │
+│                                    │
+│ NEXT MEANINGFUL ANCHOR             │
+│ Isha prayer window                 │
+│ [Times &amp; source]     [Plan around] │
+│                                    │
+│ YOUR EVENING                       │
+│ 6:30  Family dinner  • Protected   │
+│ 8:10  Prepare for tomorrow         │
+│                                    │
+│ OPTIONAL IF USEFUL                 │
+│ You wanted a short reading window  │
+│ [See options]        [Not now]     │
+│                                    │
+│ [Adjust today]      [Ask for help] │
+│                                    │
+│ Today   Plan   Intentions    You   │
+└────────────────────────────────────┘</code></pre>
+<p><strong>Composition:</strong> date + mode; one “next” card; next 2–4
+commitments; at most one current optional suggestion in the visible
+viewport; immediate tools in a low-visual-weight row. If there is no
+valid suggestion, remove its card rather than fill the space with
+inspiration or upsells.</p>
+<h3 id="92-plan--what-is-realistic">9.2 Plan — “What is realistic?”</h3>
+<pre class="text"><code>┌────────────────────────────────────┐
+│ Plan                [Day] [Week]   │
+│ Sat 24  Sun 25  Mon 26  ...        │
+│                                    │
+│ Prayer windows · source visible   │
+│                                    │
+│ 06:00 ┊  Recovery / sleep         │
+│ 09:00 ┊  Work • fixed             │
+│ 12:00 ┆  Prayer window            │
+│ 13:00 ┊  Meeting • fixed          │
+│ 15:00 ┊  Open / flexible          │
+│ 17:00 ┊  Family care • protected  │
+│                                    │
+│ [Add commitment] [Check conflicts]│
+│                                    │
+│ Today   Plan   Intentions    You   │
+└────────────────────────────────────┘</code></pre>
+<p><strong>Composition:</strong> time-axis is optional view, not a
+packed default. Show window spans distinct from point-in-time events.
+Fixed/protected/estimated indicators use labels and patterns, not color
+alone. Empty intervals must look legitimate, not like failed
+utilization.</p>
+<h3 id="93-intentions--what-do-you-want-to-sustain">9.3 Intentions —
+“What do you want to sustain?”</h3>
+<pre class="text"><code>┌────────────────────────────────────┐
+│ Intentions               [+ Add]   │
+│ What would you like support with?  │
+│                                    │
+│ Qur&#39;an                             │
+│ Continue from last saved place     │
+│ [Open intention]                   │
+│                                    │
+│ Walking                            │
+│ Flexible • a few times a week      │
+│ [Find an opportunity]              │
+│                                    │
+│ Phone-free family time             │
+│ Currently paused                   │
+│ [Resume when ready]                │
+│                                    │
+│ No streak, rank, or piety score.   │
+│ Today   Plan   Intentions    You   │
+└────────────────────────────────────┘</code></pre>
+<h3 id="94-you--what-does-the-app-understand-about-me">9.4 You — “What
+does the app understand about me?”</h3>
+<pre class="text"><code>┌────────────────────────────────────┐
+│ You                                 │
+│ My week             [Review]       │
+│ Assistance style    Gentle         │
+│ Prayer guidance     Needs setup    │
+│ Protected time      3 periods      │
+│ Intentions          2 active       │
+│                                    │
+│ Privacy and permissions            │
+│ What you told me / what I assumed  │
+│ Sources and religious boundaries   │
+│ Accessibility / language / theme   │
+│ Export / reset / delete            │
+│                                    │
+│ Today   Plan   Intentions    You   │
+└────────────────────────────────────┘</code></pre>
+<h2 id="10-shared-interaction-patterns">10. Shared interaction
+patterns</h2>
+<p><strong>Context card:</strong> Title; practical reason;
+source/confidence; one primary action; “Not now”; “Why this?”; never
+guilt copy.<br />
+<strong>Fixed vs flexible event:</strong> explicit toggle with examples;
+default unclassified events to “do not move without asking.”<br />
+<strong>Proposal confirmation:</strong> “Here is what changes / what
+stays / what I couldn't verify.” One clear approve action plus
+cancel.<br />
+<strong>Evidence drawer:</strong> “Source / last checked / applies to /
+what this does not establish / report a problem.”<br />
+<strong>Pause / reduce support:</strong> available from every
+unsolicited suggestion or You screen; never require lengthy
+explanation.<br />
+<strong>Empty state:</strong> explains legitimate absence, offers
+optional path (“Your evening is free” rather than “No achievements
+yet”).<br />
+<strong>Unknown state:</strong> plain-language uncertainty; choose
+information-only path; don't substitute fake certainty.<br />
+<strong>System status:</strong> never block the whole app for optional
+location/notifications/calendar access.<br />
+<strong>Religious copy:</strong> precise and restrained; no
+fatwa-sounding advice generated from a planner inference.</p>
+<hr />
+<h1 id="part-iii--onboarding-as-the-first-value-experience">PART III —
+ONBOARDING AS THE FIRST VALUE EXPERIENCE</h1>
+<h2 id="11-promise-of-first-use-experience">11. Promise of first-use
+experience</h2>
+<p>The visitor should experience a useful <em>draft</em> day without
+needing a legal name, age, phone number, continuous GPS, family
+identity, employer name, calendar login, or proof of prayer attendance.
+Allow <strong>Start privately</strong> and a later optional account/sync
+path. The main path aims for a short, intelligible conversation; “Tell
+me more” adds depth for willing participants. This is an interaction
+proposal, <strong>not</strong> a proven optimal onboarding length.</p>
+<p><strong>Framing copy:</strong> “Tell me what your days are like. I’ll
+help you see what might fit. You can skip anything, and you can change
+my understanding whenever you want.”</p>
+<h3 id="onboarding-path-conceptually">Onboarding path, conceptually</h3>
+<pre class="mermaid"><code>flowchart TD
+ A[First launch] --&gt; B[What this helps with + limits] B --&gt; C{Start privately or optional sign-in}
+ C --&gt; D[Assistance preference]
+ D --&gt; E[What feels difficult / what to protect]
+ E --&gt; F[Life roles + weekly pattern]
+ F --&gt; G[Fixed/flexible commitments]
+ G --&gt; H[Sleep + care/protected periods]
+ H --&gt; I{Want prayer planning?}
+ I --&gt;|Yes| J[Prayer context + timing-source choice]
+ I --&gt;|Not now| K[Chosen intentions]
+ J --&gt; K
+ K --&gt; L[Review what is known / unknown]
+ L --&gt; M{User approves draft?}
+ M --&gt;|Correct| E
+ M --&gt;|Approve| N[First useful day]
+ N --&gt; O{Need notifications / location now?}
+ O --&gt;|Relevant and user requests| P[Contextual permission request]
+ O --&gt;|No| Q[Use normally]
+ P --&gt; Q</code></pre>
+<p><strong>No sign-in trap:</strong> no account is required to see a
+working local draft. “I only want prayer planning” and “I only want
+general life balance” both lead somewhere useful. An opt-out from prayer
+assistance does not invite religious judgment or repeated nagging.</p>
+<h2 id="12-eight-core-question-areas-with-consequence-mapping">12. Eight
+core question areas with consequence mapping</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Plain-language prompt</th>
+<th>Answer shapes</th>
+<th>What changes <strong>immediately</strong></th>
+<th>Skip/unknown behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Q1 Assistance</strong></td>
+<td>“How involved should I be?”</td>
+<td>On demand / Gentle / Proactive</td>
+<td>Eligible unsolicited response types and opt-in reminder
+controls</td>
+<td>On-demand, no proactive prompts</td>
+</tr>
+<tr class="even">
+<td><strong>Q2 Priorities</strong></td>
+<td>“What feels hardest to balance lately?”</td>
+<td>Up to 3: prayer logistics, work/study, sleep, family/care,
+Qur'an/learning, movement, phone distraction, just organize</td>
+<td>Which contextual paths are offered first; never religious rank</td>
+<td>Neutral draft with no improvement target</td>
+</tr>
+<tr class="odd">
+<td><strong>Q3 Roles and variability</strong></td>
+<td>“Which describes your week?”</td>
+<td>Student / fixed hours / rotating shifts / self-employed or variable
+/ caregiver / mixed / other; fixed vs varying</td>
+<td>Clock blocks vs roster vs flexible windows</td>
+<td>Variable week; don't invent recurring pattern</td>
+</tr>
+<tr class="even">
+<td><strong>Q4 Real commitments</strong></td>
+<td>“What parts of your week are already spoken for?”</td>
+<td>Simple events, recurring days, rough hours, fixed/flexible/not
+sure</td>
+<td>Protect and place known commitments; detect possible conflict</td>
+<td>Only known facts; narrow suggestions</td>
+</tr>
+<tr class="odd">
+<td><strong>Q5 Sleep and recovery</strong></td>
+<td>“When do you usually need sleep or recovery?”</td>
+<td>Approximate period / changes with shift / unpredictable / skip</td>
+<td>Don't fit optional work into protected recovery</td>
+<td>No assumptions about capacity; ask later if needed</td>
+</tr>
+<tr class="even">
+<td><strong>Q6 People and protected time</strong></td>
+<td>“Is there time you want me to protect?”</td>
+<td>Family/care, commute, recreation, personal quiet, recurring
+commitments, none, prefer not to say</td>
+<td>Creates personal boundaries; suppresses optional prompts</td>
+<td>No invented duties or family status</td>
+</tr>
+<tr class="odd">
+<td><strong>Q7 Prayer context (conditional)</strong></td>
+<td>“Would you like help planning around prayer, and what times do you
+follow?”</td>
+<td>Prayer windows, preferred mosque/congregation, local timetable,
+known method, not sure, none for now</td>
+<td>Enables appropriate timing options; source-specific warnings</td>
+<td>No religiously consequential defaults; neutral setup state</td>
+</tr>
+<tr class="even">
+<td><strong>Q8 Chosen intentions</strong></td>
+<td>“Anything optional you'd like to make room for?”</td>
+<td>Qur'an, learning, exercise, digital focus, community, none; flexible
+amount</td>
+<td>Creates editable voluntary intention, not a compulsory block</td>
+<td>No voluntary suggestions</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Suggested order:</strong> Assistance → priorities → weekly
+pattern → commitments → protected time/sleep → optional prayer
+configuration → intentions → review. For night-shift/caregiving users,
+sleep and protected time come before proposed devotional opportunities.
+Sequence may be varied by user testing.</p>
+<h3 id="conditional-question-rules">Conditional question rules</h3>
+<ul>
+<li><strong>Student:</strong> “Do classes vary by weekday or academic
+term?” Add exam/term variation if chosen.</li>
+<li><strong>Fixed work:</strong> “What hours are usually fixed, and is
+there a commute?” Ask the minimum accurate time band.</li>
+<li><strong>Shift/on-call:</strong> “Do you receive a roster, repeat a
+shift cycle, or get short notice?” No 9–5 assumptions; day view may
+start at wake.</li>
+<li><strong>Caregiving:</strong> “Which periods can unexpectedly need
+your attention?” No names, diagnoses or mandatory disclosure.</li>
+<li><strong>Prayer + mosque intent:</strong> “Do you already use a
+particular mosque? Want a congregation-time check?” Do not request
+location before the person initiates a location-dependent action.</li>
+<li><strong>Prayer + unclear timing method:</strong> offer “I follow a
+local mosque/institution timetable,” “I know my method,” and “I’m
+unsure”; show limitations; do <strong>not</strong> silently choose a
+contested legal position.</li>
+<li><strong>Qur'an:</strong> “Would you prefer a time-based intention,
+reading amount, or just a bookmark?” All optional, editable. Never imply
+a required quantity.</li>
+<li><strong>Phone distraction:</strong> “Which period do you want to
+protect?” Avoid requesting full device history; device controls are
+separately permissioned and platform-dependent.</li>
+<li><strong>Travel:</strong> ask about trip context only when the person
+sets travel mode; do not manufacture a travel prayer concession.</li>
+<li><strong>Personal menstrual/postpartum accommodation:</strong>
+entirely optional, privacy-sensitive; let the person self-adjust prayer
+display without mandatory tracking or guessed status; show reviewed
+informational caveats.</li>
+<li><strong>Accessibility:</strong> ask functional preferences
+(“step-free route,” “larger text,” “cannot walk far”), not a
+diagnosis.</li>
+</ul>
+<h3 id="asking-rules">Asking rules</h3>
+<p>Every question has a one-sentence <strong>reason</strong> and
+<strong>Skip</strong> except essential choice “How much help?” which can
+default to Quiet. <strong>Prefer not to say</strong> is explicit for
+sensitive questions. Never require account creation to complete.
+Previous answers remain editable. Show one question per focused view,
+not a dense registration form; provide a “Basic / More detail” route
+rather than twenty uninterrupted screens.</p>
+<h2 id="13-the-first-draft-is-a-negotiation-not-a-command">13. The first
+draft is a negotiation, not a command</h2>
+<p>At end of onboarding display:</p>
+<ol type="1">
+<li><strong>What you told me:</strong> e.g., “Classes 9–2 on weekdays,”
+“Want gentle help,” “Family dinner is protected.”</li>
+<li><strong>What I can use if configured:</strong> e.g., “Prayer windows
+follow your selected source,” “I don't have a confirmed Iqamah at your
+mosque.”</li>
+<li><strong>What I don't know:</strong> e.g., “Travel time,” “Friday
+pattern,” “Sleep varies.”</li>
+<li><strong>A suggested day:</strong> prayer windows where available +
+actual commitments + protected recovery + <em>zero or a few</em> chosen
+voluntary activities.</li>
+<li><strong>Consent:</strong> “Use this draft” vs “Correct something”;
+consequential routines aren't activated just by tapping through
+onboarding.</li>
+</ol>
+<p><strong>Important</strong>: The first useful output must have a valid
+“nothing new added” version for someone who only wants clarity and no
+intervention.</p>
+<h2 id="14-identity-notifications-and-location-choices">14. Identity,
+notifications and location choices</h2>
+<ul>
+<li><strong>Account:</strong> “Continue privately” primary; optional
+sign-in/backup after seeing the plan. If data stays local, clearly state
+device-loss risk until backup is enabled. If the app cannot implement
+private-mode data persistence, this design is a requirement to
+reconsider transparently, not pretend it works.</li>
+<li><strong>Notifications:</strong> ask at the first moment the person
+enables a relevant alert, with explanation and preview. Denial preserves
+on-screen functionality. Official iOS guidance favors contextual
+permission requests: <a
+href="https://developer.apple.com/documentation/UserNotifications/asking-permission-to-use-notifications">https://developer.apple.com/documentation/UserNotifications/asking-permission-to-use-notifications</a>.</li>
+<li><strong>Location:</strong> no precise location on launch. Ask once
+for a deliberate nearby-mosque or local-time use; permit manual
+city/area/mosque selection; honor one-time access vs ongoing
+permission.</li>
+<li><strong>Calendar:</strong> optional; never read or alter outside
+commitments without explicit permission and appropriate confirmation.
+Manually entered events work fully.</li>
+<li><strong>Phone-use permissions:</strong> optional later, with clear
+scope, platform-dependent feasibility and safe alternatives if
+unavailable.</li>
+</ul>
+<hr />
+<h1 id="part-iv--every-screen-and-every-state">PART IV — EVERY SCREEN
+AND EVERY STATE</h1>
+<h2 id="15-naming-conventions">15. Naming conventions</h2>
+<p><strong>Full screen</strong> = part of navigation stack with visible
+back/context; <strong>sheet</strong> = focused, reversible task;
+<strong>system state</strong> = permission/offline/uncertainty route,
+often rendered inside an affected screen. Every screen has at minimum:
+title, context, clear primary action, escape/back, explanation of
+unknowns, proper empty/loading/error handling, keyboard and
+screen-reader behavior.</p>
+<p>The <strong>screen register</strong> is the exhaustive v1 information
+architecture. A spreadsheet-like CSV companion contains the same catalog
+for production tracking. The detailed specifications immediately
+following describe behavior of the most consequential experiences and
+reusable patterns so that catalog rows aren't just labels.</p>
+<h3 id="entry-screens">Entry screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S00 — Launch &amp; resume</strong> (System landing)</td>
+<td>App mark; local-resume/restore state; no marketing animation</td>
+<td>Resume last safe destination; → S25 or S01</td>
+<td>Loading; offline; corrupted local profile;
+<strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S01 — Welcome and promise</strong> (Full screen)</td>
+<td>Human promise; privacy note; “not a religious authority”</td>
+<td>Start privately; → S03</td>
+<td>First use; returning visitor; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S02 — How this works</strong> (Full screen)</td>
+<td>Understand; plan; support; stay quiet with concise illustration</td>
+<td>Continue; → S03</td>
+<td>Simple copy; larger text; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S03 — Start privately or sign in</strong> (Full screen)</td>
+<td>Private start; optional backup account; data explanation</td>
+<td>Start privately; → S08</td>
+<td>Offline; sign-in not available; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S04 — Sign in, create or restore</strong> (Full screen)</td>
+<td>Methods; account-recovery instructions; privacy scope</td>
+<td>Continue with chosen method; → S08 or S25</td>
+<td>Authentication error; offline; <strong>Later</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S05 — Permission rationale at point of use</strong>
+(Sheet)</td>
+<td>Exact benefit; scope; refusal path; preview</td>
+<td>Allow this access; → Origin</td>
+<td>Denied; restricted; already allowed; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S06 — Welcome back after absence</strong> (Sheet)</td>
+<td>Changes since last use; stale facts; confirm or continue</td>
+<td>Review changes; → S25/S76</td>
+<td>Nothing changed; offline; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S07 — Tour/help overlay</strong> (Sheet)</td>
+<td>Four navigation areas and optional dismissible tips</td>
+<td>Got it; → Origin</td>
+<td>Accessibility tutorial; already seen; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="onboarding-screens">Onboarding screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S08 — Help level</strong> (Full screen)</td>
+<td>On demand; Gentle; Proactive; examples</td>
+<td>Choose style; → S09</td>
+<td>Undecided; user changes mind; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S09 — Current priorities</strong> (Full screen)</td>
+<td>Choose up to three tensions or just organize</td>
+<td>Continue; → S10</td>
+<td>No priorities; multiple selected; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S10 — Life roles</strong> (Full screen)</td>
+<td>Student; work; owner; care; mix; other</td>
+<td>Continue; → S11</td>
+<td>Mixed roles; unclear; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S11 — Weekly regularity</strong> (Full screen)</td>
+<td>Fixed; weekday-variable; shifts; on-call; unpredictable</td>
+<td>Continue; → S12</td>
+<td>No stable week; mixed schedule; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S12 — Commitment sketch</strong> (Full screen)</td>
+<td>Add rough recurring fixed/flexible periods; days</td>
+<td>Use these commitments; → S13</td>
+<td>No time inputs; overlapping entries; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S13 — Sleep and recovery</strong> (Full screen)</td>
+<td>Broad sleep needs; shift-dependent; unpredictable; skip</td>
+<td>Continue; → S14</td>
+<td>Fragmented sleep; unknown; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S14 — People and protected time</strong> (Full screen)</td>
+<td>Care/family/quiet/recreation boundaries; no names needed</td>
+<td>Protect selected periods; → S15</td>
+<td>No protected times; uncertain care; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S15 — Prayer planning interest</strong> (Full screen)</td>
+<td>Prayer windows; congregation support; Friday; later; no
+tracking</td>
+<td>Choose prayer support; → S16 or S18</td>
+<td>User opts out; source unknown; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S16 — Prayer-time source</strong> (Full screen)</td>
+<td>Local mosque timetable; known convention; help me choose later;
+disclaimer</td>
+<td>Select source or defer; → S17 or S18</td>
+<td>Method disputed; missing location;
+<strong>Scholar-gated</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S17 — Congregation preferences</strong> (Full screen)</td>
+<td>Specific mosque; nearby search later; desired advance cue</td>
+<td>Save preference; → S18</td>
+<td>Mosque not found; stale Iqamah; <strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S18 — Optional intentions</strong> (Full screen)</td>
+<td>Qur'an; learning; movement; digital focus; none; flexible scale</td>
+<td>Keep selected intentions; → S19</td>
+<td>No intentions; conflicting goals; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S19 — Review personal understanding</strong> (Full
+screen)</td>
+<td>Told me; unknown; assumptions; ability to correct each item</td>
+<td>This looks right; → S20</td>
+<td>Contradictory entries; skipped data; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S20 — First draft day</strong> (Full screen)</td>
+<td>Next prayer window if configured; commitments; protected time;
+few/no optional proposals</td>
+<td>Use this draft; → S25</td>
+<td>No commitments; prayer unset; sleep unknown;
+<strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S21 — First useful action</strong> (Sheet)</td>
+<td>Short contextual tip: add commitment, view prayer source, protect
+time</td>
+<td>Try action; → Relevant screen</td>
+<td>No configured items; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S22 — Conditional work/study details</strong> (Sheet)</td>
+<td>Shift roster type, term schedule, commute band; only if changes
+plan</td>
+<td>Apply detail; → Return to parent</td>
+<td>Unpredictable; no roster; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S23 — Conditional care/access needs</strong> (Sheet)</td>
+<td>Fixed vs unpredictable care; mobility needs; no diagnoses</td>
+<td>Protect boundary; → Return</td>
+<td>Sensitive; unknown; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S24 — Conditional voluntary goal details</strong>
+(Sheet)</td>
+<td>Frequency/window/continuity preference; no quota requirement</td>
+<td>Save intention; → S19 or S52</td>
+<td>No chosen cadence; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="today-screens">Today screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S25 — Today dashboard</strong> (Top-level tab)</td>
+<td>Date; assistance mode; next anchor; 2-4 commitments; optional one
+suggestion</td>
+<td>Adjust today; → S26/S34/S29</td>
+<td>No plan; offline; no suggestion; prayer off;
+<strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S26 — Next anchor detail</strong> (Full screen)</td>
+<td>Kind/time or window; what is verified; practical preparation</td>
+<td>Show options; → S61/S39</td>
+<td>No applicable data; stale source; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S27 — Current assistance card</strong> (Sheet)</td>
+<td>Reason; tradeoff; confidence; why now</td>
+<td>Use this suggestion; → S38 or origin</td>
+<td>Expired; low confidence; dismissed; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S28 — Today at a glance</strong> (Full screen)</td>
+<td>Ordered actual + proposed events; protected time; unallocated
+time</td>
+<td>Open selected event; → S35/S41</td>
+<td>Empty; crowded; mixed types; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S29 — Ask for practical help</strong> (Full screen)</td>
+<td>Structured choices: plan prayer; resolve clash; make time; adjust
+day</td>
+<td>Choose problem; → S30/S39/S61</td>
+<td>No permission; unknown topic; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S30 — Help with this situation</strong> (Full screen)</td>
+<td>Only relevant facts; 1-3 realistic choices; nothing/ask</td>
+<td>See options; → S39/S38</td>
+<td>Unsolvable; requires scholar; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S31 — Check-in prompt</strong> (Sheet)</td>
+<td>Specific question about actual mismatch, not wellness scoring</td>
+<td>Confirm change; → S76 or origin</td>
+<td>No evidence; not consented; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S32 — Gentle focus state</strong> (Full screen)</td>
+<td>Chosen protected period; essential contacts caveat; resume time</td>
+<td>Finish focus; → S25</td>
+<td>Phone controls unavailable; emergency; <strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S33 — Notification destination</strong> (Deep-link
+view)</td>
+<td>Exact event context and age of message; no stale CTA</td>
+<td>View current options; → S26/S38</td>
+<td>Expired; permission changed; offline; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="plan-screens">Plan screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S34 — Plan landing</strong> (Top-level tab)</td>
+<td>Day/week toggle; current scope; one next useful action</td>
+<td>Open day or week; → S35/S36</td>
+<td>No events; mixed dates; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S35 — Day timeline</strong> (Full screen)</td>
+<td>Commitments; prayer windows; protected blocks; genuine blank
+space</td>
+<td>Select block; → S41/S37</td>
+<td>DST/timezone; overlapping blocks; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S36 — Week overview</strong> (Full screen)</td>
+<td>Seven-day density without moral score; recurring anchors; optional
+rest</td>
+<td>Select day; → S35/S45</td>
+<td>Variable roster; sparse week; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S37 — Add commitment</strong> (Sheet)</td>
+<td>Title; source; time/window; repeats; fixed/flexible/unknown;
+affected people abstractly</td>
+<td>Save commitment; → S35 or S36</td>
+<td>Overlap; invalid end; unknown duration; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S38 — Review proposed change</strong> (Sheet)</td>
+<td>Before/after; who/what is affected; evidence; undo plan</td>
+<td>Approve change; → Origin</td>
+<td>Invalidated proposal; time moved; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S39 — Conflict resolver</strong> (Full screen)</td>
+<td>Two or more commitments; applicable boundaries; feasible
+options</td>
+<td>Compare alternatives; → S40</td>
+<td>No feasible alternative; scholar gate; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S40 — Compare alternatives</strong> (Full screen)</td>
+<td>Options with consequence, travel/buffer, source confidence, keep
+current</td>
+<td>Choose option to review; → S38</td>
+<td>Estimated times; two rights cannot rank; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S41 — Commitment detail</strong> (Full screen)</td>
+<td>What/when/why/fixed flag/affected responsibilities</td>
+<td>Edit item; → S42/S38</td>
+<td>Recurring series; imported read-only; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S42 — Edit commitment</strong> (Full screen)</td>
+<td>Editable event; series vs occurrence; conflicts preview</td>
+<td>Save changes; → S41/S39</td>
+<td>Invalid recurrence; other-party approval; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S43 — Protected time editor</strong> (Full screen)</td>
+<td>Why protected; days/windows; suppression preferences</td>
+<td>Save boundary; → S35</td>
+<td>Unpredictable; overlaps obligatory prayer;
+<strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S44 — Recurring pattern editor</strong> (Full screen)</td>
+<td>Week templates; shifts; seasonal constraints; effective date</td>
+<td>Review change; → S38/S36</td>
+<td>Rotating shift; gap weeks; term ends; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S45 — Weekly reflection</strong> (Full screen)</td>
+<td>What worked; what was hard; preventable conflicts; no scores</td>
+<td>Keep/change one thing; → S46/S25</td>
+<td>No data; user absent; Ramadan; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S46 — Review insights &amp; edits</strong> (Full
+screen)</td>
+<td>Participant-confirmed patterns; proposed simple next-week
+adjustment</td>
+<td>Approve small adjustment; → S38/S36</td>
+<td>No meaningful patterns; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S47 — Plan change summary</strong> (Sheet)</td>
+<td>Applied changes; untouched commitments; source of suggestion;
+undo</td>
+<td>Done; → S25/S35</td>
+<td>Apply failed; partial change; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="intentions-screens">Intentions screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S48 — Intentions overview</strong> (Top-level tab)</td>
+<td>Voluntary goals; active/paused; no progress score</td>
+<td>Open an intention; → S49/S50</td>
+<td>None; all paused; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S49 — Choose an intention</strong> (Full screen)</td>
+<td>Qur'an; movement; learning; connection; phone-free; custom</td>
+<td>Continue to shape it; → S50</td>
+<td>No category fits; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S50 — Intention detail</strong> (Full screen)</td>
+<td>Personal reason; flexible size; relevant context; last continuity
+point</td>
+<td>Find opportunity; → S51/S52</td>
+<td>Paused; no opportunity; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S51 — Edit intention</strong> (Full screen)</td>
+<td>Preferred frequency/window; low-energy alternative; no backlog</td>
+<td>Save choices; → S50</td>
+<td>Unrealistic target; conflict; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S52 — Opportunity finder</strong> (Full screen)</td>
+<td>Actual possible windows; capacity considerations; no forced
+fill</td>
+<td>Choose one possibility; → S38/S35</td>
+<td>No window; low confidence; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S53 — Qur'an continuity marker</strong> (Full screen)</td>
+<td>Saved surah/ayah or page; last verified position; reading
+external/own preference</td>
+<td>Update place; → S50</td>
+<td>No bookmark; mismatch of mushaf; <strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S54 — Flexible practice session</strong> (Sheet)</td>
+<td>Simple user-controlled session; optional begin/end; no score</td>
+<td>Begin / end when ready; → Origin</td>
+<td>Interrupted; no duration; <strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S55 — Intention reflection</strong> (Sheet)</td>
+<td>“Was this slot realistic?”; timing/effort preference correction</td>
+<td>Change future suggestion; → S51/S25</td>
+<td>No feedback; neutral; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S56 — Pause or resume intentions</strong> (Sheet)</td>
+<td>Pause one/all until manual restart or date; notice no debt</td>
+<td>Pause; → Origin</td>
+<td>Pause indefinite; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S57 — Digital wellbeing choice</strong> (Full screen)</td>
+<td>What user wants less of; when; alternative activity; no
+judgments</td>
+<td>Choose protected period; → S58</td>
+<td>Platform limitation; privacy refusal; <strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S58 — Phone-free period setup</strong> (Full screen)</td>
+<td>Hours; emergency communication; manual vs device enforcement</td>
+<td>Save voluntary boundary; → S32/S43</td>
+<td>Permission denied; emergency exception;
+<strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S59 — Movement/recreation intention</strong> (Full
+screen)</td>
+<td>Preferred type; realistic windows; accessibility; no compulsory
+exercise hour</td>
+<td>Save; → S50</td>
+<td>Health limitations; no input; <strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S60 — Learning/community intention</strong> (Full
+screen)</td>
+<td>Reading/service/knowledge choices; chosen time; no moral
+ranking</td>
+<td>Save; → S50</td>
+<td>Outside app scope; source uncertainty; <strong>Later</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="prayer-screens">Prayer screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S61 — Prayer detail</strong> (Full screen)</td>
+<td>Applicable window; source/method; selected help; congregations if
+sourced</td>
+<td>Find congregation options; → S62/S65</td>
+<td>No method; high latitude; offline;
+<strong>Scholar-gated</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S62 — Mosque search</strong> (Full screen)</td>
+<td>Search by name/place or optional nearby; accessibility filters</td>
+<td>Choose mosque; → S63</td>
+<td>No results; denied location; <strong>Bounded</strong></td>
+</tr>
+<tr class="odd"><td><strong>S63 — Mosque listing result</strong> (Sheet)</td>
+<td>Mosque identity; access; known facilities; timings labeled by
+source</td>
+<td>View detail; → S64</td>
+<td>Duplicate names; inaccessible; <strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S64 — Mosque detail</strong> (Full screen)</td>
+<td>Address; verified congregation schedule if available;
+confidence/date; access notes</td>
+<td>Select as preferred; → S65/S66</td>
+<td>Outdated; special Friday/Ramadan schedule;
+<strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S65 — Congregation options</strong> (Full screen)</td>
+<td>Feasible dated Iqamah options; leave estimates separated; no
+invented times</td>
+<td>Select opportunity; → S69</td>
+<td>All unverified; past event; travel unsafe;
+<strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S66 — Timing source &amp; methodology</strong> (Full
+screen)</td>
+<td>Chosen timetable/calculation; published source; scope; recognized
+differences note</td>
+<td>Confirm selection; → S61</td>
+<td>Disputed; unavailable; unknown; <strong>Scholar-gated</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S67 — Travel and accessibility context</strong> (Sheet)</td>
+<td>Only functional travel constraints; manual area; route mode;
+safety</td>
+<td>Apply travel preferences; → S65</td>
+<td>No route; wheelchair accessible unknown;
+<strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S68 — Prayer-information evidence</strong> (Full
+screen)</td>
+<td>Prayer rule record; reviewer/source; limits; uncertainty and last
+checked</td>
+<td>Close; → Origin</td>
+<td>Not reviewed; translation mismatch;
+<strong>Scholar-gated</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S69 — Prepare to leave</strong> (Sheet)</td>
+<td>Specific Iqamah; route allowance; buffer; confidence; requested
+alert</td>
+<td>Enable reminder; → S05 or S25</td>
+<td>Permission blocked; source stale; <strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S70 — Report timetable correction</strong> (Full
+screen)</td>
+<td>What appears wrong; specific date and source; optional evidence; no
+public identity</td>
+<td>Submit correction request; → S64</td>
+<td>Cannot verify submission; offline queue;
+<strong>Bounded</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="you-screens">You screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>S71 — You overview</strong> (Top-level tab)</td>
+<td>Profile summaries; support style; sources; privacy; accessibility;
+review dates</td>
+<td>Review my understanding; → S72/S73/S75</td>
+<td>Minimal profile; missing source; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S72 — My life model</strong> (Full screen)</td>
+<td>Roles; recurring commitments; capacity boundaries; claims vs
+estimates</td>
+<td>Correct a fact; → S73/S76</td>
+<td>Many unknowns; conflicting inputs; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S73 — Edit life circumstances</strong> (Full screen)</td>
+<td>Work/term/roster/care/time boundaries with effective date</td>
+<td>Review proposed updates; → S38/S72</td>
+<td>Life transition; data stale; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S74 — Assistance and quiet hours</strong> (Full screen)</td>
+<td>Mode; selected notification categories; interruptions; limits</td>
+<td>Save preferences; → S71</td>
+<td>Notifications denied; urgent exception; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S75 — Prayer preferences and reviews</strong> (Full
+screen)</td>
+<td>Selected timing source/mosque; jurisprudence review gaps; optional
+prayer visibility</td>
+<td>Adjust source; → S66/S68</td>
+<td>Method unset; tradition uncovered;
+<strong>Scholar-gated</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S76 — Review inferred changes</strong> (Full screen)</td>
+<td>Clear differences between stated facts and observed allowed
+patterns</td>
+<td>Confirm or correct; → S72</td>
+<td>No observations; consent revoked; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S77 — Sources, religious limits and corrections</strong>
+(Full screen)</td>
+<td>What is primary evidence vs planner proposal; status of reviews;
+corrections</td>
+<td>Open a source; → S68/S87</td>
+<td>Sources offline; untranslated; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S78 — Privacy and data permissions</strong> (Full
+screen)</td>
+<td>Collected categories; purposes; consent grants;
+location/calendar/device permissions</td>
+<td>Change permission; → S79/S80</td>
+<td>Denied; platform restriction; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S79 — View and export data</strong> (Full screen)</td>
+<td>Record types; current device/backup scope; export path</td>
+<td>Export my data; → S78</td>
+<td>No data; export failure; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S80 — Erase, reset or delete</strong> (Full screen)</td>
+<td>Differences among pause, erase a category, reset routine, delete
+account</td>
+<td>Confirm chosen deletion; → S01/S71</td>
+<td>Offline; queued cloud deletion; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S81 — Accessibility, language &amp; appearance</strong>
+(Full screen)</td>
+<td>Text scale; RTL language; motion; contrast; theme; time format</td>
+<td>Apply setting; → S71</td>
+<td>Unsupported language; screen reader; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S82 — Account and backup</strong> (Full screen)</td>
+<td>Private-mode status; backup state; account; restore</td>
+<td>Enable chosen backup; → S04</td>
+<td>Sync errors; conflicting backup; <strong>Later</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S83 — Change of routine wizard</strong> (Full screen)</td>
+<td>Changed job/term/shift/home; effective date; impact preview</td>
+<td>Use revised context; → S38/S73</td>
+<td>No effective date; new timezone; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S84 — Ramadan and seasonal rhythm</strong> (Full
+screen)</td>
+<td>Observed changes; user-chosen sleep/fasting plan; verified timing
+caveats</td>
+<td>Review seasonal draft; → S38/S25</td>
+<td>No Ramadan timetable; personal exemptions;
+<strong>Bounded</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S85 — Travel mode</strong> (Full screen)</td>
+<td>Dates/destination; timezone; prayer-source uncertainty; no automatic
+fiqh exemption</td>
+<td>Start travel context; → S35/S61</td>
+<td>Unknown destination; date crossing; <strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>S86 — Help &amp; contact</strong> (Full screen)</td>
+<td>How to correct app; support; accessibility; religious error
+reporting</td>
+<td>Choose help route; → S87</td>
+<td>Offline; no contact available; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>S87 — Report safety/religious concern</strong> (Full
+screen)</td>
+<td>Category; affected message; optional context; privacy notice</td>
+<td>Submit report; → S86</td>
+<td>Sensitive information; no connectivity; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="exceptions-screens">Exceptions screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>X88 — Empty day / no profile</strong> (Embedded state)</td>
+<td>Unallocated day is allowed; minimal next action</td>
+<td>Add or stay empty; → S37</td>
+<td>Fresh user; no goals; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>X89 — Offline / stale content</strong> (Embedded state)</td>
+<td>Last verified data separated from current; no invented real-time
+facts</td>
+<td>Use saved information; → Origin</td>
+<td>Timestamp absent; route unavailable; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>X90 — Unverified mosque timetable</strong> (Embedded
+state)</td>
+<td>No confirmed Iqamah; exact reason</td>
+<td>Use basic timing information; → S61/S70</td>
+<td>Old data; incorrect event type; <strong>Bounded</strong></td>
+</tr>
+<tr class="even">
+<td><strong>X91 — Religious uncertainty / refer</strong> (Embedded
+state)</td>
+<td>What's known; what is disputed; reviewed next step</td>
+<td>View verified guidance; → S68</td>
+<td>High latitude; conflicting opinions;
+<strong>Scholar-gated</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>X92 — No feasible option</strong> (Embedded state)</td>
+<td>Constraints and how checked; preservation/no-action option</td>
+<td>Keep existing plan; → S39</td>
+<td>No prayer option; urgent safety; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>X93 — Plan conflict from unexpected event</strong>
+(Sheet)</td>
+<td>New fact; affected commitments; options; no automatic move</td>
+<td>Review options; → S39</td>
+<td>Event cancelled; emergency; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>X94 — Recover from disruption</strong> (Sheet)</td>
+<td>Intentions can lapse; protect required/essential tasks; no
+backlog</td>
+<td>Keep rest of day; → S35</td>
+<td>User exhausted; after emergency; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>X95 — System permissions denied</strong> (Embedded
+state)</td>
+<td>What still works; exact manual alternative</td>
+<td>Continue manually; → Origin</td>
+<td>Restricted account; app background limit; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>X96 — Timezone/DST/midnight crossing</strong> (Full screen
+state)</td>
+<td>Effective zone and date; effect on event windows; ask user to
+confirm</td>
+<td>Review updated times; → S35/S66</td>
+<td>High latitude; clock rollback; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>X97 — Critical safety/religious content pause</strong> (Full
+screen state)</td>
+<td>Affected advice unavailable; safe factual alternatives; transparent
+reason</td>
+<td>Continue without affected guidance; → S25</td>
+<td>Known religious error; privacy breach; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="shared-sheets-screens">Shared sheets screens</h3>
+<table>
+<thead>
+<tr class="header">
+<th>ID / view</th>
+<th>What is displayed</th>
+<th>Primary action and next screen</th>
+<th>Key states / constraint</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>M98 — Why this suggestion?</strong> (Sheet)</td>
+<td>Inputs, priority, confidence, burden, approval boundary</td>
+<td>Understood; → Origin/S76</td>
+<td>Unknown rationale; conflicting data; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>M99 — Reminder preferences for this event</strong>
+(Sheet)</td>
+<td>Which event; timing buffer; quiet-hours override choice</td>
+<td>Save alert; → Origin</td>
+<td>Notification denied; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>M100 — Pause all support</strong> (Sheet)</td>
+<td>Choose indefinitely/until date; what remains visible</td>
+<td>Pause support; → Origin</td>
+<td>Active essential user-selected alerts; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>M101 — Delete confirmation</strong> (Sheet)</td>
+<td>Exact data/event affected; irreversibility and sync state</td>
+<td>Confirm deletion; → Origin</td>
+<td>Recurring series; offline; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>M102 — Prayer wording disclaimer</strong> (Sheet)</td>
+<td>Religious vs scheduling explanation; reviewed evidence scope</td>
+<td>Got it; → Origin</td>
+<td>Source not reviewed; <strong>Scholar-gated</strong></td>
+</tr>
+<tr class="even">
+<td><strong>M103 — First-week course correction</strong> (Sheet)</td>
+<td>One observed mismatch; user correction invitation</td>
+<td>Update my routine; → S76/origin</td>
+<td>No consent; few observations; <strong>Core</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>M104 — Screen reader help</strong> (Sheet)</td>
+<td>Explains time windows, card headings, actions</td>
+<td>Close; → S81</td>
+<td>RTL mode; large text; <strong>Core</strong></td>
+</tr>
+<tr class="even">
+<td><strong>M105 — Unsaved changes / leave?</strong> (Sheet)</td>
+<td>Specific edit not saved; discard vs continue editing</td>
+<td>Keep editing; → Origin</td>
+<td>Background interruption; <strong>Core</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="screen-count-and-implementation-interpretation">Screen-count and
+implementation interpretation</h3>
+<p>This catalog contains <strong>106 specified views/states</strong>:
+they are <strong>not</strong> 106 competing tabs or mandatory onboarding
+steps. They include focused sheets, permission states, exception
+presentations and specialized routes. Only four views are primary
+destinations. A team may consolidate some adjacent sheets if usability
+testing shows the same intent and safety/escape behavior is preserved.
+The CSV captures entry routes, secondary actions, intended next states
+and release gates.</p>
+<h2 id="16-detailed-contracts-for-consequential-screen-families">16.
+Detailed contracts for consequential screen families</h2>
+<p>These definitions supplement the full screen register. <strong>Every
+screen</strong> inherits the shared states in §20; these contracts
+govern content hierarchy, action semantics and rejection cases across
+screen families.</p>
+<h3 id="161-first-use-s01s03">16.1 First use: S01–S03</h3>
+<p><strong>Hierarchy:</strong> single calm statement of purpose →
+concrete example (“Your day, with prayer, family and rest considered”) →
+truthful boundary (“You choose; this isn't a religious authority”) →
+<strong>Start privately</strong> → optional “Sign in / back up later” →
+privacy details. No permission dialog on open. No testimonials or
+pressure. <strong>Success:</strong> user can arrive at Q1 offline
+without supplying personal identity. <strong>Refusal case:</strong> user
+declines account; no loss of basic planning functionality.</p>
+<h3 id="162-onboarding-question-family-s08s18">16.2 Onboarding question
+family: S08–S18</h3>
+<p><strong>Hierarchy:</strong> simple question → one-sentence “why we
+ask” → short selectable answer options → “Continue” → Skip / Prefer not
+to say / Back. State is resumable if interrupted. Conditional follow-ups
+(S22–S24) are shown only after a parent answer makes them relevant.
+<strong>Do not</strong> gate progress on religion-sensitive answers.
+<strong>Success:</strong> each answer updates a visible item in S19, has
+an explicit decision consequence, and can be reversed.</p>
+<h3 id="163-profile-reflection-and-draft-approval-s19s20">16.3 Profile
+reflection and draft approval: S19–S20</h3>
+<p><strong>Hierarchy:</strong> three headings (“You told me,” “To
+check,” “Not configured”) → editable facts with one-tap correction →
+draft timeline → small “What I based this on” explanation → “Use draft”.
+All inferred data marked <strong>suggested</strong>, never “you
+usually…”. If no location/timing method is present, there is <strong>no
+fabricated prayer clock</strong>; offer configuration. If no habits are
+selected, do not automatically create any. <strong>Success:</strong>
+user understands what they authorized and can leave all optional goals
+empty. <strong>Rollback:</strong> return to any answer without losing
+unrelated inputs.</p>
+<h3 id="164-today-dashboard-s25s33">16.4 Today dashboard: S25–S33</h3>
+<p><strong>Hierarchy:</strong> today label / subtle help-mode chip →
+next meaningful anchor (if available) → 2–4 real commitments or
+protected periods → at most one unsolicited proposal card visible →
+small “Adjust today” and “Ask for help”. Show nothing that resembles
+“daily Islamic score”. Time labels show local timezone when materially
+relevant. Current factual/prayer information should remain accessible in
+on-demand mode, but no unsanctioned notifications occur.
+<strong>Success:</strong> person can locate the next commitment and
+change a conflicting event within two or three actions. <strong>No-data
+state:</strong> “Nothing is planned here yet. You can leave it open or
+add a commitment.”</p>
+<h3 id="165-daily-and-weekly-planning-s34s36">16.5 Daily and weekly
+planning: S34–S36</h3>
+<p><strong>Hierarchy:</strong> simple Day/Week switch → clear date range
+→ spans for religious windows (when configured) vs point events for
+congregations → actual commitments and user-protected periods →
+accessible action to add/change. Variable-schedule workers see a
+roster-first week; students may see class-day patterns; caregivers see
+flexible windows rather than false precision. <strong>Success:</strong>
+a person can see real conflicts without relying on colors or dense grid
+interactions. <strong>Constraint:</strong> a prayer window is never
+represented solely as a rigid 5-minute task chip.</p>
+<h3 id="166-creating-and-editing-commitments-s37-s41s44">16.6 Creating
+and editing commitments: S37, S41–S44</h3>
+<p>Input fields: short title, date/time or broad window, recurrence,
+practical flexibility (<strong>fixed / can move / ask me</strong>),
+category/purpose, optional protected flag, optional privacy note. Never
+demand names of dependents or employers. For imported read-only events,
+show provenance and limits rather than promising to edit them.
+Recurrence edits distinguish <strong>this occurrence / future
+occurrences / entire series</strong>. <strong>Success:</strong> a real
+fixed commitment isn't moved by merely tapping a suggestion.
+<strong>Validation:</strong> invalid dates/timezone transitions and
+overlapping commitments get a descriptive warning with save or resolve
+options as appropriate.</p>
+<h3 id="167-conflict-handling-s39s40-and-s38">16.7 Conflict handling:
+S39–S40 and S38</h3>
+<p><strong>Hierarchy:</strong> “Here's the conflict” → what is certain →
+what is unclear → 2–3 feasible choices <strong>including keep
+current</strong> → separate legal/religious caveat if consequential →
+one confirmed modification at a time. Each alternative states
+consequences: moved optional item, remaining prayer window, possible
+inconvenience, uncertainty. <strong>Success:</strong> the chosen option
+is both practically feasible and within verified boundaries.
+<strong>Failure:</strong> if no valid alternative exists, show X92; do
+not invent an option to appear intelligent.</p>
+<h3 id="168-intentions-s48s59">16.8 Intentions: S48–S59</h3>
+<p><strong>Hierarchy:</strong> named intentions → flexible preference →
+user-defined “what good enough looks like” (not a religious quota) →
+find a suitable opportunity → pause/remove at any time. There is no
+backlog of skipped optional intentions. Qur'an continuity S53 stores a
+location bookmark when chosen; it doesn't pretend to certify recitation.
+Focus assistance cannot block emergency communication.
+<strong>Success:</strong> a missed flexible activity can disappear
+peacefully; pausing is reversible and never framed as failure.</p>
+<h3 id="169-prayer-and-congregation-s61s70">16.9 Prayer and
+congregation: S61–S70</h3>
+<p><strong>Hierarchy:</strong> prayer name and applicable window under
+user's configured reviewed source → explicit calculation/timetable
+provenance → separate mosque congregation event(s) with date and source
+→ travel/prepare support <em>only when sufficiently verified</em> →
+access to underlying evidence and uncertainty. Mosque detail must
+distinguish <strong>Adhan</strong> from <strong>Iqamah</strong>. A
+missed Iqamah must not become “prayer missed.” On an unverified Iqamah
+show X90 and an information-only option. On contested applicability show
+X91, citing scope and referral, not generated personal fatwa.
+<strong>Success:</strong> user can tell precisely which numbers are
+calculated, published, user-confirmed and estimated.</p>
+<h3 id="1610-assistance-controls-s74-and-m99m100">16.10 Assistance
+controls: S74 and M99–M100</h3>
+<p>Controls are <strong>permission categories</strong>, not personality
+labels alone: opted-in prayer-preparation alerts, conflicts, check-ins,
+voluntary intention cues, weekly review. Each has on/off and context;
+proactive style permits proposals but not automatic change. Quiet hours
+and “Pause all” always visible. User-requested essential reminders
+require explicit choice on what pausing affects.
+<strong>Success:</strong> the app honors silence preferences while
+allowing selected reminders. A single dismissal does not silently
+rewrite the user's values.</p>
+<h3 id="1611-reviewing-the-model-s72s76-and-s83">16.11 Reviewing the
+model: S72–S76 and S83</h3>
+<p>Every claim is labeled “You told me,” “Imported by permission,”
+“Published source,” “Suggested from allowed patterns,” or “Unknown.” A
+single changed job/term/shift starts <strong>effective-date
+review</strong>, with impact preview before changing patterns. No
+inferences about prayer attendance, spiritual worth, menstruation or
+illness. <strong>Success:</strong> user can inspect why suggestions
+change and revert a mistaken assumption.</p>
+<h3 id="1612-weekly-reflection-s45s46">16.12 Weekly reflection:
+S45–S46</h3>
+<p>Three reflective prompts at most, all optional: “What was difficult
+to fit?”, “Was any suggestion unhelpful?”, “Should next week stay the
+same or change one thing?” Avoid red/green completion percentages,
+worship scores, guilt language, comparison to other people and
+retrospective pressure to disclose private religious acts.
+<strong>Success:</strong> the user can finish the review with
+<strong>Keep everything as it is</strong>; review itself must not become
+another daily duty.</p>
+<h3 id="1613-privacy-and-deletion-s78s80">16.13 Privacy and deletion:
+S78–S80</h3>
+<p>List data categories and retention conceptually, with a control for
+each optional permission. Explain what works without each category.
+Erasure choices must distinguish one item, an information category, a
+local reset and synced-account deletion. Destructive actions include
+exact scope, confirmation and outcome. If an operation cannot be
+completed offline or across connected backups, show that honestly; don't
+claim all copies are gone until confirmed. <strong>Success:</strong>
+user can understand or undo permissions and obtain their stored personal
+information in an intelligible form.</p>
+<h3 id="1614-special-rhythms-s84s85-x96">16.14 Special rhythms: S84–S85,
+X96</h3>
+<p><strong>Ramadan:</strong> propose a changed day only when user wants
+it; account for altered work/sleep/family practices; do not guess
+exemptions, fasting status, taraweeh rules or prayer combining.
+<strong>Travel:</strong> date-specific timezone and timing changes; no
+blanket concessions. <strong>High latitude:</strong> verified scholarly
+timing method required; otherwise abstain on unsupported calculated
+times. <strong>Success:</strong> core planning still operates when
+religious feature coverage is withheld.</p>
+<h2 id="17-universal-screen-state-requirements">17. Universal
+screen-state requirements</h2>
+<p>Every applicable screen must be specified and tested in these states,
+not simply a happy-path screenshot:</p>
+<table>
+<thead>
+<tr class="header">
+<th>State</th>
+<th>Required behavior</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>First use</strong></td>
+<td>Explain purpose, no invented history</td>
+<td>Intentions list empty</td>
+</tr>
+<tr class="even">
+<td><strong>Configured/normal</strong></td>
+<td>Primary action accessible, minimal clutter</td>
+<td>Day plan with three commitments</td>
+</tr>
+<tr class="odd">
+<td><strong>No-data/empty</strong></td>
+<td>Empty is legitimate; offer optional action</td>
+<td>No work schedule known</td>
+</tr>
+<tr class="even">
+<td><strong>Partial data</strong></td>
+<td>Show knowns vs unknowns</td>
+<td>Prayer method set; mosque Iqamah unknown</td>
+</tr>
+<tr class="odd">
+<td><strong>Loading</strong></td>
+<td>Existing safe content visible where possible; don't fake live
+accuracy</td>
+<td>Mosque search pending</td>
+</tr>
+<tr class="even">
+<td><strong>Offline</strong></td>
+<td>Show age/source of cached facts and manual alternatives</td>
+<td>Last mosque schedule from previous month</td>
+</tr>
+<tr class="odd">
+<td><strong>Error</strong></td>
+<td>Plain error, retry, no loss of user inputs</td>
+<td>Failed saved change</td>
+</tr>
+<tr class="even">
+<td><strong>Permission denied</strong></td>
+<td>Manual path stays usable</td>
+<td>Area typed rather than GPS</td>
+</tr>
+<tr class="odd">
+<td><strong>Conflicting facts</strong></td>
+<td>Don't auto-pick; invite correction</td>
+<td>Two work-shift patterns overlap</td>
+</tr>
+<tr class="even">
+<td><strong>Sensitive unavailable</strong></td>
+<td>Protect privacy and avoid moral inference</td>
+<td>Menstruation/private capacity not disclosed</td>
+</tr>
+<tr class="odd">
+<td><strong>Critical guidance unavailable</strong></td>
+<td>Pause affected advice; factual scheduling remains</td>
+<td>Conflicting fiqh or unsafe source</td>
+</tr>
+<tr class="even">
+<td><strong>RTL / large text</strong></td>
+<td>Reflow, proper Arabic/Urdu reading order, no clipped CTA</td>
+<td>200% text and Arabic date</td>
+</tr>
+<tr class="odd">
+<td><strong>Saved then resumed</strong></td>
+<td>Restore a safe state; validate facts that became stale</td>
+<td>Resume next day after interrupted editor</td>
+</tr>
+<tr class="even">
+<td><strong>Expired recommendation</strong></td>
+<td>Recompute or dismiss, never execute stale action</td>
+<td>Departure time has passed</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="part-v--all-end-to-end-user-flows">PART V — ALL END-TO-END USER
+FLOWS</h1>
+<h2 id="18-flow-map">18. Flow map</h2>
+<p><strong>Notation:</strong> <code>→</code> navigation, <code>?</code>
+condition, <code>[ ]</code> consent or approval step, <code>×</code> no
+action, <code>!</code> expert/technical exception. User flows are
+behavioral specifications; screen IDs come from Part IV.</p>
+<h3
+id="uf01--first-launch-private-no-religion-sensitive-disclosures">UF01 —
+First launch, private, no religion-sensitive disclosures</h3>
+<p><code>S00 → S01 → S03 [Start privately] → S08(quiet default) → S09(skip) → S10(skip) → S11(unknown) → S12(skip) → S13(skip) → S14(skip) → S15(not now) → S18(none) → S19(unknowns shown) → S20(empty legitimate draft) → S25/X88.</code></p>
+<p><strong>Success:</strong> the product remains navigable and truthful
+with minimal data. <strong>No surprise:</strong> no
+location/notification dialog, no implied obligations or fake
+schedule.</p>
+<h3
+id="uf02--standard-working-adult-wants-gentle-prayer-preparation">UF02 —
+Standard working adult wants gentle prayer preparation</h3>
+<p><code>S01 → S03 → S08(gentle) → S09(prayer logistics) → S10(work) → S11(fixed) → S12(office 9–5) → S13(recovery) → S14(family dinner) → S15(prayer + congregation) → S16(known timing source or mosque timetable) → S17(preferred mosque, if known) → S18(optional) → S19(confirm) → S20(approve) → S25 → S61 → S64 [verify specific Iqamah] → S69 [enable preparation cue] → S05 [notification prompt only now] → S25.</code></p>
+<p><strong>Alternate:</strong> Iqamah unverified
+<code>S64 → X90 → S61</code> information only; no invented leave-time
+alert.</p>
+<h3 id="uf03--student-with-timetable-and-flexible-quran-intention">UF03
+— Student with timetable and flexible Qur'an intention</h3>
+<p><code>S08 → S09(study balance) → S10(student) → S11(weekday variable) → S22(term/class detail) → S12(add classes) → S13 → S14 → S15(prayer optional setup) → S18(Qur'an) → S24(flexible intention) → S19 → S20 → S25 → S48 → S50 → S52 [choose feasible window] → S38 [confirm plan] → S35.</code></p>
+<p><strong>Interruption:</strong> new laboratory class
+<code>S37 → X93 → S39 → S40 → S38 [move only chosen optional item] → S47</code>;
+no backlog.</p>
+<h3 id="uf04--parent--caregiver-with-unpredictable-day">UF04 — Parent /
+caregiver with unpredictable day</h3>
+<p><code>S10(caregiver) → S11(unpredictable) → S13(fragmented sleep) → S14(care windows) → S23(only functional care constraints) → S18(optional Qur'an) → S19 → S20 → S25</code>
+with protected recovery and flexible rather than minute-level
+intentions. Child becomes unwell:
+<code>X93 → X94 [keep rest of day, no deferred voluntary debt] → S25</code>.
+No unsanctioned check-in during protected care.</p>
+<h3 id="uf05--night-shift-worker">UF05 — Night-shift worker</h3>
+<p><code>S10(work) → S11(rotating) → S22(roster pattern) → S13(daytime recovery) → S15(prayer selected) → S16(if known) → S19 → S20</code>.
+The day may be grouped by sleep/wake rather than a 6 AM start.
+<code>S35</code> displays recovery after shift and relevant prayer
+windows. On roster change: <code>S83 → S38 → S35</code>; do not schedule
+optional post-Fajr wakefulness after all-night work.</p>
+<h3 id="uf06--business-owner-with-genuinely-variable-hours">UF06 —
+Business owner with genuinely variable hours</h3>
+<p><code>S10(owner) → S11(variable) → S12(only reliable commitments) → S19 → S20 → S25</code>.
+User asks to fit a meeting:
+<code>S29 → S30 → S39 → S40 [flexible options] → S38</code>. If no
+stable pattern exists, show broad windows; do not invent
+predictability.</p>
+<h3 id="uf07--user-has-no-interest-in-reminders">UF07 — User has no
+interest in reminders</h3>
+<p><code>S08(on demand) → S20 → S25</code>, accesses
+<code>S35/S48/S61</code> when desired. No unsolicited <code>S27</code>,
+<code>S31</code>, notification or first-week coaching. User may opt into
+one exact reminder via <code>M99</code>; that exception does not change
+the global mode.</p>
+<h3 id="uf08--person-becomes-overwhelmed-by-suggestions">UF08 — Person
+becomes overwhelmed by suggestions</h3>
+<p>From any <code>S27 → M98 → S74 [reduce assistance]</code> or
+<code>M100 [pause] → S25</code>. Optional goals remain stored but quiet.
+Re-enabling assistance is solely the person's choice. A dismissal alone
+does not increase pressure or create guilt language.</p>
+<h3 id="uf09--mosque-lookup-with-denied-location">UF09 — Mosque lookup
+with denied location</h3>
+<p><code>S61 → S62 → S05 [request location in context] → X95 [denied] → S62 [manual city/area] → S63 → S64</code>.
+If congregation data stale
+<code>X90 → [choose another / view prayer window]</code>. Location
+refusal must not block manually selected mosque information.</p>
+<h3 id="uf10--verified-congregation-and-departure-preparation">UF10 —
+Verified congregation and departure preparation</h3>
+<p><code>S25 → S26 → S61 → S65 → S67(optional functional travel needs) → S69 [alert preview] → M99 [confirm buffer] → S05 [OS permission, if required] → S25</code>.
+Notification <code>S33</code> opens current information; if the time has
+passed, show expired state without claiming prayer missed.</p>
+<h3 id="uf11--work-meeting-conflicts-with-congregation">UF11 — Work
+meeting conflicts with congregation</h3>
+<p><code>S35 → S39 → S40</code> compares “alternative verified
+congregation,” “work break if practical,” and “no change; view valid
+prayer window” when each is grounded. <code>S38</code> approval required
+for any event movement. No arbitrary recommendation to combine or delay
+a prayer beyond valid time.</p>
+<h3 id="uf12--no-feasible-option-or-competing-rights">UF12 — No feasible
+option or competing rights</h3>
+<p><code>S39 → X92 [explain known constraints] → S29 [correct facts or ask for practical help]</code>
+or, if religious applicability unsettled, <code>X91 → S68</code>. The
+user retains authority for personal decisions; the system does not pick
+a moral winner.</p>
+<h3 id="uf13--voluntary-intention-set-interrupted-and-resumed">UF13 —
+Voluntary intention set, interrupted and resumed</h3>
+<p><code>S48 → S49 → S51 → S50 → S52 → S35</code>. Interruption:
+<code>X94 [no debt, choose preserve/move/drop] → S50</code>; optional
+reflection <code>S55</code>. Continuation is an intention, not a
+completion score.</p>
+<h3 id="uf14--quran-continuation-without-reading-app-duplication">UF14 —
+Qur'an continuation without reading-app duplication</h3>
+<p><code>S48 → S50(Qur'an) → S53 [save surah/ayah/page] → S50</code>. If
+a preferred external reader is available, open it only after explicit
+action. Returning user may update bookmark manually; the app does not
+assert they recited or understood the bookmarked portion.</p>
+<h3 id="uf15--phone-free-family-period">UF15 — Phone-free family
+period</h3>
+<p><code>S48 → S57 → S58 [choose protected time and emergency exceptions] → S43 [save boundary] → S32 [start manually or at requested time]</code>.
+If device-level controls cannot be enabled
+<code>X95 → manual quiet session</code>. Emergency communications remain
+possible.</p><h3
+id="uf16--unexpected-missed-voluntary-plan-late-work-or-illness">UF16 —
+Unexpected missed voluntary plan, late work, or illness</h3>
+<p><code>S25 → X93(new event) → S39</code> or
+<code>X94 [protect essential commitments; no voluntary backlog] → S25</code>.
+If illness-related religious guidance is needed, <code>X91</code> is
+presented; the app does not diagnose or invent a concession.</p>
+<h3 id="uf17--first-week-review-and-correction">UF17 — First week review
+and correction</h3>
+<p>After enough user-chosen data,
+<code>S25 → S45 [optional weekly reflection] → S46 [one proposed adjustment] → S38 [approve or keep plan] → S36</code>.
+If the person declines feedback, continue normal use. No worship tally
+in reflection.</p>
+<h3 id="uf18--user-disputes-the-apps-inferred-routine">UF18 — User
+disputes the app's inferred routine</h3>
+<p><code>S27 → M98 [“Why this?”] → S76 [this was a suggestion, not a fact] → S73 [correct] → S38 [review affected suggestions] → S25</code>.
+A mistaken pattern never turns into an automatic “identity.”</p>
+<h3 id="uf19--change-job-academic-term-family-circumstances">UF19 —
+Change job, academic term, family circumstances</h3>
+<p><code>S71 → S72 → S83 [choose effective date and new constraints] → S38 [review which events change] → S47 → S35</code>.
+Old history can remain for user reference, but outdated routine patterns
+no longer drive current suggestions.</p>
+<h3 id="uf20--friday-changes-from-usual-weekdays">UF20 — Friday changes
+from usual weekdays</h3>
+<p><code>S36 → S44 [Friday-specific pattern] → S75/S61 [Friday prayer applicability and reliable mosque data, if selected] → S35</code>.
+Do not assume every adult has identical Jumu'ah obligations; do not
+conflate Friday congregation with ordinary Dhuhr. Unsupported cases go
+to reviewed source or abstention.</p>
+<h3 id="uf21--ramadan--seasonal-change">UF21 — Ramadan / seasonal
+change</h3>
+<p><code>S25(optional seasonal banner) → S84 → S19-style explicit understanding preview → S38 [review proposed work, family, sleep and optional practice adjustments] → S35</code>.
+Review if the person's fasting conditions require qualified guidance.
+Prevent repetition when user says not now.</p>
+<h3 id="uf22--travel-and-timezone-crossing">UF22 — Travel and timezone
+crossing</h3>
+<p><code>S71/S25 → S85 [trip dates, destination if desired] → X96 [source/timezone date check] → S61 [applicable reviewed timing source or uncertainty] → S35</code>.
+No automatic prayer-combining. If location is unavailable, manual area
+and time data only, clearly labeled.</p>
+<h3 id="uf23--private-religious-or-bodily-circumstance">UF23 — Private
+religious or bodily circumstance</h3>
+<p><code>S71 → S75 [optional personally chosen adjustment] → X91 [scope caveat when needed] → S25</code>.
+No forced menstrual, health or spiritual status collection. Hidden or
+irrelevant prayers are not marked failed. User can reverse privacy
+disclosure and delete stored category.</p>
+<h3 id="uf24--unknown-or-disputed-religious-method">UF24 — Unknown or
+disputed religious method</h3>
+<p><code>S16/S66 → [choose a recognized, reviewed source or remain unconfigured] → S68 [explain published position/scope]</code>.
+If no reviewed method fits, <code>X91</code> and remove precise
+religious advice while preserving ordinary planning. No automatic
+intersection of disputed timetable methods.</p>
+<h3 id="uf25--mosque-timetable-is-inaccurate">UF25 — Mosque timetable is
+inaccurate</h3>
+<p><code>S64 → X90 → S70 [report dated correction] → S64</code>.
+Submitted information is not treated as independently confirmed until
+reviewed. Saved outdated data must not produce “verified Iqamah”
+alerts.</p>
+<h3 id="uf26--offline-no-gps-no-notifications">UF26 — Offline, no GPS,
+no notifications</h3>
+<p><code>S00 → S25</code>; user can see manually entered plan and
+previously cached factual information with timestamps.
+<code>S61/X89</code> distinguishes stale timing data and cannot claim
+real-time mosque availability. <code>S05/X95</code> offers manual
+alternatives. Never block Today or the entire planner.</p>
+<h3 id="uf27--restore-sign-out-export-and-erase">UF27 — Restore, sign
+out, export and erase</h3>
+<p><code>S71 → S78 → S79 [export]</code> or
+<code>S80 → M101 [confirm exact deletion scope] → appropriate reset</code>.
+Optional sync <code>S82 → S04</code> is clearly consented. If an offline
+erase cannot reach a remote synced copy, show unfinished state rather
+than declaring completion.</p>
+<h3 id="uf28--accessibility-and-rtl">UF28 — Accessibility and RTL</h3>
+<p><code>S71 → S81 [Arabic/Urdu/English or other supported language, text size, contrast, reduced motion] → S25</code>,
+preserving semantic order and safe back navigation. Mosque times and
+date formats remain understandable at largest supported text sizes.</p>
+<h3 id="uf29--critical-religious-misinformation-discovered">UF29 —
+Critical religious misinformation discovered</h3>
+<p>Unsafe content is paused: affected <code>S61/S68 → X97</code> with
+factual alternatives and correction channel <code>S87</code>. The person
+is not asked to rely on the contested guidance while review proceeds.
+Ordinary scheduling remains accessible.</p>
+<h3 id="uf30--return-after-weeks-away">UF30 — Return after weeks
+away</h3>
+<p><code>S00 → S06 [mark stale schedule/selected Iqamah/changed season] → S76 or S83 [confirm material changes] → S25</code>.
+Do not automatically assume the same shift, mosque schedule or location.
+If the user skips review, restrict recommendations reliant on stale
+facts.</p>
+<h2 id="19-the-time-cycles-the-experience-must-support">19. The time
+cycles the experience must support</h2>
+<h3 id="per-event--minute-scale-cycle">Per-event / minute-scale
+cycle</h3>
+<p><code>Scheduled anchor → readiness check → user-selected cue or silence → event changes/occurs → optional correction.</code>
+No insistence on ritual check-in or “completed prayer?” prompt.</p>
+<h3 id="daily-cycle">Daily cycle</h3>
+<p><code>Wake/first app open → Today overview → actual commitments + religious windows if configured → contextual help when justified → changes handled locally → quiet close of day.</code>
+The system need not be opened every day to be useful. “Day” is a local
+calendar date for dates and prayer windows, but a shift worker's
+<strong>lived day</strong> may be anchored to their sleep/wake
+cycle.</p>
+<h3 id="weekly-cycle">Weekly cycle</h3>
+<p><code>Review next week's external anchors → check work/term/care patterns → offer one or a few approved flexible plans → optional retrospective reflection → no action if all is well.</code>
+User can initiate review; unsolicited requests depend on selected
+mode.</p>
+<h3 id="first-seven-days-of-use">First seven days of use</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>What the system might do</th>
+<th>What it must not assume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Learn initial constraints, reflect back and show honest draft</td>
+<td>That any missing answer has the default religious implication</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Observe user correction of an estimated commute or class window</td>
+<td>That one late day is a habit</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Deliver only explicitly selected alerts</td>
+<td>That higher notification count equals better service</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Ask one relevant question only if a consequential mismatch emerged
+and permission exists</td>
+<td>That missed optional plans indicate weak motivation</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Leave a quiet day completely alone</td>
+<td>That unused app equals failure</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Handle Friday/shift variation from actual configuration</td>
+<td>That everyone's Friday has the same obligations</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Offer an optional first-week review</td>
+<td>That the user wants a report card</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Carry forward confirmed facts; leave uncertain patterns
+unconfirmed</td>
+<td>That week one predicts the rest of the year</td>
+</tr>
+</tbody>
+</table>
+<h3 id="seasonal--life-transition-cycle">Seasonal / life-transition
+cycle</h3>
+<p>Ramadan, academic terms, new employment, childbirth/care changes,
+relocation, daylight-saving transitions, travel and illness can change
+the constraint landscape. Trigger only <strong>material
+reassessment</strong> and show its impact; don't reset the person into a
+generic daily routine.</p>
+<h3 id="independence--reduced-assistance-cycle">Independence /
+reduced-assistance cycle</h3>
+<p>When a person no longer benefits from a cue:
+<code>S27 → dismiss or change preference → S74 → gentle/quiet → retain on-demand tools</code>.
+Lower interaction can be a positive result. Do not try to reclaim
+attention with rewards, streak warnings or re-engagement pressure.</p>
+<h1 id="part-vi--practical-simulations-and-response-policy">PART VI —
+PRACTICAL SIMULATIONS AND RESPONSE POLICY</h1>
+<h2 id="20-six-genuinely-different-lived-days">20. Six genuinely
+different lived days</h2>
+<p>All times below are <strong>hypothetical local civil times</strong>,
+not calculated prayer times or verified mosque schedules. Each
+demonstration assumes applicable timing guidance has been selected and
+reviewed where religious advice is used.</p>
+<h3 id="persona-a--university-student-variable-timetable">Persona A —
+University student, variable timetable</h3>
+<p><strong>Onboarding:</strong> Student; classes differ by day;
+late-night scrolling concern; wants Qur'an continuation; gentle
+assistance; no private-family data shared. <strong>Profile:</strong>
+classes fixed; flexible study windows; sleep uncertain; Qur'an optional;
+prayer planning selected but mosque Iqamah not known.</p>
+<p><strong>Ordinary day:</strong> First open shows today's classes and a
+locally configured prayer window. Between lectures, the student opens
+<strong>Find a moment</strong> for Qur'an; the app shows a feasible
+period based on declared schedule, but labels commute/travel unknown. If
+selected, the intention is penciled in as flexible.
+<strong>Disruption:</strong> surprise group project consumes that
+period; student keeps project and lets voluntary reading lapse with no
+backlog. <strong>Week one:</strong> they correct a class ending time;
+the app updates only affected weekday.
+<strong>Failure/uncertainty:</strong> it cannot claim the campus
+congregation time without dated reliable evidence.</p>
+<h3 id="persona-b--office-worker-congregation-preference">Persona B —
+Office worker, congregation preference</h3>
+<p><strong>Onboarding:</strong> 9–5 job; morning commute; family dinner
+protected; wants congregational prayer when feasible; on-demand for
+everything except one chosen preparation cue. <strong>Profile:</strong>
+work fixed, commute estimated, family time protected, prayer source
+selected.</p>
+<p><strong>Ordinary day:</strong> Work meeting ends close to a selected
+congregation. The app may suggest a departure time <strong>only</strong>
+if Iqamah is dated and reliable and route assumptions hold.
+<strong>Disruption:</strong> meeting runs late. It compares any other
+sourced congregation, a workplace prayer arrangement if known, and the
+ongoing prayer window, without suggesting religious concessions by
+convenience. <strong>Week one:</strong> a correction indicates the
+commute usually takes longer; app proposes changing the buffer.
+<strong>Failure:</strong> unavailable Iqamah data results in transparent
+information-only behavior.</p>
+<h3 id="persona-c--parent-of-an-infant-fragmented-recovery">Persona C —
+Parent of an infant, fragmented recovery</h3>
+<p><strong>Onboarding:</strong> Parent/caregiver; sleep unpredictable;
+family/care periods must not be interrupted; wants optional recitation
+but no daily quota; quiet mode. <strong>Profile:</strong> no highly
+precise schedule; much time is conditional; personal capacity is a
+planning boundary.</p>
+<p><strong>Ordinary day:</strong> Today shows few commitments and no
+unsolicited extra activities. The parent manually opens the intention
+when a realistic moment exists. <strong>Disruption:</strong> infant
+needs urgent attention; app does nothing and leaves all voluntary blocks
+free to lapse. <strong>Week one:</strong> parent says an early
+suggestion was unsuitable; they turn that suggestion type off.
+<strong>Failure:</strong> the product never infers that care is less
+virtuous than additional optional worship or interprets fatigue as an
+automatic prayer dispensation.</p>
+<h3 id="persona-d--business-owner-no-stable-working-hours">Persona D —
+Business owner, no stable working hours</h3>
+<p><strong>Onboarding:</strong> Self-employed, client calls irregular,
+voluntary walking and weekly learning selected, proactive planning for
+general commitments only. <strong>Profile:</strong> planning in windows
+rather than rigid repeating clock times.</p>
+<p><strong>Ordinary day:</strong> A low-density plan protects a known
+family meal and shows provisional work opportunities.
+<strong>Disruption:</strong> client emergency arrives; conflict resolver
+proposes moving only the flexible walking intention, not shifting the
+family commitment without consent. <strong>Week one:</strong> app learns
+only that the planned walking window was repeatedly declined; it offers
+a one-time preference correction. <strong>Failure:</strong> it must not
+narrate false certainty that the user's unpredictable work has become a
+predictable pattern.</p>
+<h3 id="persona-e--night-shift-nurse-rotating-recovery">Persona E —
+Night-shift nurse, rotating recovery</h3>
+<p><strong>Onboarding:</strong> Hospital worker; rotating shifts; naps
+before some nights; needs daytime sleep; prayer support selected; no
+extra early-morning practice. <strong>Profile:</strong> shifts and
+recovery are distinct protected constraints; “next day” preview handles
+shifts crossing midnight.</p>
+<p><strong>Ordinary day:</strong> After an overnight shift, the relevant
+prayer window is presented using the selected reviewed method; daytime
+recovery is protected against optional prompts.
+<strong>Disruption:</strong> patient emergency extends the shift; the
+app avoids interaction at work and does not claim which legal
+dispensation applies. <strong>Week one:</strong> next roster supplied by
+the person replaces the prior pattern for the correct dates.
+<strong>Failure:</strong> no universal “stay awake until sunrise” rule
+and no health diagnosis from shift hours.</p>
+<h3 id="persona-f--disabled-person-or-frequent-traveler">Persona F —
+Disabled person or frequent traveler</h3>
+<p><strong>Onboarding:</strong> Works remotely, sometimes uses a
+wheelchair, travels to visit family; wishes to plan accessible
+congregation attendance when practical; no exact health disclosure.
+<strong>Profile:</strong> step-free access needed, journey planning
+conditional, prayer source location-sensitive.</p>
+<p><strong>Ordinary day:</strong> Travel options only appear if access
+details are available and reliable; unknown accessibility is clearly
+indicated. <strong>Disruption:</strong> train delay and timezone change
+invalidate departure assumptions; the app retracts stale suggestions.
+<strong>Week one:</strong> user switches between home and travel
+circumstances without the system changing selected legal interpretation
+automatically. <strong>Failure:</strong> no guessed mosque accessibility
+or invented high-latitude times.</p>
+<h2 id="21-response-categories-and-example-wording">21. Response
+categories and example wording</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Response</th>
+<th>When appropriate</th>
+<th>Sample copy (subject to content review)</th>
+<th>Must never say</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Inform</strong></td>
+<td>Verified useful fact requested</td>
+<td>“Your selected timetable shows the Dhuhr window here.”</td>
+<td>“Every scholar agrees” when disputed</td>
+</tr>
+<tr class="even">
+<td><strong>Suggest</strong></td>
+<td>Feasible chosen aim, suitable moment</td>
+<td>“You mentioned wanting a short reading window. There may be time
+after your class.”</td>
+<td>“A better Muslim would do this now.”</td>
+</tr>
+<tr class="odd">
+<td><strong>Ask</strong></td>
+<td>One answer materially changes advice</td>
+<td>“Is this meeting fixed or can it move?”</td>
+<td>“Tell me everything about your family.”</td>
+</tr>
+<tr class="even">
+<td><strong>Request approval</strong></td>
+<td>Change affects plan/others</td>
+<td>“Moving your walk to tomorrow would protect your dinner plan. Change
+it?”</td>
+<td>“I rearranged your commitments for you.”</td>
+</tr>
+<tr class="odd">
+<td><strong>Preserve</strong></td>
+<td>Current choice is valid</td>
+<td>“Your existing plan can stay as it is.”</td>
+<td>“You failed to optimize the afternoon.”</td>
+</tr>
+<tr class="even">
+<td><strong>Abstain</strong></td>
+<td>Religious/factual uncertainty</td>
+<td>“I can't confirm that mosque's congregation time for today.”</td>
+<td>“Iqamah is definitely in 15 minutes” without source</td>
+</tr>
+<tr class="odd">
+<td><strong>Refer</strong></td>
+<td>Scholar/medical expert needed</td>
+<td>“The ruling depends on details and the guidance you follow.”</td>
+<td>A novel individualized fatwa</td>
+</tr>
+<tr class="even">
+<td><strong>Silent</strong></td>
+<td>No meaningful problem or consent</td>
+<td>No unsolicited message</td>
+<td>Any manufactured check-in</td>
+</tr>
+</tbody>
+</table>
+<h2 id="22-notifications-and-interventions--exact-product-rules">22.
+Notifications and interventions — exact product rules</h2>
+<p><strong>Global rule:</strong> No unprompted push without a
+user-selected assistance category and appropriate OS permission. Some
+on-screen opportunities may be shown without interrupting the person. Do
+not send “we miss you,” comparison, worship completion, shame or
+streak-rescue notifications. Suppress during explicitly protected time
+unless the user separately authorized that exact class of reminder.
+Never interfere with driving or emergency care.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Trigger</th>
+<th>Preconditions</th>
+<th>Default if missing</th>
+<th>Tap action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Prayer preparation</strong></td>
+<td>User-identified event approaches</td>
+<td>Applicable source and <strong>verified dated Iqamah</strong> where
+mosque-specific; reasonable travel basis; explicit opt-in</td>
+<td>On-demand factual data only</td>
+<td>S33 → S61/S69</td>
+</tr>
+<tr class="even">
+<td><strong>Prayer window informational</strong></td>
+<td>Selected prayer window under reviewed timing source</td>
+<td>User explicitly enables these reminders; source/method known</td>
+<td>No reminder and configuration path</td>
+<td>S33 → S61</td>
+</tr>
+<tr class="odd">
+<td><strong>Upcoming fixed commitment</strong></td>
+<td>Person selects reminder</td>
+<td>Current event; safe interruption</td>
+<td>Remain off</td>
+<td>S33 → S41</td>
+</tr>
+<tr class="even">
+<td><strong>Emerging conflict</strong></td>
+<td>User adds conflicting event or allowed calendar update arrives</td>
+<td>Real conflict; user selected proactive assistance; no safe automatic
+fix</td>
+<td>On-screen flag, not noisy alert</td>
+<td>S33 → S39</td>
+</tr>
+<tr class="odd">
+<td><strong>Optional intention cue</strong></td>
+<td>Explicit recurring/conditional cue chosen</td>
+<td>Feasible and not within protected time; no repeated pressure</td>
+<td>Remain off</td>
+<td>S33 → S50/S52</td>
+</tr>
+<tr class="even">
+<td><strong>Digital focus start</strong></td>
+<td>User pre-committed</td>
+<td>Safe emergency exceptions understood</td>
+<td>Manual-only session</td>
+<td>S33 → S32</td>
+</tr>
+<tr class="odd">
+<td><strong>Weekly review</strong></td>
+<td>User requested periodic reflection</td>
+<td>Review window convenient and app not paused</td>
+<td>No review prompt</td>
+<td>S33 → S45</td>
+</tr>
+<tr class="even">
+<td><strong>Correction request</strong></td>
+<td>Material discrepancy appears in permitted data</td>
+<td>Confirmed need; user elected learning; sufficiently respectful
+timing</td>
+<td>Remain silent until in-app edit</td>
+<td>S33 → S76</td>
+</tr>
+<tr class="odd">
+<td><strong>Critical source correction</strong></td>
+<td>Previously presented consequential advice is withdrawn</td>
+<td>Confirmed affected person and material risk; safety review approves
+wording</td>
+<td>On-app error notice and affected feature disabled</td>
+<td>S33 → X97</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Scheduling nuance:</strong> If the next cue would arrive
+after an event has expired, do not deliver an obsolete prompt. A missed
+notification is not evidence of a missed obligation. Quiet mode can
+retain individually opted-in exact reminders; “Pause all” confirmation
+specifies whether those reminders are paused too.</p>
+<p><strong>Frequency:</strong> no arbitrary universal threshold claimed
+as evidence. Set conservative proposed defaults for testing, allow
+category-level control, and measure burden. A good prototype must be
+able to generate <strong>zero notifications for a user over an entire
+week</strong>.</p>
+<h2 id="23-adaptation-rules--what-may-change-over-time">23. Adaptation
+rules — what may change over time</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Trigger</th>
+<th>Safe action</th>
+<th>Requires explicit confirmation?</th>
+<th>Inference forbidden</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>User edits job/term/roster</td>
+<td>Update future relevant commitment pattern effective date</td>
+<td>Yes</td>
+<td>That earlier work history was false</td>
+</tr>
+<tr class="even">
+<td>User dismisses optional cue repeatedly</td>
+<td>Offer an unobtrusive “less of these?” control in an allowed
+context</td>
+<td>Yes for persistent change</td>
+<td>Lack of motivation or devotion</td>
+</tr>
+<tr class="odd">
+<td>User reports fatigue</td>
+<td>Offer to reduce optional suggestions or protect recovery</td>
+<td>Yes</td>
+<td>A medical diagnosis or a prayer exemption</td>
+</tr>
+<tr class="even">
+<td>User reports new family dependency</td>
+<td>Reclassify selected care boundaries</td>
+<td>Yes</td>
+<td>Dependents' identities or needs</td>
+</tr>
+<tr class="odd">
+<td>Iqamah source becomes stale</td>
+<td>Revoke “verified” label and dependent prompts</td>
+<td>Factual trust downgrade automatic; optional user notification if
+material</td>
+<td>Estimate a new Iqamah</td>
+</tr>
+<tr class="even">
+<td>Travel dates pass</td>
+<td>End temporary travel context after user-confirmed expiry logic</td>
+<td>Notify/confirm when consequential</td>
+<td>That a religious concession ended automatically in every school</td>
+</tr>
+<tr class="odd">
+<td>Ramadan starts</td>
+<td>Offer opt-in review of changed rhythms</td>
+<td>Yes</td>
+<td>Fasting eligibility/actual practice</td>
+</tr>
+<tr class="even">
+<td>User stops opening app</td>
+<td>Respect silence; existing exact requested alerts as configured</td>
+<td>No nagging</td>
+<td>Abandonment or spiritual state</td>
+</tr>
+<tr class="odd">
+<td>Person keeps their current schedule</td>
+<td>Preserve; no feedback required</td>
+<td>No</td>
+<td>That all free time should be assigned</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Learning boundaries:</strong> No passive spiritual profiling;
+no use of location to “verify” worship; no auto-detection of
+menstruation, illness, family relationships, ideological/religious
+standing or sincerity; no new religious claims inferred from behavior;
+no unreviewed autonomous personal rulings.</p>
+<hr />
+<h1 id="part-vii--quality-release-gates-and-decisions">PART VII —
+QUALITY, RELEASE GATES AND DECISIONS</h1>
+<h2 id="24-usability-and-behavioral-acceptance-criteria">24. Usability
+and behavioral acceptance criteria</h2>
+<h3 id="test-set-a--onboarding">Test set A — Onboarding</h3>
+<ul>
+<li>A01: New user declines identity, location and notifications; reaches
+an honest usable Today screen.</li>
+<li>A02: Mixed student/employee/caregiver can select several roles
+without being forced into one template.</li>
+<li>A03: Night-shift user reaches a draft that does <strong>not</strong>
+presume sleep after Isha or staying awake after Fajr.</li>
+<li>A04: For every question, researcher can identify which
+recommendation changes, or remove the question.</li>
+<li>A05: All core answers can be corrected without resetting unrelated
+preferences.</li>
+<li>A06: First-use claims distinguish “you told me” from “not known”; no
+automatically invented Iqamah.</li>
+<li>A07: A person can choose no voluntary goals, no prayer alerts and no
+coaching.</li>
+</ul>
+<h3 id="test-set-b--everyday-experience">Test set B — Everyday
+experience</h3>
+<ul>
+<li>B01: Today conveys next meaningful commitment and selected help
+without a completion/piety score.</li>
+<li>B02: Free time remains visually legitimate and doesn't trigger
+automatic task-filling.</li>
+<li>B03: Prayer <strong>window</strong> and mosque <strong>congregation
+event</strong> are visibly distinct.</li>
+<li>B04: A selected on-demand user can go seven days without unsolicited
+coaching.</li>
+<li>B05: An approved fixed event is never shifted by an
+auto-proposal.</li>
+<li>B06: A missed voluntary reading period does not generate an
+accumulated backlog.</li>
+<li>B07: An expired reminder opens present options, not an obsolete call
+to action.</li>
+<li>B08: “Why this?” describes data source, assumptions and consent
+boundary.</li>
+</ul>
+<h3 id="test-set-c--religious-and-safety-boundaries">Test set C —
+Religious and safety boundaries</h3>
+<ul>
+<li>C01: No Jumu'ah or congregation rule is asserted for an unknown
+person's circumstances without reviewed applicability.</li>
+<li>C02: No prayer combining/shortening is offered as an algorithmic
+shortcut for a meeting, shift or travel.</li>
+<li>C03: Iqamah without reliable dated source is labeled
+<strong>unverified</strong>, with no false leave-time promise.</li>
+<li>C04: Menstrual/postpartum and other sensitive circumstances never
+become a failure metric or mandatory data field.</li>
+<li>C05: When an appropriate scholarly method is unknown or unsupported,
+the screen can abstain and retain ordinary planning.</li>
+<li>C06: Accessibility needs change route suitability without requesting
+a medical diagnosis.</li>
+<li>C07: A clinician in a patient emergency is never asked to take
+immediate app action.</li>
+<li>C08: Materially unsafe advice can be withdrawn promptly with a safe
+alternative.</li>
+</ul>
+<h3 id="test-set-d--privacy-access-and-recovery">Test set D — Privacy,
+access and recovery</h3>
+<ul>
+<li>D01: Denied GPS → manual area/mosque path.</li>
+<li>D02: Denied notifications → on-screen planning still
+functional.</li>
+<li>D03: Offline → cached source age visible and no real-time
+claims.</li>
+<li>D04: A user can inspect personal data categories and delete an item
+independently.</li>
+<li>D05: Account deletion doesn't falsely claim remote erasure while
+incomplete.</li>
+<li>D06: Arabic/Urdu RTL, dynamic type, screen readers and low vision
+allow all consequential flows.</li>
+<li>D07: Midnight, time zone changes and daylight saving do not silently
+corrupt prayer or fixed appointment times.</li>
+<li>D08: Return after absence prompts correction of
+<strong>material</strong> stale schedule data only.</li>
+</ul>
+<h2 id="25-research-and-expert-review-gates">25. Research and expert
+review gates</h2>
+<p><strong>Religious content approval before public religious
+advice:</strong> exact source, Arabic wording where applicable, hadith
+grading, interpretive scope, recognized school/tradition, exceptions,
+source update process, emergency pause/withdrawal. Include comparative
+fiqh, women scholars, minority contexts and high-latitude astronomy
+expertise where relevant. A screen may be visually finished but
+<strong>not permitted to issue guidance</strong> until this gate
+passes.</p>
+<p><strong>Experience testing:</strong> recruit contrasting Muslim
+lifestyles, including people uninterested in notification-heavy
+software. Test onboarding comprehension, difficulty of correcting the
+life model, whether people can distinguish recommendations from rulings,
+and ability to leave the app quietly. Think-aloud tasks for S19, S25,
+S39, S61, S74, S78. Test internationalization and accessibility with
+real assistive-tech users.</p>
+<p><strong>Behavior and burden testing:</strong> monitor
+<em>feasibility</em>, user-defined conflict burden, adequacy of rest,
+autonomy, decision cost and adverse effects. Compare the adaptive
+experience to reliable prayer information plus a manual planner. An
+attractive interface or high usage alone is not evidence of benefit.</p>
+<h2
+id="26-release-sequence--by-coherent-experience-not-feature-count">26.
+Release sequence — by coherent experience, not feature count</h2>
+<p><strong>Checkpoint 1: First understanding loop.</strong> S01–S03,
+S08–S20, S25, S71–S74, S78–S81, relevant exception states. Deliverable:
+first useful draft, editable personal understanding and no forced
+permissions.</p>
+<p><strong>Checkpoint 2: Plan–conflict–repair loop.</strong> S34–S47,
+S29–S31, S83 and related sheets. Deliverable: actual fixed/flexible
+commitments, reversible proposal and graceful handling of no
+solution.</p>
+<p><strong>Checkpoint 3: Opt-in intention loop.</strong> S48–S56, S52,
+basic S57–S58 as feasible. Deliverable: self-defined flexible practice
+without backlog or scores.</p>
+<p><strong>Checkpoint 4: Religiously reviewed prayer
+assistance.</strong> S61, S66, S68, S75 plus mosque-related screens when
+a trustworthy local source exists. <strong>Release only with applicable
+scholar approval.</strong> Deliverable: accurate window vs congregation
+distinction and honest trust labels.</p>
+<p><strong>Checkpoint 5: Season, interruptions and
+accessibility.</strong> S84–S85, X88–X97, responsive layouts/RTL and
+longitudinal review. Deliverable: a system that survives real-life
+change and maintains correct boundaries.</p>
+<p><strong>Checkpoint 6: Comparative proof.</strong> Test whether added
+adaptation improves real lives beyond basic verified information and
+manual planning. Remove mechanisms that add distraction or lead to
+error.</p>
+<h2 id="27-what-is-deliberately-omitted-from-v1">27. What is
+deliberately omitted from v1</h2>
+<ul>
+<li>Daily piety score, leaderboards, public worship profiles, worship
+streak penalties, notification campaigns to increase engagement.</li>
+<li>Social sharing of worship accomplishments or family compliance.</li>
+<li>Autonomous fatwa generation, automatic legal concessions, absolute
+“Prophetic timetable.”</li>
+<li>Mandatory device surveillance, precise location history, passive
+contacts/messages/media access.</li>
+<li>Full Qur'an/media platform, commercial marketplace, elaborate
+theological content feed.</li>
+<li>Automatic employer/family calendar changes or messages without
+explicit consent.</li>
+<li>Claims that the system knows whether someone prayed, fulfilled
+family rights, or became more religious.</li>
+</ul>
+<h2 id="28-open-decisions--explicit-narrow-and-testable">28. Open
+decisions — explicit, narrow and testable</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Open item</th>
+<th>Proposed default for blueprint</th>
+<th>Who can resolve it</th>
+<th>Decision deadline</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>App name and icon</td>
+<td>Use neutral working title “Life Companion”</td>
+<td>Founder/design testing</td>
+<td>Before final branding only</td>
+</tr>
+<tr class="even">
+<td>Onboarding length</td>
+<td>Eight areas with branch-on-need; “Basic / More detail”</td>
+<td>User testing</td>
+<td>Before high-fidelity flow lock</td>
+</tr>
+<tr class="odd">
+<td>Exactly how much help</td>
+<td>User-selected mode; individual alert categories</td>
+<td>User testing</td>
+<td>Before live notification testing</td>
+</tr>
+<tr class="even">
+<td>Mosque source coverage</td>
+<td>Available only where trusted dated Iqamah data exists</td>
+<td>Mosques/source partners + verification</td>
+<td>Before mosque feature launch</td>
+</tr>
+<tr class="odd">
+<td>Default prayer method</td>
+<td><strong>No silent disputed default</strong>; ask or show factual
+source choices</td>
+<td>Islamic scholars + regional research</td><td>Before precise timing guidance</td>
+</tr>
+<tr class="even">
+<td>Ja'fari, Zaydi, Ibadi and other traditions</td>
+<td>Common foundation; don't claim detailed legal coverage</td>
+<td>Relevant qualified scholars</td>
+<td>Before claiming universal legal support</td>
+</tr>
+<tr class="odd">
+<td>Account required?</td>
+<td><strong>No</strong>, private use as primary</td>
+<td>Privacy and feasibility review</td>
+<td>Before implementation signoff</td>
+</tr>
+<tr class="even">
+<td>Exact weekly review frequency</td>
+<td>Optional, can be on-demand</td>
+<td>Behavior/usability testing</td>
+<td>Before push rollout</td>
+</tr>
+<tr class="odd">
+<td>Device focus enforcement</td>
+<td>Manual and operating-system tools where permitted</td>
+<td>Platform/privacy feasibility</td>
+<td>Before promise of enforcement</td>
+</tr>
+<tr class="even">
+<td>Measurable primary wellbeing outcome</td>
+<td>Participant-chosen conflict burden + autonomy/sleep harms</td>
+<td>Researcher and trial methodologist</td>
+<td>Before efficacy study</td>
+</tr>
+</tbody>
+</table>
+<h2 id="29-final-source-and-evidence-record">29. Final source and
+evidence record</h2>
+<p>The religious values and limitations above are derived from
+<strong>the supplied founder-approved foundation and five uploaded desk
+studies</strong>, not from newly recruited users or new scholarly
+certification. Critical primary references identified there include
+Qur'an 4:103; 28:77; Sahih al-Bukhari 1968, 5199 and 6465. The research
+material acknowledges disagreements around congregation, high-latitude
+timing, Asr, travel, menstruation/postpartum applicability and more. The
+blueprint makes <strong>product behavior recommendations</strong>, not
+religious judgments.</p>
+<p>Official interaction references consulted separately: Apple HIG on
+onboarding and tab bars; Apple notification permission guidance; Android
+responsive navigation guidelines; WCAG 2.2. These support UX
+conventions; they do <strong>not</strong> prove that the system has
+religious or behavioral efficacy.</p>
+<h3 id="foundation-to-blueprint-traceability">Foundation-to-blueprint
+traceability</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Foundation rule</th>
+<th>Concrete product manifestation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>F01 Religious status distinctions</td>
+<td>S15–S17, S61/S66, S68, M102</td>
+</tr>
+<tr class="even">
+<td>F02 External religious authority</td>
+<td>S68, S77, X91, X97</td>
+</tr>
+<tr class="odd">
+<td>F03 Protect plural rights</td>
+<td>S12–S14, S35, S39–S40, S43</td>
+</tr>
+<tr class="even">
+<td>F04 Window vs congregation</td>
+<td>S61–S66, X90</td>
+</tr>
+<tr class="odd">
+<td>F05 Feasible options first</td>
+<td>S39, S40, X92</td>
+</tr>
+<tr class="even">
+<td>F06 Capacity and safety</td>
+<td>S13, S23, S43, S83–S85, X94</td>
+</tr>
+<tr class="odd">
+<td>F07 Free time legitimate</td>
+<td>S25, S35, X88</td>
+</tr>
+<tr class="even">
+<td>F08 Consent controls intervention</td>
+<td>S08, S27, S74, M99–M100</td>
+</tr>
+<tr class="odd">
+<td>F09 Facts vs observations vs assumptions</td>
+<td>S19, S72, S76, M98</td>
+</tr>
+<tr class="even">
+<td>F10 No piety scores</td>
+<td>Today/Intentions/Review deliberately score-free</td>
+</tr>
+<tr class="odd">
+<td>F11 Silence available</td>
+<td>On-demand path; S74, S56; X92</td>
+</tr>
+<tr class="even">
+<td>F12 Data minimization/privacy</td>
+<td>S03, S05, S78–S80, X95</td>
+</tr>
+<tr class="odd">
+<td>F13 Every question changes decisions</td>
+<td>S08–S24 → S19/S20 mapping</td>
+</tr>
+<tr class="even">
+<td>F14 Admit limits</td>
+<td>S68, X89–X91, X97</td>
+</tr>
+<tr class="odd">
+<td>F15 Real-world outcomes</td>
+<td>S45 reflection + independent testing gates</td>
+</tr>
+</tbody>
+</table>
+<h2 id="30-final-blueprint-verdict">30. Final blueprint verdict</h2>
+<p><strong>Product direction:</strong> sufficiently coherent to draw all
+primary and secondary wireframes. <strong>Behavioral
+specification:</strong> concrete, internally testable, with known
+assumptions. <strong>Religious validity:</strong> gated to qualified
+review for content beyond established general principles.
+<strong>Effectiveness:</strong> not claimed until participant and
+comparative testing. <strong>Design approval:</strong> pending
+visual/usability validation, especially for people with care, shift,
+disability, travel and fiqh complexity.</p>
+<p><strong>The app succeeds when somebody can fulfill their real
+responsibilities more calmly and appropriately, whether they open it
+many times, rarely, or not at all that day.</strong></p>
+</body>
+</html>

@@ -1,0 +1,1839 @@
+# Foundational Research Report
+
+ISLAMIC LIFE-MANAGEMENT SYSTEM · FUNCTIONAL FOUNDATION · 24 OCTOBER 2026
+
+## Executive conclusion
+
+The system should be designed as a personal responsibility-and-balance assistant, guided by Islamic principles, rather than as a religiously themed productivity planner.
+
+Its central function should be to understand what matters in a person's life, distinguish obligations from preferences, recognize real constraints, and help the person make sustainable everyday decisions.
+
+The strongest foundation is not a universal timetable, a particular number of hours devoted to worship, or a predefined ideal Muslim lifestyle. It is the Islamic principle of recognizing and fulfilling different rights and responsibilities without allowing one area of life to unjustifiably displace another.
+
+The clearest primary evidence comes from the account of Salman al-Farisi and Abu al-Darda, reported in Sahih al-Bukhari 1968. Salman challenged Abu al-Darda's excessive voluntary worship at the expense of rest and family responsibilities. When informed, the Prophet Muhammad ﷺ affirmed Salman's understanding that the rights of Allah, oneself and one's family must each be respected.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+Sunnah
+
+
+
+This establishes a valuable governing principle, but it does not provide a universal schedule or authorize an application to decide independently which religious duties someone may neglect.
+
+### The proposed foundational model
+
+FOUNDATION
+
+## Islamic rights, responsibilities and ethical principles
+
+Religiously established principles, interpreted within their proper scope
+
+Personal understanding
+
+Responsibilities, circumstances, intentions, preferences and capacity
+
+Decision guidance
+
+Applicable duties, conflicts, flexible choices and uncertainty
+
+Practical assistance
+
+Realistic routines, alternatives and assistance when wanted
+
+Adaptation
+
+Corrections, changing circumstances, learning and restraint
+
+### Human autonomy and appropriate judgment
+
+The individual retains control; qualified scholars and professionals remain responsible for judgments requiring their expertise.
+
+### Eight foundational conclusions
+
+1. Religious responsibilities have different statuses. Obligations, recommendations, permissions and disputed rulings cannot all be treated as equivalent planning tasks.
+2. Every person requires a different practical routine. Islamic principles can be shared without assuming identical schedules, capacities or family circumstances.
+3. Onboarding should establish a useful initial understanding, not a comprehensive personal dossier. Every question must change an identifiable decision.
+4. Protecting existing responsibilities is more important than maximizing additional activities. Voluntary worship should generally be fitted sustainably around applicable obligations and other rights.
+5. The system must acknowledge uncertainty. A planning conflict is not always a religious question, and a religious question cannot always be settled by scheduling logic.
+6. Personalization should be transparent, correctable and primarily permission-based. Uncertain observations should not silently become facts about a person's religious practice.
+7. Silence is an appropriate form of assistance. More reminders, interventions and suggested activities are not necessarily better.
+8. Success must be evaluated through real-life outcomes and unintended harms. Completion counts, positive feedback and religious activity totals are insufficient.
+
+These conclusions are a mixture of established religious principles and proposed design consequences. The religious foundation is substantially stronger than the empirical evidence for the proposed system itself.
+
+### Research status and qualifications
+
+This report is a source-grounded research synthesis and proposed functional specification, not a fatwa, a completed scholarly consensus process, or an experimentally validated intervention.
+
+For clarity, the analysis distinguishes five kinds of claims:
+
+| Label                          | Meaning                                                                    |
+| ------------------------------ | -------------------------------------------------------------------------- |
+| Primary evidence               | Explicit Qur'anic text or authenticated Hadith                             |
+| Jurisprudential interpretation | A rule requiring established legal methodology or scholarly interpretation |
+| Historical evidence            | An attested example, not necessarily a general rule                        |
+| Behavioral evidence            | Findings from scientific studies, with limits on generalization            |
+| Design proposal                | A recommendation or hypothesis that still needs validation                 |
+
+The report's key challenge is to preserve the distinction between what Islam requires, what a particular person needs, and what a life-management system is qualified to recommend.
+
+# Deliverable 1: Islamic Life Framework
+
+## 1.1 The organizing principle: rights before time allocation
+
+A balanced Islamic life is not necessarily one in which worship, work, family, health and recreation receive equal time.
+
+Equal distribution can itself be inappropriate.
+
+A parent caring for a sick child may rightly spend most of the day on caregiving. A surgeon on emergency duty may have very little discretionary time. A student preparing for an examination may temporarily devote more time to learning. A person recovering from illness may need unusually extensive rest.
+
+These situations do not automatically indicate a spiritually or morally unbalanced life.
+
+A more defensible formulation is:
+
+A balanced Islamic life is one in which a person seeks to fulfill applicable religious and interpersonal responsibilities, makes appropriate use of permissible choices, respects genuine human limitations, and avoids sustained neglect or excess.
+
+This definition is a proposed synthesis rather than a quotation from a single religious source.
+
+Its strongest supports include:
+
+- [Sahih al-Bukhari 1968](https://sunnah.com/bukhari:1968?utm_source=chatgpt.com): recognizing rights belonging to Allah, oneself and family.
+- [Sahih al-Bukhari 5199](https://sunnah.com/bukhari:5199?utm_source=chatgpt.com): the Prophet ﷺ corrected a pattern of excessive fasting and night prayer that disregarded bodily and marital rights.
+- [Qur'an 28:77](https://quran.com/28/77?utm_source=chatgpt.com): seek the Hereafter without forgetting one's share of worldly life.
+- [Qur'an 2:286](https://quran.com/2/286?utm_source=chatgpt.com): accountability is connected to capacity.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+  Sunnah
+
+  +2
+
+
+
+None of these sources specifies an allocation such as two hours of worship, eight hours of employment and three hours of family time.
+
+The system must not manufacture such allocations and then label them Islamic.
+
+## 1.2 Religious classification: five legal categories
+
+Classical Islamic jurisprudence commonly distinguishes five categories of legal valuation (al-ahkam al-khamsah).
+
+| Category                       | General meaning                                     | Implication for life organization                                    |
+| ------------------------------ | --------------------------------------------------- | -------------------------------------------------------------------- |
+| Obligatory (wajib/fard)        | An act that is religiously required                 | Assist the person in fulfilling applicable duties                    |
+| Recommended (mandub/mustahabb) | Praiseworthy but not generally compulsory           | Offer opportunities without implying obligation                      |
+| Permissible (mubah)            | Normally neither commanded nor prohibited in itself | Preserve individual freedom and personal choice                      |
+| Disliked (makruh)              | Discouraged conduct, with details varying by school | Do not present as prohibited without qualification                   |
+| Prohibited (haram)             | Religiously forbidden conduct                       | Give accurate information when relevant; avoid unsupported judgments |
+
+This classification is foundational, but a specific activity's classification may depend on context, jurisprudential school, individual capacity and other circumstances.
+
+For example, earning a livelihood may be generally permissible, while fulfilling an actual financial maintenance obligation is a duty. Rest is generally permissible and beneficial; in certain circumstances, avoiding harmful exhaustion can become a matter of obligation or protection from harm.
+
+Consequently, an activity needs more than a fixed religious label. It needs a contextual understanding of why the person is doing it and which responsibilities are affected.
+
+The five categories should not become a grading system for the person. Nor should every ordinary activity be assigned an invented spiritual value.
+
+## 1.3 Evidence-backed domains of everyday life
+
+The following framework distinguishes what the sources establish from what we can reasonably derive for life management.
+
+| Area                                | Religious evidence and status                                           | Supported principle                                                                         | What must not be inferred                                                                                     |
+| ----------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Obligatory worship                  | Qur'an 4:103; 62:9. Primary evidence                                    | Prayer has prescribed times; Friday prayer has specific obligations for eligible people     | That every Muslim must attend every mosque congregation, or observe identical schedules                       |
+| Voluntary worship                   | Bukhari 6464, 5063. Authenticated Hadith                                | Consistent, moderate practice is valued; excessive voluntary practice can be inappropriate  | That completing more optional worship automatically means greater spiritual standing                          |
+| Lawful work and livelihood          | Qur'an 5:1; 62:10. Primary evidence                                     | Honor commitments; worldly livelihood is a legitimate pursuit                               | That maximizing earnings, working longer hours or choosing a particular occupation is religiously superior    |
+| Family and caregiving               | Qur'an 17:23, 30:21; Bukhari 1968. Primary evidence                     | Respect, kindness and fulfillment of family rights matter                                   | That all households have identical role distributions or time requirements                                    |
+| Sleep and physical health           | Qur'an 30:23; Bukhari 5199. Primary evidence                            | Sleep and bodily needs must not simply be sacrificed to excessive voluntary activity        | An exact universal sleep duration or medical recommendation                                                   |
+| Learning and education              | Qur'an 58:11. Primary evidence                                          | Knowledge has religious significance                                                        | That every field of learning has the same religious status or every student must follow a fixed study routine |
+| Community responsibilities          | Qur'an 9:71; Bukhari 6011. Primary evidence                             | Mutual support, concern and responsible conduct are important                               | That constant availability for community events is obligatory                                                 |
+| Recreation and moderation           | Qur'an 7:31; Bukhari 5063. Primary evidence and interpretation          | Permissible enjoyment is compatible with religious responsibility; excess should be avoided | That recreation is automatically wasteful or that entertainment has a universal permissible duration          |
+| Character and conduct               | Qur'an 16:90, 49:12. Primary evidence                                   | Justice, kindness and avoidance of spying, suspicion and backbiting are important           | That private character can be accurately quantified from daily activity records                               |
+| Capacity and legitimate concessions | Qur'an 2:185, 2:286, 5:6. Primary evidence; detailed rules require fiqh | Islamic law recognizes constraints and specific concessions                                 | That any inconvenience independently permits changing an obligatory practice                                  |
+
+Principal sources:&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://quran.com\&sz=32)
+
+Quran
+
++16
+
+
+
+### Four especially important interpretations
+
+First: obligations are not interchangeable with preferences.
+
+An important work meeting is a meaningful commitment, but its importance does not automatically override an applicable prayer obligation. Conversely, a voluntary reading session should not ordinarily be treated as more urgent than fulfilling a genuine caregiving responsibility.
+
+The system needs to understand both religious status and practical context.
+
+Second: permissible activities are not second-class activities.
+
+Sleep, lawful recreation, family conversation and ordinary social life do not need to be transformed into explicitly religious tasks to have a legitimate place in a Muslim's life.
+
+The report in Bukhari 5063 is particularly relevant: the Prophet ﷺ rejected proposals involving unbroken fasting, permanent night worship and abstention from marriage as expressions of excessive religious practice.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+Sunnah
+
+
+
+The consequence for life organization is significant: the system should not attempt to fill all available time with voluntary worship.
+
+Third: rights are relational, not merely individual goals.
+
+Family members, employers, employees, students, customers and vulnerable people may depend on someone's actions.
+
+The Qur'an commands honoring commitments (5:1), and the Prophet ﷺ taught accountability for responsibilities under one's care (Bukhari 893).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://quran.com\&sz=32)
+
+Quran
+
++1
+
+
+
+Therefore, the system must not treat a person's day as entirely available for self-improvement. Some commitments already belong, morally or contractually, to other people.
+
+Fourth: legitimate concessions must be recognized without being invented.
+
+Qur'an 2:185 specifically recognizes circumstances affecting fasting during illness and travel; Qur'an 5:6 addresses purification under particular constraints. These establish that Islamic obligations operate within a framework recognizing hardship and capacity.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://quran.com\&sz=32)
+
+Quran
+
++1
+
+
+
+However, these verses do not authorize an automated assistant to extend every concession to every superficially similar situation.
+
+The appropriate behavior is to identify a potentially relevant concession, explain that its applicability depends on further details, and use reviewed guidance or refer the question to qualified scholarship.
+
+## 1.4 Verified historical examples and their proper use
+
+Salman al-Farisi and Abu al-Darda
+
+Sahih al-Bukhari 1968 · Companion example affirmed by the Prophet ﷺ
+
+Salman's intervention challenged voluntary devotional excess that affected rest and family rights. The proposed lesson is to protect the rights of others and oneself before adding more optional commitments.
+
+Limit: It does not establish a universally correct number of voluntary fasts, hours of sleep or daily family hours.
+
+The Prophet ﷺ assisting his household
+
+Sahih al-Bukhari 676 · Report from Aisha
+
+Aisha reported that the Prophet ﷺ served his family and attended prayer when its time came.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+Sunnah
+
+
+
+Lesson: Family service and religious worship are not opposing categories.
+
+Limit: This does not prescribe identical domestic routines for every family.
+
+Abdullah ibn Amr and voluntary worship
+
+Sahih al-Bukhari 5199 · Prophetic guidance
+
+The Prophet ﷺ corrected an excessively demanding voluntary fasting and night-prayer routine, explicitly recognizing bodily and marital rights.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+Sunnah
+
+
+
+Lesson: A routine that appears devotionally ambitious can nevertheless be inappropriate when it causes neglect.
+
+Limit: It does not mean every demanding worship routine is inherently wrong.
+
+Regularity and moderation
+
+Sahih al-Bukhari 6464 · Report from Aisha
+
+The Hadith emphasizes moderation and consistent good deeds, even if relatively small.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+Sunnah
+
+
+
+Lesson: Sustainability should influence voluntary-routine recommendations.
+
+Limit: Consistency must not be used to shame people whose circumstances are naturally irregular.
+
+These are well-attested accounts directly relevant to the proposed framework. They are more reliable foundations than attractive but poorly sourced anecdotes about the daily timetables of famous scholars or merchants.
+
+Detailed claims about historical scholars, commercial families or medieval community routines would require examination of particular biographies, dated documents and source-critical scholarship. That broader historical inquiry remains incomplete here. It is not necessary to invent historical precedents to justify modern scheduling decisions.
+
+## 1.5 Areas requiring jurisprudential treatment
+
+A universal framework does not require identical jurisprudential conclusions. It requires a consistent way of handling differences.
+
+| Question                        | Relevant distinction                                                | Appropriate initial treatment                                                                  |
+| ------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Congregational prayer           | Schools differ over its legal status and who is obligated           | Respect a reviewed legal profile; do not label all nonattendance sinful                        |
+| Friday prayer                   | Applicability varies with legally relevant circumstances            | Establish applicability before proposing mosque attendance                                     |
+| Asr timing                      | Different accepted calculation conventions                          | Ask about the person's established timing convention where relevant                            |
+| Travel                          | Shortening and combining prayers involve school-specific conditions | Refer to reviewed guidance; do not invent thresholds                                           |
+| Illness and disability          | Concessions depend on capacity and circumstances                    | Support access and appropriate accommodation without medical or legal guesswork                |
+| Menstruation/postnatal bleeding | Specific prayer and fasting rules apply                             | Permit private disclosure or self-managed adjustment without mandatory tracking                |
+| Ramadan                         | Fasting duties, exemptions and other commitments vary               | Ask only what is needed for planning; never automatically determine eligibility for exemptions |
+| Missed prayers                  | Several legal details and circumstances can matter                  | Do not prescribe an individual remedial program without qualified guidance                     |
+| Voluntary practices             | Some differences involve status, timing and priority                | Label uncertainty; avoid universal claims                                                      |
+| Religious interpretation        | Sunni schools and other Muslim traditions differ                    | Do not silently impose one school or erase recognized differences                              |
+
+For example, Egypt's Dar al-Ifta documents the distinction between daily congregational prayer and Friday obligations, the circumstances affecting Friday attendance, and the treatment of prayers during menstruation. Its publications also identify areas of jurisprudential disagreement. These are useful examples of institutional fiqh, but they are not a substitute for reviewing relevant guidance across the traditions the system will claim to support.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://dar-alifta.org\&sz=32)
+
+Should a menstruating woman pray d...
+
++3
+
+
+
+### Proposed religious evidence policy
+
+Before the system can issue any religiously consequential recommendation, each relevant rule should have:
+
+- An exact primary source where available.
+- Its legal status and the level of scholarly agreement.
+- Conditions and exceptions.
+- A documented distinction between the evidence and the interpretation.
+- The traditions or schools for which the interpretation has been verified.
+- A clear response when the person's circumstances fall outside those conditions.
+
+Foundational finding: Islamic evidence sufficiently supports a rights-aware, moderate and context-sensitive approach to daily life. It does not, by itself, establish a ready-made algorithm for prioritizing every possible daily conflict.
+
+That gap must be handled through carefully bounded human decision support, not by attributing invented decisions to religion.
+
+# Deliverable 2: Personal Understanding Framework
+
+## 2.1 What does the system actually need to understand?
+
+The correct objective of onboarding is not to collect as much personal information as possible.
+
+It is to answer five practical questions:
+
+What is this person trying to improve?
+
+Their intentions and desired form of assistance
+
+What already occupies their life?
+
+Responsibilities, time commitments and unpredictability
+
+What can they realistically sustain?
+
+Sleep, recovery, capacity and practical limitations
+
+Which religious considerations are relevant?
+
+Applicable commitments, established preferences and unresolved questions
+
+How much involvement do they want?
+
+Permission to suggest, remind, reconsider or remain silent
+
+The system does not initially need someone's income, exact occupation, exact address, medical diagnoses, detailed religious history, daily device activity or private family relationships.
+
+A minimal understanding of commitments and constraints is more defensible than an expansive biography.
+
+## 2.2 Behavioral research relevant to onboarding
+
+Several independent research traditions are useful, but their implications must not be exaggerated.
+
+| Research                                                | Established contribution                                                       | Implication for this system                                                   | Limitation                                                                 |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| COM-B — Michie, van Stralen & West (2011)               | Behavior depends on capability, opportunity and motivation                     | Ask whether an intended activity is practical, not only whether it is desired | The framework does not validate any particular Islamic onboarding question |
+| Self-Determination Theory — Deci & Ryan (2000)          | Autonomy, competence and relatedness are important to motivation and wellbeing | Support choice, meaningful explanation and personal control                   | Does not imply all religious obligations are optional                      |
+| Implementation intentions — Gollwitzer & Sheeran (2006) | Specific if-then plans can help people act on intentions                       | Offer optional contingency planning for chosen goals                          | Effectiveness differs by behavior and setting                              |
+| Habit formation — Lally et al. (2010)                   | Habit development varies substantially between people and behaviors            | Do not expect routines to stabilize after seven days                          | Studied selected everyday behaviors, not overall Islamic life balance      |
+| JITAIs — Nahum-Shani et al. (2018)                      | Context and availability can guide intervention timing                         | Consider when someone is receptive before interrupting                        | Contextual tailoring can still become intrusive                            |
+
+Primary studies:&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Springer Nature Link
+
++4
+
+
+
+The most relevant distinction is between intention, opportunity and capacity.
+
+Suppose a student says:
+
+> I want to read Qur'an for thirty minutes every morning.
+
+That statement establishes an intention. It does not establish that the person routinely has thirty uninterrupted minutes, receives adequate sleep, or wants daily reminders.
+
+A good onboarding conversation investigates whether the plan is realistic before incorporating it into a routine.
+
+### A critical correction to the onboarding assumption
+
+Voluntarily downloading a life-management application demonstrates some degree of interest. It does not establish consent to disclose everything relevant to personal life.
+
+Research on progressive disclosure supports deferring complexity until it is needed. Nielsen Norman Group describes this as a way to make interactions easier to learn and less error-prone, although that is a general usability principle rather than direct experimental validation of this onboarding design.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.nngroup.com\&sz=32)
+
+nngroup.com
+
+
+
+Recommendation: Begin with a short, functional conversation; allow someone to request a more detailed assessment; and introduce sensitive questions only when their benefit is clear.
+
+## 2.3 Complete proposed onboarding conversation
+
+The proposed conversation has three stages.
+
+## 01
+
+Core
+
+Understand the person's immediate needs
+
+Questions Q1–Q8. The person can generate and approve a basic plan without completing every field.
+
+## 02
+
+Relevant
+
+Ask only context-dependent questions
+
+Q9–Q15, presented selectively. Shift workers, caregivers, students and travelers receive different follow-ups.
+
+## 03
+
+Confirm
+
+Summarize, correct and approve
+
+Present the system's understanding, distinguish known from unknown information, and offer an initial plan.
+
+The exact number of questions and their presentation sequence are proposed, not empirically established.
+
+### Stage 1: Essential opening conversation
+
+Every question below has a practical purpose. Answer options are illustrative and should never prevent someone from explaining an unusual circumstance.
+
+| ID | Question and possible answers                                                                                                                                                                                         | Why it is asked and how answers change decisions                                                                                   |
+| -- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Q1 | “What would you most like help with right now?” Select up to two: organizing a busy day; balancing worship and responsibilities; sleep/rest; family time; study/work; distractions; something else                    | Establishes the initial focus. A person choosing sleep receives a recovery-aware plan rather than a list of extra activities       |
+| Q2 | “Which responsibilities describe your life at present?” Student; employed; self-employed; household responsibilities; caregiver; retired; looking for work; other. Multiple answers permitted                         | Defines relevant follow-ups without assuming that someone's identity has only one role                                             |
+| Q3 | “How predictable is your week?” Mostly consistent; different weekdays/weekends; rotating shifts; frequently changing; currently uncertain                                                                             | Selects between a stable routine, separate day types, or short-horizon planning                                                    |
+| Q4 | “What parts of your day are already committed?” Provide approximate blocks for work, education, commuting, caregiving or other responsibilities                                                                       | Protects genuine commitments. Distinguishes available from unavailable time without assuming free time belongs to the system       |
+| Q5 | “When do you usually sleep, and does that provide enough rest?” Approximate sleep interval; variable; frequently interrupted; prefer not to say                                                                       | Prevents unrealistic early-morning or late-night recommendations. Allows variable recovery needs                                   |
+| Q6 | “How would you like prayer to be considered in your daily plan?” Show verified local times; consider prayer when suggesting activities; help plan suitable breaks; I already manage this; prefer not to configure now | Determines whether prayer-related assistance is wanted and avoids duplicate reminders. Does not ask how many prayers are performed |
+| Q7 | “Do you have responsibilities that can change unexpectedly?” Children; elder care; dependent care; unpredictable work; travel; none; other                                                                            | Signals that apparent free time may not be reliably available. Adds flexible space rather than tightly packed activities           |
+| Q8 | “How would you prefer to receive assistance?” Only when I ask; one optional daily review; contextual suggestions; selected reminders; choose later                                                                    | Determines intervention boundaries. Two people with identical lives can receive fundamentally different assistance                 |
+
+Q1–Q8 are the proposed core.
+
+They do not require exact income, formal religious affiliation, diagnosis, marital status or a list of private behaviors.
+
+Why Q8 is essential: The system's right to interrupt a person does not follow from the person's willingness to receive planning assistance.
+
+### Stage 2: Conditional and progressive questions
+
+| ID                              | Trigger and actual question                                                                                       | Answers and resulting change                                                                                                                                               | Privacy, skipping and revisiting                                                                                         |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Q9: Study                       | Student: “What does your study week look like?”                                                                   | Fixed classes → preserve timetable; self-directed study → offer user-selected study blocks; examinations → temporary intensive plan                                        | Optional; ask when academic planning is requested; revisit each term                                                     |
+| Q10: Work                       | Worker: “Does your work start and finish at predictable times?”                                                   | Fixed → recurring commitments; rotating → shift-specific daily plans; on-call → contingency space                                                                          | Exact employer unnecessary; recheck when schedule changes                                                                |
+| Q11: Commute                    | Regular travel: “How much time does travel normally take, and can it vary?”                                       | Predictable → protect travel intervals; uncertain → add buffers; sometimes remote → alternate day types                                                                    | Avoid precise movement histories; revisit after route or workplace changes                                               |
+| Q12: Care                       | Caregiver: “Are there times when another person depends on you being available?”                                  | Fixed care → protected blocks; unpredictable care → flexible capacity; private → preserve discretionary buffers                                                            | Sensitive; no dependent's name or diagnosis needed; revisit when care arrangements change                                |
+| Q13: Capacity                   | When relevant: “Would any accessibility, health or energy-related accommodation help us plan more realistically?” | Prefer longer transitions, fewer interruptions, seated/rest breaks, variable capacity or custom accommodation → modify only practical arrangements                         | Highly sensitive; skippable; ask for functional needs, not diagnoses; review only when requested or circumstances change |
+| Q14: Voluntary intentions       | When a sustainable baseline exists: “Is there a personal practice you would like to make room for?”               | Qur'an, optional worship, learning, exercise, family activities, recreation, other or nothing → propose time only if capacity exists                                       | Optional; do not convert aspirations into religious obligations; revisit when user changes goal                          |
+| Q15: Preferences and boundaries | As needed: “Are there particular religious timing conventions or kinds of guidance you already follow?”           | Established prayer-time convention, trusted local mosque, preferred scholarly reference, uncertain, prefer not to say → select appropriate reviewed information or abstain | Sensitive; do not infer denomination; allow revision at any time                                                         |
+
+Several additional questions should be deferred until genuinely relevant.
+
+For example, asking about Ramadan routines during ordinary onboarding is unnecessary unless Ramadan is approaching or the person raises the issue. Questions about travel concessions belong to a travel-related conversation, not an initial universal form.
+
+Similarly, if someone indicates a desire to reduce unwanted phone use, the system can ask what situations are problematic: bedtime, studying, family meals or other personally identified contexts. There is no general justification for requesting a complete history of phone activity.
+
+## 2.4 How different answers must produce different plans
+
+These examples illustrate the test every onboarding question must pass.
+
+| Question              | Answer A                          | Answer B                                      | Meaningful difference                                                                                                   |
+| --------------------- | --------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Weekly schedule       | Regular 9–5 work                  | Rotating night shifts                         | A uses a predictable weekly plan; B uses shift-relative sleep and recovery                                              |
+| Care responsibilities | No dependents                     | Infant requiring night care                   | B receives flexible evenings and no presumption of uninterrupted sleep                                                  |
+| Worship intentions    | Wants Qur'an after Fajr           | Already has a stable independent routine      | A may receive a proposed optional slot; B receives no unnecessary intervention                                          |
+| Assistance level      | Contextual suggestions            | On request only                               | The second person receives no unsolicited planning messages                                                             |
+| Travel                | Rarely travels                    | Changes cities frequently                     | The second person is prompted to confirm location-dependent religious timing information when needed                    |
+| Accessibility         | No special requirements disclosed | Needs longer transitions and breaks           | The second plan avoids closely spaced commitments and unrealistic travel buffers                                        |
+| Weekly predictability | Fixed lectures                    | Classes and clinical placements change weekly | One uses a term timetable; the other confirms near-term commitments                                                     |
+| Digital wellbeing     | Wants fewer distractions          | Uses phone heavily for work and caregiving    | Only the first might benefit from optional distraction controls; the second should not receive generic reduction advice |
+
+A question that produces no meaningful change in understanding, action, safety or user control should be removed or deferred.
+
+## 2.5 A sample onboarding conversation
+
+Hypothetical user: A university student with evening family responsibilities.
+
+SYSTEM
+
+What would make your everyday life easier to manage right now?
+
+I struggle to balance classes, studying and my religious routine.
+
+SYSTEM
+
+Are your classes usually at the same times, or does your schedule change each week?
+
+Mostly 9 AM to 3 PM, Monday to Thursday.
+
+SYSTEM
+
+Outside classes, is there anything you need to protect time for?
+
+I help at home most evenings, and I need about an hour to commute each way.
+
+SYSTEM
+
+That makes your evening availability more limited. Would you prefer a small study period after arriving home, or more study time on free days?
+
+More on free days. I also want a short time for Qur'an.
+
+SYSTEM
+
+I can include that as an optional practice. Would you like to choose a time now, or see what fits after the rest of your week is organized?
+
+Show me what fits first.
+
+This is meaningful onboarding because every answer changes the emerging plan.
+
+Notice what was not asked: income, family names, exam grades, prayer completion history, mosque attendance history, private spiritual struggles or access to device activity.
+
+## 2.6 Confirming the system's understanding
+
+Before presenting a consequential plan, the system should explicitly distinguish confirmed information, assumptions and missing information.
+
+An appropriate summary would be:
+
+What I understand about your week
+
+Confirmed by you
+
+Classes Monday–Thursday, approximately 9 AM–3 PM; approximately one hour's commute each way; regular evening family responsibilities.
+
+My proposed interpretation
+
+Weekdays may be too crowded for long additional activities. Your freer days may offer better study opportunities.
+
+Still unknown
+
+Your sleep needs, exact recurring study commitments and preferred prayer-related assistance.
+
+Proposed next step: Create a simple weekly plan using your confirmed commitments, with voluntary activities left adjustable.
+
+The individual should be able to correct any statement before approving the plan.
+
+Most importantly, the system must never convert a missing answer into a negative judgment.
+
+Unknown prayer attendance is not evidence of missed prayer. Unknown sleep quality is not evidence of poor discipline. Declining to disclose a health condition does not justify assuming unrestricted capacity.
+
+## 2.7 Rules for maintaining the personal understanding
+
+Each important item should conceptually have an origin and a level of reliability:
+
+| Information state                         | Example                                | How it should be treated                                                        |
+| ----------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------- |
+| User-confirmed                            | “I work nights this week.”             | Use for the stated period                                                       |
+| User-stated intention                     | “I want to walk after work.”           | Treat as a goal, not an established habit                                       |
+| Provisional assumption                    | “Evenings may be busy.”                | Confirm before relying on it                                                    |
+| Repeated observation voluntarily supplied | “My shift ended late on several days.” | Offer to reconsider the routine; do not silently change identity or obligations |
+| Unknown                                   | No answer about mosque attendance      | Do not assume attendance or nonattendance                                       |
+| Outdated                                  | Last semester's timetable              | Request confirmation when it materially affects a new plan                      |
+
+The information should remain useful only while reasonably current.
+
+Suggested reassessment triggers are a new academic term, new work schedule, changed care arrangements, travel, a relevant religious season, user correction, or a demonstrated mismatch that the individual chooses to address.
+
+A weekly interview that automatically repeats every sensitive question would be unjustified.
+
+### Information that should not be automatically collected or inferred
+
+The initial foundation should prohibit covert collection or inference of:
+
+- Religious devotion, faith, sincerity, sins or spiritual standing.
+- Whether someone prayed based on location, movement, silence or screen behavior.
+- Menstruation, pregnancy, illness, disability, or other intimate circumstances from behavioral patterns.
+- Family conflict, financial distress or marital problems from communication activity.
+- Exact movement history merely to infer mosque attendance.
+- Third parties' names, medical conditions, messages or personal schedules without an appropriate reason and permission.
+- Sensitive religious identity or jurisprudential affiliation from ethnicity, nationality or place of worship.
+
+Optional functional accommodations can be requested without demanding disclosure of the underlying private condition.
+
+Deliverable 2 conclusion: The minimum effective personal understanding is a user-confirmed map of commitments, availability, practical capacity, relevant preferences and assistance boundaries. More detailed personal information should be obtained only where it makes a demonstrable difference.
+
+# Deliverable 3: Life Decision Framework
+
+## 3.1 The central distinction: religious judgments versus planning judgments
+
+The system must separate two fundamentally different tasks.
+
+Religious judgment: Is something obligatory, recommended, permissible, prohibited or subject to a valid concession?
+
+Planning judgment: Given the applicable requirements, the person's circumstances and their preferences, what is a practical way to organize the day?
+
+The first requires religious authority and appropriate interpretation. The second can often be handled by ordinary decision-support methods.
+
+Consider:
+
+A person asks whether a particular travel circumstance permits combining two prayers.
+
+That is substantially a jurisprudential question.
+
+The same person then asks which already-permitted prayer arrangement would fit a verified travel schedule while preserving adequate transition time.
+
+That is substantially a planning question.
+
+The system should be capable of assisting with the second without pretending to possess authority over the first.
+
+## 3.2 The proposed order of decision-making
+
+1\. Establish the situation
+
+What is confirmed, changing or unknown?
+
+2\. Identify applicable requirements
+
+Religious duties, external commitments and care needs
+
+3\. Check confidence and authority
+
+Is the interpretation verified and appropriate to the individual?
+
+4\. Find feasible choices
+
+Respect capacity, existing commitments and genuine flexibility
+
+5\. Decide the appropriate assistance
+
+Inform, suggest, clarify, reorganize, refer or remain silent
+
+6\. Obtain approval and learn carefully
+
+Apply user-approved changes and preserve correction and override
+
+This sequence is a design proposal, not an algorithm transmitted by religious sources.
+
+## 3.3 Four classes of practical constraints
+
+An important distinction is between religious legal categories and operational planning constraints.
+
+A religious obligation is not identical to a calendar entry marked non-movable, and some important human commitments are not inherently religious obligations.
+
+| Operational class                    | Examples                                                                      | Handling                                                                                              |
+| ------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Religiously governed requirement     | Applicable obligatory prayer, fasting requirement, Friday attendance          | Apply only verified rules, conditions and concessions                                                 |
+| Firm personal or external commitment | Examination, employment duty, dependent's medical appointment, agreed meeting | Protect as a genuine commitment; investigate conflicts without independently changing religious rules |
+| Flexible personal commitment         | Revision session, exercise, optional learning, household organization         | Offer rescheduling when requested or authorized                                                       |
+| Discretionary activity               | Entertainment, optional recreation, unscheduled personal time                 | Respect free choice; no automatic obligation to optimize                                              |
+
+Urgency, consequence, reversibility and dependence by other people can help evaluate ordinary planning conflicts. They cannot substitute for Islamic legal classification.
+
+## 3.4 Concrete decision rules
+
+The following rules make the framework operational. Their statuses are explicit.
+
+| Rule                                                 | Practical decision                                                                                                            | Evidence and confidence                                          |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| D1: Protect applicable worship requirements          | Account for verified obligatory time windows when organizing avoidable competing activities                                   | Qur'an 4:103; strong religious principle                         |
+| D2: Do not convert optional into compulsory          | Voluntary Qur'an reading or extra worship should not create guilt-producing completion obligations                            | Bukhari 6464, 5199; strong principle; implementation provisional |
+| D3: Respect others' rights                           | Avoid moving caregiving or contractual responsibilities without considering consequences and obtaining approval               | Qur'an 5:1; Bukhari 1968, 893; strong principle                  |
+| D4: Preserve recovery capacity                       | Do not routinely propose optional early activities when known sleep deprivation makes them unsuitable                         | Bukhari 5199; behavioral recommendation needs testing            |
+| D5: Separate known law from uncertain interpretation | Do not assert permission for prayer combination or an exemption from fasting without sufficient reviewed grounds              | Religious epistemic boundary; requires scholarly oversight       |
+| D6: Prefer lower-disruption alternatives             | Attempt a feasible adjustment before asking someone to rearrange major responsibilities                                       | Practical design hypothesis                                      |
+| D7: No compulsory activity filling                   | Leave discretionary time unscheduled unless the person wants assistance with it                                               | Autonomy-informed recommendation                                 |
+| D8: Respect declared assistance preferences          | An on-demand user receives no unsolicited personal coaching                                                                   | Autonomy-informed recommendation; needs usability validation     |
+| D9: Confirm consequential changes                    | Major rescheduling, religious-practice assumptions and commitments affecting others require the person's approval             | Safety and autonomy design rule                                  |
+| D10: Reassess only when relevant                     | An unexpected shift change may trigger reconsideration; an ordinary missed optional activity should not trigger interrogation | Behavioral design hypothesis                                     |
+| D11: Avoid moral conclusions from noncompletion      | Do not label a person negligent, sinful or spiritually weak from incomplete plans                                             | Strong scope-of-authority restriction                            |
+| D12: Permit abstention                               | When interpretation or circumstances are insufficiently known, disclose uncertainty and refer appropriately                   | Safety and epistemic design rule                                 |
+
+## 3.5 How conflicts should be resolved
+
+There cannot be a single universal ranking of worship, work, family and personal wellbeing.
+
+An appropriate rule is:
+
+Identify the precise competing obligations and their conditions, then select a feasible arrangement that does not unjustifiably sacrifice one to another.
+
+Some activities can be moved. Some cannot. Some religious obligations have prescribed windows and recognized concessions. Others require immediate attention to safety, care or serious harm.
+
+### Conflict examples
+
+| Situation                                                                    | Appropriate response                                                           | What must not happen                                             |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| A voluntary reading session conflicts with collecting a child from school    | Suggest moving the reading session                                             | Labeling childcare as an obstacle to spirituality                |
+| An optional late-night activity would substantially reduce needed sleep      | Suggest a shorter session or another time                                      | Encouraging avoidable exhaustion to maximize religious activity  |
+| A meeting overlaps a prayer window, with verified alternatives available     | Explain the options and help identify an appropriate break                     | Presuming any meeting automatically exempts a person from prayer |
+| A worker faces a genuinely difficult prayer situation during an emergency    | Prioritize immediate safety and provide relevant reviewed guidance or referral | Inventing a universally applicable exception                     |
+| Someone wants to attend a mosque congregation but has caregiving constraints | Explore feasible attendance without disregarding care obligations              | Declaring guilt based on an unreviewed legal opinion             |
+| A person has three free hours after work                                     | Preserve them unless the person requests suggestions                           | Filling all three hours with new tasks                           |
+
+### A difficult example: emergency medical duty
+
+Suppose a clinician is treating a patient during a time-sensitive emergency while an obligatory prayer window is approaching its end.
+
+The system may identify the conflict, but it must not simply say either:
+
+- “Stop immediately and pray,” or- “Your profession automatically allows postponement.”
+
+Neither response properly establishes the circumstances or applicable law.
+
+A responsible response would acknowledge the potential immediate danger to the patient, avoid disrupting care, and direct the clinician toward relevant qualified guidance on emergency duties and prayer. A reviewed decision pathway may subsequently assist with planning once the legal conditions are established.
+
+This is a critical boundary: the system is not authorized to manufacture fatwas from a weighted list of priorities.
+
+## 3.6 Choosing among seven forms of assistance
+
+| Assistance type        | Appropriate circumstances                                                                  |
+| ---------------------- | ------------------------------------------------------------------------------------------ |
+| Provide information    | A straightforward, verified fact or timing detail answers the question                     |
+| Suggest an alternative | A lower-disruption arrangement is available, and suggestions are permitted                 |
+| Ask a question         | Missing information materially changes the recommendation                                  |
+| Reorganize a plan      | A confirmed commitment changes and the user authorizes rescheduling                        |
+| Preserve the plan      | Existing arrangements remain feasible; no meaningful intervention is needed                |
+| Refer or abstain       | Legal interpretation, medical judgment, safety or another expert question is outside scope |
+| Remain silent          | Assistance is unwanted, untimely, redundant, potentially harmful or too uncertain          |
+
+Silence must be an explicit possible result of the decision process, not merely a fallback when the system has no suggestions available.
+
+## 3.7 Testing whether intervention is justified
+
+Before offering an unsolicited suggestion, the system should consider five non-numerical conditions:
+
+1. Relevance: Is there a confirmed situation the suggestion helps?
+2. Permission: Has the person allowed this kind of assistance?
+3. Timing: Is now an appropriate moment to interrupt?
+4. Confidence: Is the underlying information sufficiently reliable?
+5. Benefit versus burden: Is the likely usefulness worth the interruption?
+
+If a meaningful condition fails, the system should usually defer or remain silent.
+
+The criteria are proposed. No universal empirical threshold has yet been established.
+
+### Example
+
+A parent has already declined two optional evening study suggestions.
+
+The system should not attempt a third suggestion simply because the calendar still appears empty.
+
+The previous dismissals could mean fatigue, caregiving, annoyance, loss of interest or something entirely different.
+
+A more appropriate interpretation is: the current suggestion is not welcome or useful under existing circumstances.
+
+The system may stop offering it and, at a suitably chosen later moment, provide a nonintrusive opportunity to revise the goal.
+
+It must not infer that the parent lacks motivation or religious discipline.
+
+## 3.8 Three necessary safeguards against false certainty
+
+Religious confidence: A legal conclusion needs verified religious support and appropriate applicability. A plausible answer is not enough.
+
+Personal confidence: A person who supplied their schedule three months ago may now have a substantially different routine. The system should treat old information as potentially outdated.
+
+Practical confidence: Even an accurate religious principle and an accurate schedule do not guarantee that a particular suggestion will help. Behavioral benefit must be tested separately.
+
+These three forms of uncertainty should never be merged into one general confidence claim.
+
+## 3.9 What behavioral science contributes to everyday decision-making
+
+Implementation intentions can assist with personally chosen goals. For example, rather than vaguely intending to exercise, someone may choose: “If my afternoon responsibilities finish before dinner, I will take a short walk.”
+
+Gollwitzer and Sheeran's 2006 meta-analysis reported positive overall effects of such if-then planning across 94 independent tests. That supports considering the technique, not requiring it for every activity.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://kops.uni-konstanz.de\&sz=32)
+
+kops.uni-konstanz.de
+
+
+
+COM-B also highlights why repeated reminders are sometimes the wrong intervention.
+
+If someone repeatedly misses a planned activity because of a lack of opportunity, additional motivation messages will not create more available time. If the issue is insufficient knowledge, a clear explanation may help more than rescheduling. If the original activity is no longer desired, assistance should adapt rather than applying pressure.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Springer Nature Link
+
+
+
+This yields a practical distinction:
+
+| Identified obstacle                      | More appropriate assistance             |
+| ---------------------------------------- | --------------------------------------- |
+| Lack of time                             | Reduce scope or reorganize commitments  |
+| Lack of understanding                    | Provide accurate information            |
+| Physical limitation                      | Respect accommodation and capacity      |
+| Unpredictable circumstances              | Use contingency planning                |
+| No longer interested in an optional goal | Remove or pause the goal                |
+| Repeated interruption from the system    | Reduce or stop interventions            |
+| Genuine legal uncertainty                | Seek qualified jurisprudential guidance |
+
+Deliverable 3 conclusion: The system should behave as a constrained, explainable assistant for practical decisions. It may organize around verified religious rules, but it must not independently create, waive or reinterpret religious obligations.
+
+## 3.10 Personalization and adaptation over time
+
+Personalization should follow a conservative principle:
+
+Adapt confidently to confirmed changes, cautiously to behavioral patterns, and never silently to inferred religious or intimate circumstances.
+
+### Relevant scientific findings
+
+Lally and colleagues followed volunteers developing everyday habits over 12 weeks. The time modeled to approach habitual automaticity varied considerably, from 18 to 254 days among the individuals for whom such estimates could be made. This undermines the simplistic claim that everyone forms a habit in 21 days. It also means seven days are insufficient to establish that a personally chosen routine has become habitual.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Wiley Online Library
+
+
+
+The HeartSteps micro-randomized trial, involving 44 adults over six weeks, offers a more directly relevant caution about adaptive suggestions. Context-sensitive walking prompts had some measurable short-term benefits, but their effects diminished over the study period. The overall comparison of any suggestion against none did not meet the conventional 0.05 significance threshold, while the walking-specific comparison did. This does not establish that the same intervention mechanism works for religious life management.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pmc.ncbi.nlm.nih.gov\&sz=32)
+
+PMC
+
+
+
+The JITAI literature also explicitly treats intervention timing, availability and changing responsiveness as matters requiring careful design and evaluation.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+### Proposed adaptation rules
+
+| Trigger                               | Suitable adjustment                                                  | What it must not infer                            |
+| ------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- |
+| User changes employment               | Rebuild work-related commitments                                     | Religious identity or devotion has changed        |
+| University term begins                | Review class and study periods                                       | Previous routines were failures                   |
+| Rotating shifts are confirmed         | Use shift-specific rest and planning                                 | Night work reflects poor lifestyle choices        |
+| Ramadan approaches                    | Offer an optional seasonal review                                    | Every person is fasting or has identical capacity |
+| Location changes during travel        | Request confirmation before using location-dependent prayer guidance | Automatically infer a legally qualifying journey  |
+| Repeatedly dismissed optional prompts | Pause or reduce that category                                        | The person no longer values the activity          |
+| Unexpected missed activity            | Offer recovery only if wanted                                        | Negligence, sin or lack of motivation             |
+| User reports poor sleep               | Make voluntary plans less demanding                                  | A medical diagnosis                               |
+| A personal goal is completed          | Offer to close or maintain it                                        | A new goal must immediately replace it            |
+| User no longer requests help          | Respect inactivity and established preferences                       | A need to increase engagement                     |
+
+### Stable identity versus changing circumstances
+
+A person's life contains multiple time horizons.
+
+SHORT TERM
+
+Today
+
+An exam, emergency, poor sleep, delayed commute or new shift
+
+MEDIUM TERM
+
+Weeks
+
+New semester, changed workload, Ramadan, temporary care demands
+
+LONG TERM
+
+Months
+
+Life roles, established routines and chosen assistance preferences
+
+An unexpected change today should not rewrite the person's long-term profile.
+
+If someone works late once, the system should adjust that day if assistance is wanted. If they begin a permanent night-shift position, a broader reassessment becomes appropriate.
+
+Similarly, Ramadan changes the circumstances in which daily planning occurs. It does not automatically change the underlying legal classification of unrelated activities or the person's stable preferences.
+
+### Recognizing when silence is preferable
+
+The system should generally remain silent when:
+
+- The person is in a declared rest, work, worship or caregiving period without requesting interruption.
+- The proposed suggestion repeats something recently dismissed.
+- There is no meaningful change requiring attention.
+- The person has already made an informed decision.
+- The available information cannot support a reliable recommendation.
+- An additional prompt is likely to disrupt an important activity for little practical gain.
+- The person's chosen assistance mode restricts unsolicited messages.
+
+Repeated dismissals justify reducing intervention frequency, but not silently removing an explicitly requested essential reminder. Those are different categories of assistance.
+
+### The first-week learning boundary
+
+After seven days, the system may reasonably discover that a proposed time slot is inconvenient, a commute estimate was inaccurate, or a person prefers reviewing plans in the evening.
+
+It cannot reasonably conclude that the person has acquired a stable habit, permanently changed religious priorities, lacks discipline, or no longer needs a religious practice.
+
+Adaptation should improve the assistance, not manufacture an increasingly confident psychological profile.
+
+# Deliverable 4: Real-Life Simulations
+
+The following six simulations are entirely hypothetical design cases. They are not interviews, observed users or evidence of effectiveness.
+
+The clock times illustrate ordinary commitments, not religious prayer-time calculations. Prayer arrangements must always reflect verified local timing, applicable rules and individual circumstances.
+
+## Simulation 1: Female university student
+
+## Aisha, 21
+
+Hypothetical
+
+Undergraduate student · Regular classes · Lives with family · Wants better study balance
+
+### First use
+
+Aisha says she has classes from 9 AM to 3 PM, Monday through Thursday. Her commute takes approximately 50 minutes each way. She helps with household responsibilities in the evening and would like to study more consistently while maintaining personal worship.
+
+The onboarding asks Q1–Q9, Q11 and Q14.
+
+It establishes her study commitments, commute, broad sleep pattern and preference for light assistance. She already manages her obligatory prayers and does not want additional prayer reminders.
+
+What remains unknown: her precise evening household workload, energy on different days and actual availability for extra study.
+
+### Initial plan
+
+The system protects class hours, commuting and family commitments. It suggests a short weekday revision session on two days, longer self-selected study periods on Friday or the weekend, and an optional Qur'an-reading opportunity where she judges it suitable.
+
+All optional sessions require Aisha's approval. The system does not attempt to substitute a mosque-based routine for her established practices.
+
+### Representative 24-hour day
+
+| Time      | What happens                                                             | Appropriate system behavior              |
+| --------- | ------------------------------------------------------------------------ | ---------------------------------------- |
+| 6:30–8 AM | Wakes, personal routine, breakfast, prepares for university              | No unnecessary prompt                    |
+| 8–9 AM    | Commute                                                                  | Treat as committed time                  |
+| 9 AM–3 PM | Classes and breaks; obligatory prayers handled within applicable windows | Respect her existing prayer arrangements |
+| 3–4 PM    | Travels home                                                             | Avoid assuming availability for study    |
+| 4–5 PM    | Rest and personal time                                                   | Leave unallocated                        |
+| 5–7 PM    | Household responsibilities                                               | Protect from optional study suggestions  |
+| 7–8 PM    | Dinner and family                                                        | No interruption                          |
+| 8–9 PM    | Pre-approved revision period                                             | Offer the agreed plan, without pressure  |
+| 9–11 PM   | Personal activities and sleep preparation                                | Do not insert additional goals           |
+
+### Unexpected change
+
+A lecturer announces an examination the next day. Aisha asks for help reorganizing her evening.
+
+The system offers a revised study plan using genuinely available time. It identifies her agreed household commitment as an area requiring coordination rather than automatically canceling it.
+
+Aisha chooses a shorter revision period and arranges extra study the following morning.
+
+### First-week adaptation
+
+She reports that evening study is difficult on three days, but Friday afternoons work well.
+
+The system proposes moving some study time to Friday and reducing weekday intensity. It does not increase reminder frequency to force compliance.
+
+### Failure and uncertainty
+
+The system mistakenly assumes she has no classes on Friday. Aisha corrects it: there is a fortnightly laboratory session.
+
+The system withdraws the affected recommendation, confirms which Fridays are occupied, and presents a corrected plan.
+
+Lesson: The system is useful when it recognizes that a person's available study time is limited by existing commitments rather than lack of motivation.
+
+## Simulation 2: Salaried office worker
+
+## Bilal, 34
+
+Hypothetical
+
+Office administrator · Married · Two children · Regular weekday employment
+
+### First use
+
+Bilal works 9 AM to 5:30 PM, commutes around 45 minutes, and has young children. He would like to organize his workday, preserve time for his family, and maintain access to congregational prayer when feasible.
+
+Onboarding establishes his fixed employment schedule, commute, selected prayer-related preferences, Friday attendance obligations as understood through his trusted scholarly guidance, and desired reminder boundaries.
+
+Unknown: whether the mosque near his office reliably offers a congregation at a particular time and whether his employer can consistently accommodate the same break.
+
+### Initial plan
+
+His daily plan protects work, family dinner, sleep and established worship arrangements.
+
+For optional congregational prayer opportunities, the system uses verified information where available and avoids assuming every congregation is legally mandatory.
+
+For Friday, it plans around the relevant Jumu'ah commitment with adequate travel and preparation time, subject to Bilal's circumstances and applicable ruling.
+
+### Representative 24-hour day
+
+| Time          | Activity and decision                                                             |
+| ------------- | --------------------------------------------------------------------------------- |
+| 6–7:30 AM     | Morning religious and personal routine; breakfast with family                     |
+| 7:30–8:30 AM  | Commute, allowing for ordinary travel variation                                   |
+| 9 AM–12:30 PM | Employment duties; no unnecessary interruption                                    |
+| Midday        | An appropriate prayer break is planned within the verified applicable time window |
+| 1–5:30 PM     | Work continues; the system preserves scheduled meetings                           |
+| 5:30–6:30 PM  | Return commute                                                                    |
+| 6:30–8:30 PM  | Family, meals, children and evening responsibilities                              |
+| 8:30–9:30 PM  | Optional walk or free time if personally desired                                  |
+| Later evening | Rest, household routine and sleep preparation                                     |
+
+### Unexpected change
+
+An urgent client meeting is scheduled near the end of an expected prayer opportunity.
+
+The system identifies a potential conflict and asks whether the meeting is movable, whether a valid break is available, and whether the person needs a reviewed religious reference.
+
+It must not presume that attending this meeting automatically permits delaying prayer outside its prescribed time.
+
+Bilal moves the meeting slightly after discussing it with his colleague.
+
+### First-week adaptation
+
+Bilal confirms that on Wednesdays he returns home much later.
+
+The system stops suggesting Wednesday evening exercise and instead leaves that period for family and recovery.
+
+### Failure and uncertainty
+
+A mosque schedule used earlier becomes outdated.
+
+The system cannot confidently confirm the new congregation time, so it distinguishes the general prayer window from the unverified mosque schedule. It asks Bilal to confirm directly rather than presenting the old schedule as fact.
+
+Lesson: The system should help someone coordinate work and worship without converting mosque attendance into a simplistic performance target.
+
+## Simulation 3: Parent with significant caregiving responsibilities
+
+## Maryam, 31
+
+Hypothetical
+
+Primary caregiver · Infant and school-aged child · Fragmented sleep · Limited discretionary time
+
+### First use
+
+Maryam describes a typical day dominated by childcare, feeding, household responsibilities and school arrangements. Her infant wakes frequently at night.
+
+She wants a calmer routine and more time for herself, without feeling that every unfinished activity represents another failure.
+
+The system asks about predictable care periods, interrupted sleep, desired assistance and whether optional rest or learning opportunities would be useful.
+
+She is not required to disclose medical details, menstrual status or intimate circumstances.
+
+Unknown: how frequently the infant will wake, whether support will be available from other family members, and how much uninterrupted rest is possible.
+
+### Initial plan
+
+Instead of a tightly scheduled routine, the system proposes a small number of protected commitments, with flexible periods between them.
+
+Her applicable worship responsibilities remain relevant, but any practical religious accommodation must be established through appropriate guidance rather than inferred from motherhood.
+
+It proposes no compulsory voluntary worship target.
+
+### Representative 24-hour day
+
+| Time       | Activity and decision                                                        |
+| ---------- | ---------------------------------------------------------------------------- |
+| Overnight  | Infant care interrupts sleep; the system does not assume a full night's rest |
+| 6–9 AM     | Childcare, school preparation and breakfast                                  |
+| 9–11 AM    | Household responsibilities and possible rest                                 |
+| 11 AM–2 PM | Feeding, meals, caregiving and applicable prayer arrangements                |
+| 2–4 PM     | Variable child-related needs; no rigid activity block                        |
+| 4–7 PM     | School return, children's needs and household work                           |
+| 7–9 PM     | Family routine and children's bedtime                                        |
+| After 9 PM | If possible, rest or user-chosen personal activity                           |
+| Overnight  | Caregiving remains unpredictable                                             |
+
+### Unexpected change
+
+The infant develops a fever and needs medical attention.
+
+The system should preserve urgent medical care, remove optional planned activities from the immediate schedule if Maryam requests assistance, and avoid sending motivational prompts.
+
+It may help her remember personally entered logistical commitments, but it should not attempt to diagnose the child.
+
+### First-week adaptation
+
+Maryam indicates that a proposed 30-minute learning session is unrealistic. Ten minutes on some days feels manageable; other days she wants no additional task.
+
+The system adjusts the optional activity accordingly and stops treating uninterrupted time as guaranteed.
+
+### Failure and uncertainty
+
+The system wrongly assumes that a two-hour period during the infant's nap is free.
+
+Maryam explains that she often needs that time to sleep.
+
+The system corrects its understanding: the period is potential recovery time, not spare productivity capacity.
+
+Lesson: Recognizing caregiving and bodily needs as meaningful responsibilities prevents a life-management system from imposing unjustified additional burdens.
+
+## Simulation 4: Business owner with unpredictable commitments
+
+## Fatima, 39
+
+Hypothetical
+
+Small-business owner · Employee responsibilities · Variable meetings · Family commitments
+
+### First use
+
+Fatima manages a business with six employees. Her schedule is often disrupted by customer requests, staff problems and operational emergencies.
+
+She wants assistance with maintaining stable personal and family routines despite unpredictable work.
+
+The system learns her usual business hours, fixed commitments, decision-making responsibilities, preferred worship arrangements and desired planning horizon.
+
+Unknown: which future business problems will genuinely require her personal involvement.
+
+### Initial plan
+
+The system avoids constructing a rigid hour-by-hour calendar.
+
+It helps separate commitments that are genuinely fixed from those that can be delegated, delayed or rescheduled.
+
+Her personally selected family time and rest remain visible as legitimate commitments. Voluntary worship and professional development are proposed only where space exists.
+
+### Representative 24-hour day
+
+| Time        | Activity and decision                                        |
+| ----------- | ------------------------------------------------------------ |
+| 6–8 AM      | Morning routine and family responsibilities                  |
+| 8–9 AM      | Travel and preparation                                       |
+| 9 AM–12 PM  | Business operations and employee coordination                |
+| Midday      | Verified prayer-related arrangements and meal break          |
+| 1–4 PM      | Customer meetings and unpredictable operational tasks        |
+| 4–6 PM      | Follow-up work with flexible buffer time                     |
+| 6–8 PM      | Family and evening responsibilities                          |
+| 8–9 PM      | Review of essential next-day business commitments, if wanted |
+| 9 PM onward | Recreation, rest and sleep preparation                       |
+
+### Unexpected change
+
+A supplier issue threatens to delay several customer orders. Fatima must remain at work longer than planned.
+
+She asks the system to revise her day.
+
+It distinguishes activities she can postpone from responsibilities affecting employees, customers and family.
+
+It offers a practical revised schedule but does not automatically cancel a family obligation or independently inform anyone that a commitment has changed.
+
+### First-week adaptation
+
+Fatima reports that only the first part of her workday is fairly predictable.
+
+The system proposes keeping the afternoon intentionally flexible, rather than repeatedly generating detailed plans that collapse.
+
+### Failure and uncertainty
+
+The system recommends postponing a client meeting without knowing the contractual consequences.
+
+Fatima identifies that the meeting is essential.
+
+The recommendation is withdrawn. The system learns that the meeting is firm, not that all client meetings should always be prioritized above everything else.
+
+Lesson: A business owner's apparent flexibility can disguise obligations toward others. Useful assistance requires understanding commitments, not merely finding empty calendar slots.
+
+## Simulation 5: Healthcare worker on rotating night shifts
+
+## Hamza, 28
+
+Hypothetical
+
+Hospital nurse · Rotating 12-hour shifts · Occasional emergency overtime · Muslim man
+
+### First use
+
+Hamza works alternating day and night shifts, often 8 PM–8 AM during a night-shift week.
+
+He wants assistance maintaining a workable routine for obligatory worship, sleep, family and occasional exercise.
+
+The system asks about shift patterns, handovers, rest after duty, prayer arrangements, workplace facilities and preferred intervention times.
+
+It does not ask for patient information, hospital records or confidential clinical details.
+
+Unknown: unplanned emergencies, exact break availability and whether a future shift will run overtime.
+
+### Initial plan
+
+Instead of defining mornings as the beginning of every productive day, the system organizes personal activity around Hamza's working and sleeping periods.
+
+Daytime sleep after duty is protected. Optional exercise and additional worship should not routinely displace needed recovery.
+
+Prayer guidance uses reviewed applicable rules and verified timing. It does not assume that the unusual shift automatically creates religious exemptions.
+
+### Representative 24-hour night-shift cycle
+
+| Time       | Activity and decision                                                       |
+| ---------- | --------------------------------------------------------------------------- |
+| 8–9 AM     | Finishes shift, travels home and prepares for sleep                         |
+| 9 AM–3 PM  | Main recovery sleep, subject to applicable prayer arrangements and capacity |
+| 3–5 PM     | Wakes, meals, worship and personal preparation as appropriate               |
+| 5–6 PM     | Time with family                                                            |
+| 6–7 PM     | Optional light activity or additional rest                                  |
+| 7–8 PM     | Travel and shift preparation                                                |
+| 8 PM–12 AM | Clinical work, with breaks depending on actual duties                       |
+| 12–4 AM    | Continued shift; the system remains quiet during clinical care              |
+| 4–8 AM     | Clinical responsibilities, handover and relevant worship arrangements       |
+
+### Unexpected change
+
+An emergency patient requires attention during a period when Hamza expected a break.
+
+The system must not interrupt active treatment with ordinary planning suggestions.
+
+If Hamza later requests guidance about a prayer conflict, it should identify the relevant jurisprudential uncertainty and refer to reviewed guidance appropriate to the exact situation.
+
+### First-week adaptation
+
+After several night shifts, Hamza reports that his previous exercise plan is exhausting.
+
+The system suggests moving voluntary exercise to recovery days, with his approval.
+
+It also recognizes that a fixed daily check-in time is unsuitable across rotating shifts.
+
+### Failure and uncertainty
+
+The system receives an outdated shift pattern and recommends an activity while Hamza is sleeping after an unexpected overnight duty.
+
+Once corrected, it stops relying on that pattern and asks for confirmation before making similar suggestions.
+
+Lesson: A system that cannot protect recovery sleep and handle irregular schedules cannot reasonably claim to support balanced everyday life across diverse Muslim circumstances.
+
+## Simulation 6: Person with accessibility needs and frequent travel
+
+## Yusuf, 46
+
+Hypothetical
+
+Consultant · Significant visual impairment · Travels between cities · Variable journey times
+
+### First use
+
+Yusuf travels frequently for professional assignments and prefers clear, accessible explanations with fewer interruptions.
+
+He states that unfamiliar environments and transport arrangements require more preparation and transition time.
+
+The system asks what functional accommodations are useful, whether travel plans change frequently, and how prayer-related location changes should be handled.
+
+It does not need to establish the medical cause or severity of his visual impairment.
+
+Unknown: local facility accessibility, the legal status of particular journeys and reliable prayer facilities at each destination.
+
+### Initial plan
+
+The system proposes additional travel buffers, flexible preparation time, and clear user-requested summaries.
+
+When location-specific worship guidance is relevant, it asks Yusuf to confirm the city or relevant location information. It does not treat location changes alone as proof that a jurisprudential travel concession applies.
+
+### Representative 24-hour day
+
+| Time        | Activity and decision                                    |
+| ----------- | -------------------------------------------------------- |
+| 6–8 AM      | Personal routine, worship and travel preparation         |
+| 8–11 AM     | Journey with realistic transition time                   |
+| 11 AM–12 PM | Arrival, orientation and recovery buffer                 |
+| 12–3 PM     | Professional consultation, with relevant prayer planning |
+| 3–5 PM      | Additional appointments or possible travel delay         |
+| 5–7 PM      | Return journey or lodging arrangements                   |
+| 7–9 PM      | Meals, personal responsibilities, rest and worship       |
+| 9 PM onward | Personal time and sleep preparation                      |
+
+### Unexpected change
+
+Yusuf's return journey is delayed by four hours.
+
+The system can help reconsider ordinary commitments and, if requested, provide verified prayer-time information for the relevant location.
+
+It must not independently decide whether shortening or combining prayers is permitted without applying a qualified, reviewed legal framework and establishing the necessary facts.
+
+### First-week adaptation
+
+Yusuf reports that extra transition time is more useful than additional reminders.
+
+The system reduces prompts and uses his preferred longer buffers when suggesting future plans.
+
+### Failure and uncertainty
+
+The system previously assumed that a venue was accessible because it was described as modern.
+
+Yusuf discovers that the actual route is unsuitable.
+
+The system acknowledges that the earlier assumption was unsupported and does not repeat it. It must obtain reliable accessibility information or clearly disclose that it is unknown.
+
+Lesson: Accessibility is not an optional refinement. A universal foundation must accommodate variations in practical ability without treating disability as evidence of lesser religious responsibility or moral worth.
+
+## 4.1 What the six scenarios collectively establish
+
+| Design question                                             | Stress case                           | Required conclusion                                 |
+| ----------------------------------------------------------- | ------------------------------------- | --------------------------------------------------- |
+| Can one routine fit everyone?                               | Student versus night-shift nurse      | No                                                  |
+| Is free time necessarily available time?                    | Parent and business owner             | No                                                  |
+| Can priorities change within a day?                         | Medical emergency or supplier problem | Yes                                                 |
+| Can the system infer a concession from circumstances alone? | Traveler and nurse                    | No                                                  |
+| Are additional reminders always useful?                     | Caregiver and consultant              | No                                                  |
+| Can a good plan still fail?                                 | All six cases                         | Yes; correction and graceful recovery are essential |
+| Can seven days establish stable behavior?                   | All six cases                         | Generally not                                       |
+| Can a system help without monitoring everything?            | All six cases                         | Plausibly, but this must be tested                  |
+
+These simulations demonstrate internal coherence of the proposed principles across contrasting circumstances. They do not demonstrate that the resulting recommendations are effective or that real people would accept them.
+
+# Deliverable 5: Rules and Boundaries
+
+## 5.1 The fundamental operating boundaries
+
+A system grounded in Islam must be particularly careful about the difference between offering assistance and exercising religious authority.
+
+The following boundaries should be considered part of the foundation, rather than optional refinements.
+
+| The system should                                              | The system should never                                         |
+| -------------------------------------------------------------- | --------------------------------------------------------------- |
+| Explain reviewed religious principles accurately               | Invent rulings or present disputed interpretations as unanimous |
+| Help organize applicable responsibilities                      | Replace the person's moral and religious judgment               |
+| Suggest sustainable voluntary practices                        | Turn optional acts into compulsory daily targets                |
+| Recognize the legitimate importance of family, work and health | Treat all non-worship activity as spiritually inferior          |
+| Ask relevant questions before consequential advice             | Infer religious devotion from personal behavior                 |
+| Clearly identify assumptions and uncertainty                   | Hide uncertain assumptions behind confident recommendations     |
+| Respect personal boundaries and privacy                        | Covertly infer sensitive matters from phone activity            |
+| Allow rejection, correction and override                       | Punish noncompletion through shame or guilt                     |
+| Help plan around relevant religious concessions                | Independently grant exemptions from religious duties            |
+| Stop assisting when assistance is unwanted                     | Treat continued engagement as an objective in itself            |
+
+## 5.2 Four levels of permission
+
+Not every action requires the same degree of involvement.
+
+Level 1: Ordinary information
+
+General, verified information requested by the person may be supplied without repeated approval.
+
+Example: Explaining the distinction between obligatory and voluntary practices.
+
+Level 2: Personal suggestions
+
+Suggestions may be offered within the assistance preferences the user has chosen.
+
+Example: Proposing a shorter voluntary reading session during a demanding week.
+
+Level 3: Consequential changes
+
+Changes involving important commitments, personal religious assumptions, another person's responsibilities or sensitive information require explicit approval.
+
+Example: Reorganizing childcare arrangements or replacing a long-established personal routine.
+
+Level 4: Outside its authority
+
+Religious adjudication, medical diagnosis, emergency professional judgment and other specialist decisions remain beyond ordinary planning authority.
+
+Example: Determining whether a specific medical condition qualifies for a particular fasting concession.
+
+Even when a person requests stronger assistance, they cannot grant a planning system scholarly expertise it does not possess.
+
+## 5.3 Historical evidence: what it contributes to the boundaries
+
+Two further historically documented examples help prevent an excessively narrow definition of Islamic life.
+
+Abu Hanifa and commercial life. Abu Hanifa is described in the Encyclopaedia Iranica as a silk merchant whose life included commercial activity and religious scholarship. The biographical tradition supports the compatibility of scholarly pursuits with commerce, but does not establish a universal ideal division of time between earning and learning.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.iranicaonline.org\&sz=32)
+
+Encyclopaedia Iranica
+
+
+
+Al-Ghazali and changing priorities. Al-Ghazali taught at Baghdad's Nizamiyya institution, left his prominent position in 1095 during a period of spiritual and intellectual crisis, and later resumed teaching. His biography is supported by historical scholarship, including the Stanford Encyclopedia of Philosophy. It illustrates that the shape of a life can change significantly over time. It is not evidence that other people should imitate his personal decisions.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.iranicaonline.org\&sz=32)
+
+Encyclopaedia Iranica
+
++1
+
+
+
+Likewise, Aisha's authenticated account of watching an Ethiopian spear display with the Prophet ﷺ present is evidence that appropriate recreation had a place in the historical Prophetic community. It does not independently settle the religious status of every modern entertainment activity.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://sunnah.com\&sz=32)
+
+Sunnah
+
+
+
+These examples support the framework's respect for legitimate diversity. They do not establish the scheduling mechanisms proposed in this report.
+
+## 5.4 Privacy as a religious and behavioral design principle
+
+Qur'an 49:12 prohibits spying and warns against unjustified suspicion. The verse cannot be treated as a technical privacy specification, but its ethical concern is directly relevant to designing a system that could become excessively observant of personal conduct.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://quran.com\&sz=32)
+
+Quran
+
+
+
+The appropriate proposal is to avoid surveillance by default and obtain sensitive information only where its purpose is justified and understood.
+
+Three rules are especially important.
+
+Private worship must remain private. The system may assist with religious commitments without maintaining a compulsory record of whether a person fulfilled them.
+
+Personal difficulties must not become judgments about character. Poor sleep, missed appointments, prolonged phone use or abandoned voluntary goals should not be interpreted as moral failures.
+
+Third parties deserve protection. A person cannot automatically authorize the collection of private information about their children, spouse, employer, patients or colleagues simply because those relationships affect the person's schedule.
+## 5.5 Additional audit of onboarding questions
+
+The opening questions must also pass explicit privacy and maintenance checks.
+
+| Question                                     | Sensitivity                                              | May skip?                           | May defer? | Reassessment trigger                             |
+| -------------------------------------------- | -------------------------------------------------------- | ----------------------------------- | ---------- | ------------------------------------------------ |
+| Q1: Desired assistance                       | Low to moderate                                          | Yes                                 | Yes        | Goal changes                                     |
+| Q2: Life roles                               | Moderate                                                 | Yes                                 | Yes        | Major role changes                               |
+| Q3: Schedule predictability                  | Moderate                                                 | Yes                                 | Yes        | Work/study changes                               |
+| Q4: Existing commitments                     | Moderate to high                                         | Yes, with reduced planning accuracy | Yes        | Timetable changes                                |
+| Q5: Sleep and recovery                       | Sensitive                                                | Yes                                 | Yes        | User-reported change                             |
+| Q6: Prayer-related assistance                | Religiously sensitive                                    | Yes                                 | Yes        | User preference or relevant circumstances change |
+| Q7: Care responsibilities                    | Sensitive                                                | Yes                                 | Yes        | Care arrangements change                         |
+| Q8: Intervention boundaries                  | Low sensitivity, but essential to unsolicited assistance | Yes, defaulting to on-demand help   | Yes        | User changes preferences                         |
+| Q9–Q12: Study, work, commuting, care details | Context-dependent                                        | Yes                                 | Yes        | Relevant commitments change                      |
+| Q13: Accommodations                          | Highly sensitive                                         | Yes                                 | Yes        | User requests review                             |
+| Q14: Voluntary intentions                    | Potentially religiously sensitive                        | Yes                                 | Yes        | Goal changes                                     |
+| Q15: Scholarly/timing preferences            | Religiously sensitive                                    | Yes                                 | Yes        | User changes reference preference                |
+
+Skipping a question must never be treated as wrongdoing.
+
+A person declining to answer Q4 may still receive a basic planning framework, although precise schedule conflict detection would be unavailable.
+
+Declining Q8 should result in a conservative default: assistance when explicitly requested, rather than unsolicited intervention.
+
+Similarly, if Q15 is unanswered, the system should not silently choose the individual's jurisprudential identity. It can provide broadly established information and request a relevant preference only when that distinction affects the advice.
+
+## 5.6 Special safeguards against religious or psychological harm
+
+Three particularly concerning forms of harm deserve specific attention.
+
+### Scrupulosity and religious anxiety
+
+Some individuals experience excessive doubt, checking or guilt about religious practice. The system must not diagnose this condition, but it should avoid behaviors likely to aggravate such patterns: repeated completion checks, persistent moral warnings, exaggerated consequences and ever-increasing voluntary targets.
+
+When distress becomes evident, it should reduce intrusive assistance and, when appropriate, encourage support from qualified religious or mental-health professionals.
+
+### Unjustified overwork
+
+A person could interpret recommendations as another set of duties and gradually lose time for sleep, relationships and recreation.
+
+The proposed system must treat recovery and freely chosen downtime as legitimate, rather than classifying them as unused capacity.
+
+### Religious authority laundering
+
+This occurs when an ordinary planning recommendation is presented with the apparent authority of Islam despite insufficient religious evidence.
+
+For instance, choosing a 20-minute morning study session is an ordinary practical recommendation. Calling it the Islamically correct morning routine would require a justification that the planning decision does not possess.
+
+The system should explain whether advice is religiously grounded, professionally informed, personally requested or merely a planning suggestion.
+
+# Deliverable 6: Foundation Readiness Assessment
+
+## 6.1 What would independently prove the foundation is sound?
+
+No single evaluation method is sufficient.
+
+A system can have correctly cited religious evidence yet be unhelpful. It can have excellent usability yet offer inappropriate religious conclusions. It can improve task completion while worsening sleep, anxiety or family relationships.
+
+Each major proposed mechanism therefore needs a different form of validation.
+
+## 6.2 Validation framework
+
+| Mechanism                   | Independent validation method                                                                | Evidence required                                                                                    | Reason to reject or simplify                                             |
+| --------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Religious classifications   | Qualified scholars independently review sources, classifications, conditions and differences | Agreement on accurately represented positions and clearly disclosed disagreements                    | Misstated obligation, omitted important exception or unsupported ruling  |
+| Rights-based life framework | Scholarly review plus interviews across different personal circumstances                     | Evidence that the framework represents competing responsibilities without erasing significant duties | Repeated conflicts caused by simplistic prioritization                   |
+| Core onboarding             | Cognitive interviews and observed onboarding tests                                           | People understand the questions, can answer safely and see why they matter                           | Questions are confusing, intrusive or do not change the plan             |
+| Adaptive follow-ups         | Controlled comparisons of shorter versus deeper onboarding                                   | Additional answers measurably improve relevant decisions enough to justify their burden              | More questions add friction without useful improvements                  |
+| Personal understanding      | Compare system summaries against user-confirmed real schedules                               | Accurate identification of commitments, uncertainty and available time                               | Repeated unsupported assumptions                                         |
+| Conflict guidance           | Scholar-reviewed and practically reviewed scenario testing                                   | Correct distinctions between religious, personal and practical decisions                             | Incorrect prioritization or false religious certainty                    |
+| Personalized schedules      | Diary studies and practical field tests                                                      | Feasible plans that users can correct and sustain                                                    | Plans repeatedly fail under ordinary real-world conditions               |
+| Adaptation                  | Longitudinal testing with actual schedule changes                                            | Adjustments improve relevance without unwanted intrusion                                             | Adaptation produces frequent incorrect changes or unwanted interventions |
+| Intervention timing         | Controlled or micro-randomized evaluations                                                   | Clear benefit over no intervention at comparable moments                                             | No meaningful benefit or excessive interruption                          |
+| Overall effectiveness       | Pre-registered comparative studies                                                           | Better outcomes on balanced-life measures without unacceptable harms                                 | No advantage over simpler planning, or material adverse effects          |
+
+The use of micro-randomized trials is supported by Klasnja and colleagues' methodological work on evaluating just-in-time adaptive interventions. Such studies are useful for determining whether individual suggestions help, when they help, and when they do not.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+
+PubMed
+
+
+
+## 6.3 A practical sequence of independent validation
+
+## 1
+
+Religious-source audit
+
+Qualified scholars representing the traditions the framework claims to cover independently review a common set of religious claims and difficult cases.
+
+They should not merely approve a list of references. They need to examine actual recommendations, conditions, exceptions and claims of consensus.
+
+Disagreement should be documented rather than settled by majority vote alone when legitimate jurisprudential differences remain.
+
+## 2
+
+Observed daily-life research
+
+Recruit a deliberately varied group of Muslims, including students, caregivers, shift workers, people with accessibility needs, travelers and people with different religious approaches.
+
+Use consent-based daily diaries, contextual interviews and schedule reconstruction over multiple weeks.
+
+Compare what people initially say about their routines with what they voluntarily record about their actual day.
+
+A modest, purposively selected discovery sample can reveal important failures and unexpected patterns. It cannot establish population-wide prevalence.
+
+## 3
+
+Onboarding comprehension testing
+
+Present the proposed conversation to participants individually.
+
+Use think-aloud testing and cognitive interviewing to discover how people interpret questions, whether they feel pressured to disclose information, and whether they understand the difference between an obligation and a preference.
+
+Compare the short conversation against a longer onboarding approach. Evaluate actual plan accuracy, not just questionnaire completion.
+
+## 4
+
+Scenario-based decision testing
+
+Create a review set of ordinary and difficult cases, including time conflicts, travel, disability, caregiving, Ramadan, irregular shifts and uncertain religious questions.
+
+Independent scholars examine religious correctness. Scheduling specialists examine practicality. Participants assess whether the recommendation fits their confirmed situation.
+
+Test not only the correct answer but also whether the system abstains when critical information is missing.
+
+## 5
+
+Real-world comparative evaluation
+
+Compare at least three approaches: ordinary self-planning, a simple responsibility-aware planner, and the proposed adaptive guidance.
+
+Participants should be assigned using an appropriate randomized or otherwise rigorously justified design.
+
+Evaluate outcomes over enough time to include disruptions and changing responsibilities, with later follow-up where feasible.
+
+This is essential because a complicated personalized system must demonstrate an advantage over simpler alternatives.
+
+## 6
+
+Independent harm review
+
+Examine evidence of stress, guilt, sleep disruption, religious confusion, unnecessary disclosure, interference with work or care, and unwanted dependence on recommendations.
+
+Negative findings must have authority to stop or remove mechanisms, not merely generate a list of potential future improvements.
+
+The proper study sizes, eligibility criteria, statistical power, durations and stopping rules require a separate, pre-registered research protocol. They should not be invented from the current conceptual evidence.
+
+## 6.4 What should count as success?
+
+The system should not evaluate religious devotion or personal worth.
+
+It can, however, evaluate whether its assistance improves practical life organization.
+
+### Proposed evaluation dimensions
+
+| Dimension                    | Appropriate measurement                                                          | Important limitation                                        |
+| ---------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Responsibility coverage      | User-confirmed avoidable conflicts and overlooked commitments                    | Depends on accurate reporting                               |
+| Plan feasibility             | Proportion of proposed plans judged realistic and followed voluntarily           | Completion alone does not indicate benefit                  |
+| Sleep and recovery           | Self-reported adequacy and disruption; optional validated measures               | The system is not a medical evaluator                       |
+| Family and relationships     | User-reported interference or improvement in meaningful responsibilities         | Relationships cannot be reduced to time spent               |
+| User autonomy                | Perceived control, understanding and ease of rejecting suggestions               | Positive feelings do not establish religious accuracy       |
+| Unwanted intervention burden | Reports of distracting, repetitive or intrusive assistance                       | Frequency alone does not establish usefulness               |
+| Religious clarity            | Ability to distinguish an established rule from a suggestion or disputed opinion | Must be assessed independently of user satisfaction         |
+| Overall sustainable balance  | Repeated, carefully designed self-report and practical outcomes                  | Requires validation rather than an invented composite score |
+
+The assessment can use validated research instruments where appropriate, but it should not invent a single numerical measure called an Islamic Life Score.
+
+A person who spends a demanding week caring for a sick relative might complete fewer optional activities while behaving responsibly.
+
+The framework must be able to recognize that outcome as compatible with a balanced life.
+
+## 6.5 What would lead us to remove a mechanism?
+
+A foundation should contain explicit falsification conditions.
+
+Examples of potential rejection decisions
+
+Remove an onboarding question if its answer does not materially improve relevant recommendations, or if its benefit is outweighed by disclosure burden.
+
+Remove an adaptive suggestion type if controlled testing demonstrates no useful effect compared with no suggestion, or shows harmful interruptions.
+
+Simplify personalization if an ordinary user-confirmed schedule performs as well as a more elaborate personalized process.
+
+Suspend a religious guidance pathway if qualified reviewers identify serious unresolved legal inaccuracies or omitted conditions.
+
+Remove a progress indicator if it reliably creates guilt, misrepresents legitimate responsibilities or rewards inappropriate overactivity.
+
+Reject automatic behavioral interpretation if it repeatedly mistakes changed circumstances for changed motivation or religious intention.
+
+A favorable satisfaction survey cannot overturn these concerns by itself.
+
+## 6.6 Readiness classification
+
+The following is an assessment of the proposed foundation, not a claim that a working system has been tested.
+
+Strong basis
+
+Religious principles supporting a rights-aware approach
+
+Relevant obligations, personal capacity, moderation, family duties, lawful worldly commitments and care for others are supported by substantial primary evidence.
+
+The precise application of these principles still requires proper interpretation.
+
+Provisional
+
+Onboarding and ordinary planning model
+
+Asking about schedules, responsibilities, recovery and intervention preferences is theoretically well motivated.
+
+The exact questions, their order and their impact on useful personalization remain unvalidated.
+
+Review needed
+
+Context-sensitive religious guidance
+
+Different schools, concessions, prayer conventions and personal circumstances require qualified review before authoritative recommendations can be offered.
+
+Universal applicability cannot be assumed from a small group of reviewed examples.
+
+Testing needed
+
+Adaptive intervention effectiveness
+
+Behavioral research offers useful methods and hypotheses, but direct evidence for this particular integrated Islamic life-management approach is absent.
+
+Whether it improves daily balance over simple planning remains an open empirical question.
+
+## 6.7 Important contradictions and unresolved dependencies
+
+### Contradiction 1: Universal framework versus limited religious coverage
+
+The goal is to support Muslims across different schools, traditions and circumstances.
+
+However, detailed jurisprudential guidance cannot responsibly be universal unless it covers relevant differences.
+
+Resolution: Establish universal principles of respectful assistance and uncertainty management, while restricting detailed religious guidance to interpretations that have actually been reviewed.
+
+Where coverage is absent, provide an honest limitation and abstain rather than silently substituting a preferred position.
+
+### Contradiction 2: Meaningful personalization versus privacy
+
+Understanding more personal circumstances could improve planning. Collecting more information could also impose unnecessary disclosure and monitoring.
+
+Resolution: Use the minimum information required for the present decision. Add detail only when the person sees a reason and chooses to provide it.
+
+This is a proposed approach, not proof that a minimal conversation will always personalize better.
+
+### Contradiction 3: Proactive help versus freedom from interruption
+
+Some people want the system to notice problems before they do. Others want assistance only when requested.
+
+Resolution: Let the person select assistance intensity. For uncertain preferences, default to less intervention.
+
+The boundaries should remain adjustable without requiring justification.
+
+### Contradiction 4: Protecting obligations versus not exercising religious authority
+
+A system cannot meaningfully organize an Islamic life without recognizing religious duties.
+
+Yet religious duties have conditions and scholarly interpretations that the system cannot independently invent.
+
+Resolution: Separate religiously reviewed guidance from ordinary practical scheduling and introduce explicit abstention when a legal question exceeds verified coverage.
+
+### Contradiction 5: Short-term adaptation versus stable long-term goals
+
+Adapting to every missed activity creates instability. Ignoring repeated changes makes planning unrealistic.
+
+Resolution: Use temporary adjustments for temporary changes, broader reconsideration for confirmed enduring changes, and explicit user confirmation for altered personal goals.
+
+### Contradiction 6: Personal balance versus automated optimization
+
+Many valuable activities cannot be meaningfully compared using a common numerical measure.
+
+How should one rank a family conversation against recreational rest, additional religious learning or a professional opportunity?
+
+Often there is no universally correct answer.
+
+Resolution: The system should identify constraints and clarify choices rather than always choosing a supposedly optimal outcome.
+
+## 6.8 Questions that must be resolved before finalizing the functional foundation
+
+| Critical question                                            | Why it matters                                  | Required resolution                               |
+| ------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------- |
+| What exactly counts as an authoritative religious statement? | Prevents unsupported religious advice           | Defined review and approval standards             |
+| Which jurisprudential matters can receive direct guidance?   | Determines the boundary of safe assistance      | Reviewed scope and abstention criteria            |
+| How are contradictory responsibilities represented?          | Avoids simplistic prioritization                | Scenario-tested conflict rules                    |
+| What is the minimum useful onboarding?                       | Prevents needless complexity and intrusion      | User research and comparative testing             |
+| Who controls changes to established commitments?             | Preserves autonomy and protects third parties   | Explicit approval policy                          |
+| What information may be remembered or reassessed?            | Prevents obsolete and intrusive personalization | Clear consent and reassessment rules              |
+| When should the system remain silent?                        | Limits interruption and coercion                | Intervention boundaries validated through testing |
+| What constitutes a successful outcome?                       | Avoids religious performance scoring            | Independently reviewed practical measures         |
+
+These questions must have defensible provisional answers before detailed behavior can be finalized. They do not all need completed large-scale empirical studies before a limited prototype can be evaluated, but they do need explicit boundaries.
+
+## 6.9 Questions that can safely be deferred
+
+The functional foundation does not need to decide the precise structure of long-term career planning, lifelong learning programs, detailed financial planning, marriage counseling, parenting education or community-service programs.
+
+Nor does it need a complete system for assessing every Islamic ethical issue.
+
+These may eventually be relevant to a more comprehensive life-management vision, but attempting to incorporate them now would dilute the central purpose.
+
+The initial objective is narrower and more defensible: understand present responsibilities, help organize ordinary life, accurately accommodate applicable religious considerations, and adapt without overstepping.
+
+# Final Synthesis: The 10 Most Important Decisions
+
+The investigation yields ten concrete decisions necessary before the functional foundation can be considered established.
+
+These are proposed resolutions. Some are supported by strong ethical or religious evidence; others must remain provisional until validated.
+
+### 1
+
+Adopt a rights-and-responsibilities model
+
+The system organizes a person's life around applicable religious duties, commitments to others, bodily needs and legitimate personal choices.
+
+It does not prescribe equal time across life domains.
+
+### 2
+
+Formalize the religious authority boundary
+
+Separate primary evidence, verified legal interpretations, recognized disagreements and ordinary planning advice.
+
+Require qualified review for jurisprudentially consequential recommendations.
+
+### 3
+
+Adopt progressive, decision-relevant onboarding
+
+Start with the eight proposed core questions, permit skipping, and ask conditional questions only where they improve a real decision.
+
+Validate the questions before treating the sequence as final.
+
+### 4
+
+Represent confirmed, assumed and unknown information separately
+
+A personal routine must be grounded in user-confirmed facts.
+
+Missing information should reduce confidence rather than generate invented conclusions.
+
+### 5
+
+Use constraint-aware rather than score-based planning
+
+Protect applicable requirements and meaningful commitments, then consider feasible personal choices.
+
+Do not invent a measure of personal piety or a universal ranking of life activities.
+
+### 6
+
+Treat sustainability and recovery as core considerations
+
+Voluntary activities should not routinely displace sleep, health, caregiving or other important responsibilities.
+
+Leave room for rest and freely chosen recreation.
+
+### 7
+
+Give each person control over assistance intensity
+
+Offer on-demand, light or more proactive assistance according to preference.
+
+Require explicit approval for consequential changes and make correction and rejection straightforward.
+
+### 8
+
+Implement conservative adaptation and deliberate silence
+
+Adjust to confirmed circumstances, seek confirmation for important inferred changes, and stop repeating unwanted suggestions.
+
+Silence must be an ordinary, acceptable decision outcome.
+
+### 9
+
+Define explicit limits and a referral pathway
+
+The system must recognize when a question belongs to qualified religious, medical or other professional judgment.
+
+Unsupported religious conclusions must never be disguised as personalized advice.
+
+### 10
+
+Require independent validation against simpler alternatives
+
+Evaluate religious correctness, onboarding accuracy, practical feasibility, user autonomy, real-life benefit and unintended harm.
+
+Remove or simplify mechanisms that fail these tests, even if people initially say they like them.
+
+## Primary research references
+
+The following are the most useful sources to carry into the next validation stage.
+
+### Islamic texts and jurisprudence
+
+| Source                                                                                                                                                                                  | Specific relevance                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [Qur'an 4:103](https://quran.com/4/103?utm_source=chatgpt.com)                                                                                                                          | Prescribed prayer times                                                |
+| [Qur'an 28:77](https://quran.com/28/77?utm_source=chatgpt.com)                                                                                                                          | Worldly and Hereafter-related responsibilities                         |
+| [Qur'an 2:185](https://quran.com/2/185?utm_source=chatgpt.com)                                                                                                                          | Specific fasting concessions                                           |
+| [Qur'an 5:6](https://quran.com/5/6?utm_source=chatgpt.com)                                                                                                                              | Purification and relevant concessions                                  |
+| [Qur'an 49:12](https://quran.com/49/12?utm_source=chatgpt.com)                                                                                                                          | Suspicion, spying and interpersonal ethics                             |
+| [Sahih al-Bukhari 1968](https://sunnah.com/bukhari:1968?utm_source=chatgpt.com)                                                                                                         | Salman and Abu al-Darda: multiple rights                               |
+| [Sahih al-Bukhari 5199](https://sunnah.com/bukhari:5199?utm_source=chatgpt.com)                                                                                                         | Bodily and marital responsibilities                                    |
+| [Sahih al-Bukhari 6464](https://sunnah.com/bukhari:6464?utm_source=chatgpt.com)                                                                                                         | Consistency and moderation                                             |
+| [Sahih al-Bukhari 676](https://sunnah.com/bukhari:676?utm_source=chatgpt.com)                                                                                                           | The Prophet ﷺ serving his household                                    |
+| [Dar al-Ifta: Congregational prayer and valid excuses](https://www.dar-alifta.org/en/fatwa/details/24120/missing-congregational-and-friday-due-to-valid-excuses?utm_source=chatgpt.com) | Example of institutional legal interpretation, not universal authority |
+
+### Original behavioral research
+
+| Research                                                            | Reference                                                                                                                                            |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Michie, van Stralen & West (2011), COM-B and Behaviour Change Wheel | [Implementation Science, 6:42](https://doi.org/10.1186/1748-5908-6-42?utm_source=chatgpt.com)                                                        |
+| Deci & Ryan (2000), Self-Determination Theory                       | [Psychological Inquiry, 11(4), 227–268](https://doi.org/10.1207/S15327965PLI1104_01?utm_source=chatgpt.com)                                          |
+| Gollwitzer & Sheeran (2006), Implementation Intentions              | [Meta-analysis, 94 independent tests](https://kops.uni-konstanz.de/entities/publication/2e749bfb-8533-437c-8203-7e788c910c5f?utm_source=chatgpt.com) |
+| Lally et al. (2010), Habit Formation                                | [European Journal of Social Psychology, 40, 998–1009](https://doi.org/10.1002/ejsp.674?utm_source=chatgpt.com)                                       |
+| Nahum-Shani et al. (2018), JITAI principles                         | [Annals of Behavioral Medicine, 52(6), 446–462](https://doi.org/10.1007/s12160-016-9830-8?utm_source=chatgpt.com)                                    |
+| Klasnja et al. (2015), Micro-randomized Trials                      | [Health Psychology, 34(S), 1220–1228](https://doi.org/10.1037/hea0000305?utm_source=chatgpt.com)                                                     |
+| HeartSteps (2018/2019), Contextually Tailored Suggestions           | [Annals of Behavioral Medicine, 53(6), 573–582](https://doi.org/10.1093/abm/kay067?utm_source=chatgpt.com)                                           |
+| Pielot & Rello (2016), Notification interruption and tradeoffs      | [Productive, Anxious, Lonely: 24 Hours Without Push Notifications](https://arxiv.org/abs/1612.02314?utm_source=chatgpt.com)                          |
+
+## Final determination
+
+## Foundation readiness: conceptually established, not yet fully validated
+
+The research supports a coherent functional direction:
+
+Understand the person's real circumstances → identify applicable responsibilities → distinguish religious requirements from practical choices → propose feasible assistance → respect approval and uncertainty → adapt conservatively.
+
+What remains unresolved is not the broad objective but the accuracy and legitimacy of specific decision mechanisms.
+
+Religious boundaries require qualified scholarly approval. Onboarding and adaptation require empirical validation. The proposed system's benefit over simpler planning methods has not yet been demonstrated.
+
+The next logical step is therefore not to add more life-management features. It is to turn the ten foundational decisions into a reviewed decision policy and test whether the proposed onboarding and conflict-handling rules produce appropriate outcomes across diverse circumstances.
+
+That would establish a defensible basis for specifying detailed system behavior without prematurely claiming either religious authority or proven behavioral effectiveness.
